@@ -17,9 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-This is Zhiyang Qi (斉 志揚). I’m currently a PhD student at The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Assoc. Prof. Michimasa Inaba</a>. 
+This is Zhiyang Qi (斉 志揚). I’m currently a PhD student at The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Assoc. Prof. Michimasa Inaba</a>. My research direction is about dialogue systems. My recent work is about how to adapt dialogue systems to different users.
 
+I am also interested in the following content:
+- Psychological Counseling Dialogue
+- Dialogue System about Board Games
+- Dialogue System Competition
 
+Warmly welcome any academic cooperation and discussion!!
 
 
 # 🔥 News
@@ -31,10 +36,15 @@ This is Zhiyang Qi (斉 志揚). I’m currently a PhD student at The University
 - *2021.04 - 2023.03*, M.S. in Informatics, The University of Electro-Communications.
 - *2015.09 - 2019.06*, B.S. in Software Engineering, Qingdao University of Science & Technology.
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
+# 🤖 Competition Experience
+- *2024.05* <a href='https://sites.google.com/view/aiwolfdial2024jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0?authuser=0'>人狼知能コンテスト2024国内大会自然言語部門</a>（Team: **UEC-IL**, **2nd** out of 5 teams）
+- *2023.12* <a href='https://sites.google.com/view/dialogrobotcompe3/home?authuser=0'>対話ロボットコンペティション2023（DRC2023）</a>（Team: **UEC-IL**, **6th** out of 12 teams）
+- *2023.12* <a href='https://sites.google.com/view/dslc6/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0'>対話システムライブコンペティション6</a>（Team: **UECIL**, **3rd** out of 9 teams）
+- *2023.09* <a href='https://sigdialinlg2023.github.io/paper_inlg136.html'>Natural Language Division of 5th International AIWolf Contest（AIWolfDial 2023）</a>in <a href='https://sigdialinlg2023.github.io/index.html'>INLG 2023</a>（Team: **sUper_IL**, **1st** out of 9 teams）
+
+
+# 🎖 Honors and Awards
 
 # 📝 Publications 
 

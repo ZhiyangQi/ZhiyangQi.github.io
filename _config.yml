@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhiyang Qi"
-description              : "PhD student."
+title                    : "Zhiyang Qi / 斉 志揚"
+description              : 
 repository               : "SaiSiyou/SaiSiyou.github.io"
 google_scholar_stats_use_cdn : true
 

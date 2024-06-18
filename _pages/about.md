@@ -48,6 +48,16 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🎖 Honors and Awards
+- *2023.12* <a href='https://sites.google.com/view/dialogrobotcompe3/home?authuser=0'>対話ロボットコンペティション2023 (DRC2023)</a> **入賞**
+- *2023.12* <a href='https://sites.google.com/view/dslc6/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0'>対話システムライブコンペティション6 シチュエーショントラック</a> **優秀賞**
+
+
+# 💰 Fundings
+- *2023.04 - Now*, <a href='https://hirose-isf.or.jp/'>Hirose Foundation</a> (200,000 yen / month)
+- *2023.04 - 2024.03*, Research Assistant (RA) of The University of Electro-Communications (540,000 yen / year)
+- *2021.10 - Now*, Tuition exemption of The University of Electro-Communications (267,900 yen / term)
+
+
 
 # 📝 Publications 
 

@@ -6,13 +6,23 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "Educations"
+    url: "/#-educations"
+
+  - title: "Competition Experience"
+    url: "/#-competition-experience"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Fundings"
+    url: "/#-fundings"
+
+  - title: "Publications"
+    url: "/#-publications"
+
+
+
+
 
 

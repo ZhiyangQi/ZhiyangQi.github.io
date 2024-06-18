@@ -17,14 +17,24 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-This is Zhiyang Qi(斉 志揚). I’m currently a PhD student at The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Assoc. Prof. Michimasa Inaba</a>. 
+This is Zhiyang Qi (斉 志揚). I’m currently a PhD student at The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Assoc. Prof. Michimasa Inaba</a>. 
 
 
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.06*: &nbsp;📑 I have completed a position paper for <a href='https://sites.google.com/view/yrrsds2024/home?authuser=0'>YRRSDS2024</a>, which will be held at Kyoto University on September 16-17.
+
+
+# 📖 Educations
+- *2023.04 - Now*, Ph.D. candidate in Informatics, The University of Electro-Communications.
+- *2021.04 - 2023.03*, M.S. in Informatics, The University of Electro-Communications.
+- *2015.09 - 2019.06*, B.S. in Software Engineering, Qingdao University of Science & Technology.
+
+# 🎖 Honors and Awards
+- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
 
 # 📝 Publications 
 
@@ -42,11 +52,3 @@ This is Zhiyang Qi(斉 志揚). I’m currently a PhD student at The University 
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2023.04 - Now*, Ph.D. candidate in Informatics, The University of Electro-Communications.
-- *2021.04 - 2023.03*, M.S. in Informatics, The University of Electro-Communications.
-- *2015.09 - 2019.06*, B.S. in Software Engineering, Qingdao University of Science & Technology.

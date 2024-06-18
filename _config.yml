@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhiyang Qi"
-description              : "Zhiyang Qi's site. "
+description              : "PhD student."
 repository               : "SaiSiyou/SaiSiyou.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -27,7 +27,7 @@ author:
   location         : "Tokyo, Japan"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=16YvRJkAAAAJ"
   email            : "qizhiyang1@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :

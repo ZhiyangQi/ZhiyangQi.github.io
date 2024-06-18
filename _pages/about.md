@@ -60,9 +60,15 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 📝 Publications 
-## 査読なし
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+## International Conferences (Refereed)
+- Ryuichiro Higashinaka, Tetsuro Takahashi, Michimasa Inaba, **Zhiyang Qi**, Yuta Sasaki, Kotaro Funakoshi, Shoji Moriya, Shiki Sato, Takashi Minato, Kurima Sakai, Tomo Funayama, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Hirofumi Kikuchi, and Mayumi Usami: *Dialogue System Live Competition Goes Multimodal: Analyzing the Effects of Multimodal Information in Situated Dialogue Systems*. The 14th International Workshop on Spoken Dialogue Systems Technology (**IWSDS2024**), 2024.
+- Yoshinobu Kano, Neo Watanabe, Kaito Kagaminuma, Claus Aranha, Jaewon Lee, Benedek Hauer, Hisaichi Shibata, Soichiro Miki, Yuta Nakamura, Takuya Okubo, Soga Shigemura, Rei Ito, Kazuki Takashima, Tomoki Fukuda, Masahiro Wakutani, Tomoya Hatanaka, Mami Uchida, Mikio Abe, Akihiro Mikami, et al.. 2023. *AIWolfDial 2023: Summary of Natural Language Division of 5th International AIWolf Contest*. In Proceedings of the 16th International Natural Language Generation Conference: Generation Challenges (**INLG2023**), 2023. [<a href='https://aclanthology.org/2023.inlg-genchal.13/'>paper</a>]
 
-## 査読あり
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+## Preprints
+- Hiroki Onozeki, **Zhiyang Qi**, Kazuma Akiyama, Ryutaro Asahara, Takumasa Kaneko, Michimasa Inaba. *Enhancing Consistency in Multimodal Dialogue System Using LLM with Dialogue Scenario*, arXiv:2312.12808. [<a href='https://arxiv.org/abs/2312.12808'>paper</a>]
+
+## Non-refereed
+- 東中竜一郎, 高橋哲朗, 稲葉通将, **斉志揚**, 佐々木裕多, 船越孝太郎, 守屋彰二, 佐藤志貴, 港隆史, 境くりま, 船山智, 小室允人, 西川寛之, 牧野遼作, 菊池浩史, 宇佐美まゆみ. *対話システムライブコンペティション6*. 人工知能学会研究会資料 言語・音声理解と対話処理研究会 99 回 (2023)
+- 朝原隆太朗, 小野関宏己, **斉志揚**, 金子拓正, 秋山一馬, 上原隆一, 樋口智哉, 稲葉通将. *第三者のペルソナを用いたマルチモーダル対話システム*. 人工知能学会研究会資料 言語・音声理解と対話処理研究会 99 回 (2023)
+- **斉志揚**, 秋山一馬, 稲葉通将. *類似度と一貫性を考慮してシナリオを選択する用例ベース対話システム*. 人工知能学会研究会資料 言語・音声理解と対話処理研究会 93 回 (2021)
 

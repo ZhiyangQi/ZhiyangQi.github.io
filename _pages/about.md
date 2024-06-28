@@ -60,6 +60,9 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 📝 Publications 
+## Journals
+- Michimasa Inaba, Yuya Chiba, **Zhiyang Qi**, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao and Takayuki Nagai. *Collection and Analysis of Travel Agency Task Dialogues with Age-Diverse Speakers*, ACM Transactions on Asian and Low-Resource Language Information Processing (**TALLIP**), 2024. [<a href='https://dl.acm.org/doi/10.1145/3675166'>paper</a>]
+
 ## International Conferences (Refereed)
 - Ryuichiro Higashinaka, Tetsuro Takahashi, Michimasa Inaba, **Zhiyang Qi**, Yuta Sasaki, Kotaro Funakoshi, Shoji Moriya, Shiki Sato, Takashi Minato, Kurima Sakai, Tomo Funayama, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Hirofumi Kikuchi, and Mayumi Usami: *Dialogue System Live Competition Goes Multimodal: Analyzing the Effects of Multimodal Information in Situated Dialogue Systems*. The 14th International Workshop on Spoken Dialogue Systems Technology (**IWSDS2024**), 2024.
 - Yoshinobu Kano, Neo Watanabe, Kaito Kagaminuma, Claus Aranha, Jaewon Lee, Benedek Hauer, Hisaichi Shibata, Soichiro Miki, Yuta Nakamura, Takuya Okubo, Soga Shigemura, Rei Ito, Kazuki Takashima, Tomoki Fukuda, Masahiro Wakutani, Tomoya Hatanaka, Mami Uchida, Mikio Abe, Akihiro Mikami, et al.. 2023. *AIWolfDial 2023: Summary of Natural Language Division of 5th International AIWolf Contest*. In Proceedings of the 16th International Natural Language Generation Conference: Generation Challenges (**INLG2023**), 2023. [<a href='https://aclanthology.org/2023.inlg-genchal.13/'>paper</a>]

@@ -73,7 +73,7 @@ Warmly welcome any academic cooperation and discussion!!
 - Hiroki Onozeki, **Zhiyang Qi**, Kazuma Akiyama, Ryutaro Asahara, Takumasa Kaneko, Michimasa Inaba. *Enhancing Consistency in Multimodal Dialogue System Using LLM with Dialogue Scenario*, arXiv:2312.12808. [<a href='https://arxiv.org/abs/2312.12808'>paper</a>]
 
 ## Non-refereed
-- **斉志揚**, 稲葉通将. *SNSカウンセラー育成のためのリアルタイム対話支援システムの構築*. 言語処理学会 若手支援事業 YANS2024 [<a href='https://drive.google.com/file/d/1cqqtKBrLS7r1uiGE3oCu35yhLmjaFYtW/view?usp=sharing'>poster</a>]
+- <u>**斉志揚**</u>, 稲葉通将. *SNSカウンセラー育成のためのリアルタイム対話支援システムの構築*. 言語処理学会 若手支援事業 YANS2024 [<a href='https://drive.google.com/file/d/1cqqtKBrLS7r1uiGE3oCu35yhLmjaFYtW/view?usp=sharing'>poster</a>]
 - 東中竜一郎, 高橋哲朗, 稲葉通将, **斉志揚**, 佐々木裕多, 船越孝太郎, 守屋彰二, 佐藤志貴, 港隆史, 境くりま, 船山智, 小室允人, 西川寛之, 牧野遼作, 菊池浩史, 宇佐美まゆみ. *対話システムライブコンペティション6*. 人工知能学会研究会資料 言語・音声理解と対話処理研究会 99 回 (2023)
 - 朝原隆太朗, 小野関宏己, **斉志揚**, 金子拓正, 秋山一馬, 上原隆一, 樋口智哉, 稲葉通将. *第三者のペルソナを用いたマルチモーダル対話システム*. 人工知能学会研究会資料 言語・音声理解と対話処理研究会 99 回 (2023)
 - **斉志揚**, 秋山一馬, 稲葉通将. *類似度と一貫性を考慮してシナリオを選択する用例ベース対話システム*. 人工知能学会研究会資料 言語・音声理解と対話処理研究会 93 回 (2021) [<a href='https://drive.google.com/file/d/1O1sexfcbNkgnLrRU4cLLgMfWxzazYt7B/view?usp=sharing'>paper</a>] [<a href='https://drive.google.com/file/d/1gk9ViMbh4UL7Nvrg4a8tMxMcsfyNA6Yx/view?usp=sharing'>poster</a>]

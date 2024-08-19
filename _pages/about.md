@@ -70,7 +70,7 @@ Warmly welcome any academic cooperation and discussion!!
 - Yoshinobu Kano, Neo Watanabe, Kaito Kagaminuma, Claus Aranha, Jaewon Lee, Benedek Hauer, Hisaichi Shibata, Soichiro Miki, Yuta Nakamura, Takuya Okubo, Soga Shigemura, Rei Ito, Kazuki Takashima, Tomoki Fukuda, Masahiro Wakutani, Tomoya Hatanaka, Mami Uchida, Mikio Abe, Akihiro Mikami, Takashi Otsuki, __<u>Zhiyang Qi</u>__, Kei Harada, Michimasa Inaba, Daisuke Katagami, Hirotaka Osawa, and Fujio Toriumi: *AIWolfDial 2023: Summary of Natural Language Division of 5th International AIWolf Contest*. In Proceedings of the 16th International Natural Language Generation Conference: Generation Challenges (**INLG2023**), 2023. [<a href='https://aclanthology.org/2023.inlg-genchal.13/'>paper</a>]
 
 ## Preprints
-- Hiroki Onozeki, __<u>Zhiyang Qi</u>__, Kazuma Akiyama, Ryutaro Asahara, Takumasa Kaneko, Michimasa Inaba. *Enhancing Consistency in Multimodal Dialogue System Using LLM with Dialogue Scenario*, arXiv:2312.12808. [<a href='https://arxiv.org/abs/2312.12808'>paper</a>]
+- Hiroki Onozeki, __<u>Zhiyang Qi</u>__, Kazuma Akiyama, Ryutaro Asahara, Takumasa Kaneko, Michimasa Inaba. *Enhancing Consistency in Multimodal Dialogue System Using LLM with Dialogue Scenario*, arXiv:2312.12808. [<a href='https://arxiv.org/abs/2312.12808'>paper</a>] [<a href='https://drive.google.com/file/d/1v5mO5TTRWfBMRbpSTR9MA_w02SK9_6Ww/view?usp=sharing'>poster</a>]
 
 ## Non-refereed
 - __<u>斉志揚</u>__, 稲葉通将. *SNSカウンセラー育成のためのリアルタイム対話支援システムの構築*. 言語処理学会 若手支援事業 YANS2024 [<a href='https://drive.google.com/file/d/1cqqtKBrLS7r1uiGE3oCu35yhLmjaFYtW/view?usp=sharing'>poster</a>]

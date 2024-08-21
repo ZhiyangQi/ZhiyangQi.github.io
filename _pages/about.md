@@ -61,7 +61,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 # 📝 Publications 
 ## Journals
-- Michimasa Inaba, Yuya Chiba, __<u>Zhiyang Qi</u>__, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao and Takayuki Nagai. *Collection and Analysis of Travel Agency Task Dialogues with Age-Diverse Speakers*, ACM Transactions on Asian and Low-Resource Language Information Processing (**TALLIP**), 2024. [<a href='https://dl.acm.org/doi/10.1145/3675166'>paper</a>]
+- Michimasa Inaba, Yuya Chiba, __<u>Zhiyang Qi</u>__, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao and Takayuki Nagai. *Collection and Analysis of Travel Agency Task Dialogues with Age-Diverse Speakers*, ACM Transactions on Asian and Low-Resource Language Information Processing (**TALLIP**), 2024. [<a href='https://dl.acm.org/doi/10.1145/3675166'>paper</a>] [<a href='https://www.nii.ac.jp/dsc/idr/rdata/Tabidachi/'>corpus</a>]
 
 ## International Conferences (Refereed)
 - __<u>Zhiyang Qi</u>__: *Utilizing Large Language Models for Customized Dialogue Data Augmentation and Psychological Counseling*. 20th Workshop on Spoken Dialogue Systems for PhDs, PostDocs & New Researchers (**YRRSDS2024**), 2024. (To appear)

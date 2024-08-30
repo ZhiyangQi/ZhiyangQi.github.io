@@ -28,7 +28,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🔥 News
-- *2024.08*: &nbsp;📑 Position paper submitted to <a href='https://sites.google.com/view/yrrsds2024/home?authuser=0'>YRRSDS2024</a> has been accepted!!
+- *2024.08*: &nbsp;📑 Two long papers have been accepted by the <a href='https://sites.google.com/view/aiwolfdial2024-inlg'>AIWolfDial2024</a> workshop at <a href='https://inlg2024.github.io/'>INLG 2024</a>!!
 - *2024.07*: &nbsp;📑 Long paper submitted to <a href='https://2024.sigdial.org/'>SIGDIAL2024</a> has been accepted!!
 
 
@@ -64,6 +64,8 @@ Warmly welcome any academic cooperation and discussion!!
 - Michimasa Inaba, Yuya Chiba, __<u>Zhiyang Qi</u>__, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao and Takayuki Nagai. *Collection and Analysis of Travel Agency Task Dialogues with Age-Diverse Speakers*, ACM Transactions on Asian and Low-Resource Language Information Processing (**TALLIP**), 2024. [<a href='https://dl.acm.org/doi/10.1145/3675166'>paper</a>] [<a href='https://www.nii.ac.jp/dsc/idr/rdata/Tabidachi/'>corpus</a>]
 
 ## International Conferences (Refereed)
+- __<u>Zhiyang Qi</u>__ and Michimasa Inaba: *Enhancing Dialogue Generation in Werewolf Game Through Situation Analysis and Persuasion Strategies*. The 2nd Workshop of AI Werewolf and Dialog System (**AIWolfDial2024**) at **INLG 2024**. [<a href='https://arxiv.org/abs/2408.16586'>paper</a>]
+- Yoshiki Tanaka, Takumasa Kaneko, Hiroki Onozeki, Natsumi Ezure, Ryuichi Uehara, __<u>Zhiyang Qi</u>__, Tomoya Higuchi, Ryutaro Asahara and Michimasa Inaba: *Enhancing Consistency of Werewolf AI through Dialogue Summarization and Persona Information*. The 2nd Workshop of AI Werewolf and Dialog System (**AIWolfDial2024**) at **INLG 2024**. (to appear)
 - __<u>Zhiyang Qi</u>__: *Utilizing Large Language Models for Customized Dialogue Data Augmentation and Psychological Counseling*. 20th Workshop on Spoken Dialogue Systems for PhDs, PostDocs & New Researchers (**YRRSDS2024**), 2024. [<a href='https://drive.google.com/file/d/1McFzmwVFJsfPTxFTi4R1G8JQ9yWp2g2Q/view?usp=sharing'>poster</a>]
 - __<u>Zhiyang Qi</u>__ and Michimasa Inaba: *Data Augmentation Integrating Dialogue Flow and Style to Adapt Spoken Dialogue Systems to Low-Resource User Groups*. The 25th Meeting of the Special Interest Group on Discourse and Dialogue (**SIGDIAL2024**), 2024. [<a href='https://arxiv.org/abs/2408.10516'>paper</a>] [<a href='https://drive.google.com/file/d/1Ltjn-AQtxG9VIqXr2oft-k42dmaJ-YeK/view?usp=sharing'>poster</a>]
 - Ryuichiro Higashinaka, Tetsuro Takahashi, Michimasa Inaba, __<u>Zhiyang Qi</u>__, Yuta Sasaki, Kotaro Funakoshi, Shoji Moriya, Shiki Sato, Takashi Minato, Kurima Sakai, Tomo Funayama, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Hirofumi Kikuchi, and Mayumi Usami: *Dialogue System Live Competition Goes Multimodal: Analyzing the Effects of Multimodal Information in Situated Dialogue Systems*. The 14th International Workshop on Spoken Dialogue Systems Technology (**IWSDS2024**), 2024.

@@ -20,9 +20,9 @@ redirect_from:
 This is Zhiyang Qi (斉 志揚). I’m currently a PhD student at The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Assoc. Prof. Michimasa Inaba</a>. My research direction is about dialogue systems. My recent work is about how to adapt dialogue systems to different users.
 
 I am also interested in the following content:
-- Psychological Counseling Dialogue
-- Dialogue System about Board Games
-- Dialogue System Competition
+- Utilizing LLMs to assist counselors in conversations.
+- Developing AI for the Werewolf game.
+- Participating in various dialogue system-related competitions.
 
 Warmly welcome any academic cooperation and discussion!!
 

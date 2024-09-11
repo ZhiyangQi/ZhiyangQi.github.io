@@ -48,7 +48,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🎖 Honors and Awards
-- *2024.09* 第19回YANSシンポジウム ハッカソン **YANS運営委員特別賞**
+- *2024.09* <a href='https://yans.anlp.jp/entry/award'>第19回YANSシンポジウム ハッカソン</a> **YANS運営委員特別賞**
 - *2023.12* <a href='https://sites.google.com/view/dialogrobotcompe3/home?authuser=0'>対話ロボットコンペティション2023 (DRC2023)</a> **入賞**
 - *2023.12* <a href='https://sites.google.com/view/dslc6/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0'>対話システムライブコンペティション6 シチュエーショントラック</a> **優秀賞**
 

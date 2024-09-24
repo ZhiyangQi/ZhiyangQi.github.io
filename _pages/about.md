@@ -51,9 +51,9 @@ Warmly welcome any academic cooperation and discussion!!
 
 # 🎖 Honors and Awards
 - *2024.09* <a href='https://sites.google.com/view/aiwolfdial2024-inlg/home?authuser=0'>The 2nd Workshop of AI Werewolf and Dialog System (AIWolfDial2024)</a> at <a href='https://2024.inlgmeeting.org/'>INLG 2024</a> [<a href='https://drive.google.com/file/d/1wS4MQE86pC1TBvj_RyqKtbFEZQX5_Fa9/view?usp=sharing'>pic</a>]
-  - **Best Win Rate and Game Action Award** (Team: **sUper_IL**, Japanese and English Track)
+  - **Best Win Rate and Game Action Award** (Team: **sUper_IL**, Japanese and English Track, Prize 10,000 yen) 
   - **Evaluator Mentions**: *Persuading Werewolf* by Prof. Harada (Team: **sUper_IL**)
-  - **Best Subjective Evaluation Award** (Team: **UEC-IL**, English Track)
+  - **Best Subjective Evaluation Award** (Team: **UEC-IL**, English Track, Prize 10,000 yen)
 - *2024.09* <a href='https://yans.anlp.jp/entry/award'>第19回YANSシンポジウム ハッカソン</a> **YANS運営委員特別賞**
 - *2023.12* <a href='https://sites.google.com/view/dialogrobotcompe3/home?authuser=0'>対話ロボットコンペティション2023 (DRC2023)</a> **入賞**
 - *2023.12* <a href='https://sites.google.com/view/dslc6/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0'>対話システムライブコンペティション6 シチュエーショントラック</a> **優秀賞**

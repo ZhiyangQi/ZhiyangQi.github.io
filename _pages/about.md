@@ -39,6 +39,8 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🤖 Competition Experience
+- *2024.09* <a href='https://sites.google.com/view/aiwolfdial2024-inlg/home?authuser=0'>The 2nd Workshop of AI Werewolf and Dialog System (AIWolfDial2024)</a> at <a href='https://2024.inlgmeeting.org/'>INLG 2024</a> (Team: **sUper_IL**, **2nd** out of 5 teams in English Track, **4th** out of 8 teams in Japanese Track)
+- *2024.09* <a href='https://sites.google.com/view/aiwolfdial2024-inlg/home?authuser=0'>The 2nd Workshop of AI Werewolf and Dialog System (AIWolfDial2024)</a> at <a href='https://2024.inlgmeeting.org/'>INLG 2024</a> (Team: **UEC-IL**, **1st** out of 5 teams in English Track, **2nd** out of 8 teams in Japanese Track)
 - *2024.05* <a href='https://sites.google.com/view/aiwolfdial2024jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0?authuser=0'>人狼知能コンテスト2024国内大会自然言語部門</a> (Team: **UEC-IL**, **2nd** out of 5 teams)
 - *2023.12* <a href='https://sites.google.com/view/dialogrobotcompe3/home?authuser=0'>対話ロボットコンペティション2023 (DRC2023)</a> (Team: **UEC-IL**, **6th** out of 12 teams)
 - *2023.12* <a href='https://sites.google.com/view/dslc6/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0'>対話システムライブコンペティション6 シチュエーショントラック</a> (Team: **UECIL**, **3rd** out of 9 teams)
@@ -48,6 +50,8 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🎖 Honors and Awards
+- *2024.09* <a href='https://sites.google.com/view/aiwolfdial2024-inlg/home?authuser=0'>The 2nd Workshop of AI Werewolf and Dialog System (AIWolfDial2024)</a> at <a href='https://2024.inlgmeeting.org/'>INLG 2024</a>
+  - **Best Win Rate and Game Action Award** (Team: **sUper_IL**, Japanese and English Track) 
 - *2024.09* <a href='https://yans.anlp.jp/entry/award'>第19回YANSシンポジウム ハッカソン</a> **YANS運営委員特別賞**
 - *2023.12* <a href='https://sites.google.com/view/dialogrobotcompe3/home?authuser=0'>対話ロボットコンペティション2023 (DRC2023)</a> **入賞**
 - *2023.12* <a href='https://sites.google.com/view/dslc6/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0'>対話システムライブコンペティション6 シチュエーショントラック</a> **優秀賞**

@@ -61,7 +61,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 # 💰 Fundings
 - *2023.04 - Now*, <a href='https://hirose-isf.or.jp/'>Hirose Foundation</a> (200,000 yen / month)
-- *2023.04 - 2024.03*, Research Assistant (RA) of The University of Electro-Communications (540,000 yen / year)
+- *2024.10 - Now*, Research Assistant (RA) of The University of Electro-Communications (270,000 yen / year)
 - *2021.10 - Now*, Full tuition exemption of The University of Electro-Communications (267,900 yen / term)
 
 

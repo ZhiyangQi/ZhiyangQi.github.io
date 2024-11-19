@@ -28,6 +28,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🔥 News
+- *2024.11*: &nbsp;📖 I will be presenting an international conference report about SIGDIAL2024 at <a href='https://ai-gakkai.or.jp/sig-slud/sig-announce/102th-sig.html'>the 15th Dialogue System Symposium</a>.
 - *2024.08*: &nbsp;📑 Two long papers have been accepted by the <a href='https://sites.google.com/view/aiwolfdial2024-inlg'>AIWolfDial2024</a> workshop at <a href='https://inlg2024.github.io/'>INLG 2024</a>!!
 - *2024.07*: &nbsp;📑 Long paper submitted to <a href='https://2024.sigdial.org/'>SIGDIAL2024</a> has been accepted!!
 

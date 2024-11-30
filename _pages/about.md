@@ -28,7 +28,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🔥 News
-- *2024.11*: &nbsp;📖 I will be presenting an international conference report about SIGDIAL2024 at <a href='https://ai-gakkai.or.jp/sig-slud/sig-announce/102th-sig.html'>the 15th Dialogue System Symposium</a>.
+- *2024.11*: &nbsp;📖 I have presented an international conference report about SIGDIAL2024 at <a href='https://ai-gakkai.or.jp/sig-slud/sig-announce/102th-sig.html'>the 15th Dialogue System Symposium</a>.
 - *2024.08*: &nbsp;📑 Two long papers have been accepted by the <a href='https://sites.google.com/view/aiwolfdial2024-inlg'>AIWolfDial2024</a> workshop at <a href='https://inlg2024.github.io/'>INLG 2024</a>!!
 - *2024.07*: &nbsp;📑 Long paper submitted to <a href='https://2024.sigdial.org/'>SIGDIAL2024</a> has been accepted!!
 
@@ -88,3 +88,5 @@ Warmly welcome any academic cooperation and discussion!!
 - 朝原隆太朗, 小野関宏己, __<u>斉志揚</u>__, 金子拓正, 秋山一馬, 上原隆一, 樋口智哉, 稲葉通将. *第三者のペルソナを用いたマルチモーダル対話システム*. 人工知能学会研究会資料 言語・音声理解と対話処理研究会 99 回 (2023)
 - __<u>斉志揚</u>__, 秋山一馬, 稲葉通将. *類似度と一貫性を考慮してシナリオを選択する用例ベース対話システム*. 人工知能学会研究会資料 言語・音声理解と対話処理研究会 93 回 (2021) [<a href='https://drive.google.com/file/d/1O1sexfcbNkgnLrRU4cLLgMfWxzazYt7B/view?usp=sharing'>paper</a>] [<a href='https://drive.google.com/file/d/1gk9ViMbh4UL7Nvrg4a8tMxMcsfyNA6Yx/view?usp=sharing'>poster</a>]
 
+## Report
+- SIGDIAL2024国際会議報告: __<u>斉志揚</u>__, 田中義規 (@第15回対話システムシンポジウム) [<a href='https://drive.google.com/file/d/1ulfCyzeBtLTF8jeZnrZSTCIOZO5pOOyI/view?usp=sharing'>slide</a>]

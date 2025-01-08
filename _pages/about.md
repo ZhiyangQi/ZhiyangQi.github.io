@@ -28,6 +28,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🔥 News
+- *2025.01*: &nbsp;📑 I submitted a Japanese paper to <a href='https://anlp.jp/nlp2025/index.html'>NLP2025</a>, which will be held in Nagasaki from March 10 to 14.
 - *2024.11*: &nbsp;📖 I have presented an international conference report about SIGDIAL2024 at <a href='https://ai-gakkai.or.jp/sig-slud/sig-announce/102th-sig.html'>the 15th Dialogue System Symposium</a>.
 - *2024.08*: &nbsp;📑 Two long papers have been accepted by the <a href='https://sites.google.com/view/aiwolfdial2024-inlg'>AIWolfDial2024</a> workshop at <a href='https://inlg2024.github.io/'>INLG 2024</a>!!
 - *2024.07*: &nbsp;📑 Long paper submitted to <a href='https://2024.sigdial.org/'>SIGDIAL2024</a> has been accepted!!
@@ -83,6 +84,7 @@ Warmly welcome any academic cooperation and discussion!!
 - Hiroki Onozeki, __<u>Zhiyang Qi</u>__, Kazuma Akiyama, Ryutaro Asahara, Takumasa Kaneko, Michimasa Inaba. *Enhancing Consistency in Multimodal Dialogue System Using LLM with Dialogue Scenario*, arXiv:2312.12808. [<a href='https://arxiv.org/abs/2312.12808'>paper</a>] [<a href='https://drive.google.com/file/d/1v5mO5TTRWfBMRbpSTR9MA_w02SK9_6Ww/view?usp=sharing'>poster</a>]
 
 ## Non-refereed
+- __<u>斉志揚</u>__, 稲葉通将. *話者スタイル抽出と対話フロー生成に基づく対話データ拡張手法*. 言語処理学会 第31回年次大会 NLP2025
 - __<u>斉志揚</u>__, 稲葉通将. *SNSカウンセラー育成のためのリアルタイム対話支援システムの構築*. 言語処理学会 若手支援事業 YANS2024 [<a href='https://drive.google.com/file/d/1-7R4kM3t884XIddrhVO_7LMw1OPjoviC/view?usp=sharing'>poster</a>]
 - 東中竜一郎, 高橋哲朗, 稲葉通将, __<u>斉志揚</u>__, 佐々木裕多, 船越孝太郎, 守屋彰二, 佐藤志貴, 港隆史, 境くりま, 船山智, 小室允人, 西川寛之, 牧野遼作, 菊池浩史, 宇佐美まゆみ. *対話システムライブコンペティション6*. 人工知能学会研究会資料 言語・音声理解と対話処理研究会 99 回 (2023)
 - 朝原隆太朗, 小野関宏己, __<u>斉志揚</u>__, 金子拓正, 秋山一馬, 上原隆一, 樋口智哉, 稲葉通将. *第三者のペルソナを用いたマルチモーダル対話システム*. 人工知能学会研究会資料 言語・音声理解と対話処理研究会 99 回 (2023)

@@ -111,3 +111,23 @@ h1:before, .anchor:before {
 .underline {
   text-decoration: underline;
 }
+
+.conference-tag {
+    background-color: #87cefa;  /* 淡蓝色 */
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.preprint-tag {
+    background-color: #6c757d;  /* 灰色 */
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 较轻的阴影效果 */
+}

@@ -41,31 +41,18 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🤖 Competition Experience
-- *2024.09* <a href='https://sites.google.com/view/aiwolfdial2024-inlg/home?authuser=0'>The 2nd Workshop of AI Werewolf and Dialog System (AIWolfDial2024)</a> at <a href='https://2024.inlgmeeting.org/'>INLG 2024</a> (Team: **sUper_IL**, **2nd** out of 5 teams in English Track, **4th** out of 8 teams in Japanese Track)
 - *2024.09* <a href='https://sites.google.com/view/aiwolfdial2024-inlg/home?authuser=0'>The 2nd Workshop of AI Werewolf and Dialog System (AIWolfDial2024)</a> at <a href='https://2024.inlgmeeting.org/'>INLG 2024</a> (Team: **UEC-IL**, **1st** out of 5 teams in English Track, **2nd** out of 8 teams in Japanese Track)
-- *2024.05* <a href='https://sites.google.com/view/aiwolfdial2024jp/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0?authuser=0'>人狼知能コンテスト2024国内大会自然言語部門</a> (Team: **UEC-IL**, **2nd** out of 5 teams)
-- *2023.12* <a href='https://sites.google.com/view/dialogrobotcompe3/home?authuser=0'>対話ロボットコンペティション2023 (DRC2023)</a> (Team: **UEC-IL**, **6th** out of 12 teams)
 - *2023.12* <a href='https://sites.google.com/view/dslc6/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0'>対話システムライブコンペティション6 シチュエーショントラック</a> (Team: **UECIL**, **3rd** out of 9 teams)
 - *2023.09* <a href='https://sigdialinlg2023.github.io/paper_inlg136.html'>Natural Language Division of 5th International AIWolf Contest (AIWolfDial2023)</a> held at <a href='https://sigdialinlg2023.github.io/index.html'>INLG 2023</a> (Team: **sUper_IL**, **1st** out of 9 teams)
 - *2022.09* <a href='https://aiwolf.org/en/4th-international-aiwolf-contest'>Protocol Division of 4th International AIWolf Contest (AIWolfDial2022)</a> held at <a href='https://ieee-cog.org/2022/'>IEEE Conference on Games 2022</a> (Team: **sUper_IL**, **3rd** out of 49 teams)
-- *2021.11* <a href='https://dialog-system-live-competition.github.io/dslc4/index.html'>対話システムライブコンペティション4 シチュエーショントラック</a> (Team: **UECIL**, **6th** out of 11 teams)
 
 
 # 🎖 Honors and Awards
 - *2024.09* <a href='https://sites.google.com/view/aiwolfdial2024-inlg/home?authuser=0'>The 2nd Workshop of AI Werewolf and Dialog System (AIWolfDial2024)</a> at <a href='https://2024.inlgmeeting.org/'>INLG 2024</a> [<a href='https://drive.google.com/file/d/1wS4MQE86pC1TBvj_RyqKtbFEZQX5_Fa9/view?usp=sharing'>pic</a>]
   - **Best Win Rate and Game Action Award** (Team: **sUper_IL**, Japanese and English Track, Prize 10,000 yen) 
-  - **Evaluator Mentions**: *Persuading Werewolf* by Prof. Harada (Team: **sUper_IL**)
   - **Best Subjective Evaluation Award** (Team: **UEC-IL**, English Track, Prize 10,000 yen)
 - *2024.09* <a href='https://yans.anlp.jp/entry/award'>第19回YANSシンポジウム ハッカソン</a> **YANS運営委員特別賞**
-- *2023.12* <a href='https://sites.google.com/view/dialogrobotcompe3/home?authuser=0'>対話ロボットコンペティション2023 (DRC2023)</a> **入賞**
 - *2023.12* <a href='https://sites.google.com/view/dslc6/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0'>対話システムライブコンペティション6 シチュエーショントラック</a> **優秀賞**
-
-
-# 💰 Fundings
-- *2023.04 - Now*, <a href='https://hirose-isf.or.jp/'>Hirose Foundation</a> (2,400,000 yen / year)
-- *2024.10 - Now*, Research Assistant (RA) of The University of Electro-Communications (270,000 yen / year)
-- *2021.10 - Now*, Full tuition exemption of The University of Electro-Communications (535,800 yen / year)
-
 
 
 # 📝 Publications 

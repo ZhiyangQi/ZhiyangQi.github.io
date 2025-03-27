@@ -72,7 +72,7 @@ Warmly welcome any academic cooperation and discussion!!
 - <span class="preprint-tag">arXiv</span> Hiroki Onozeki, __<u>Zhiyang Qi</u>__, Kazuma Akiyama, Ryutaro Asahara, Takumasa Kaneko, Michimasa Inaba. *Enhancing Consistency in Multimodal Dialogue System Using LLM with Dialogue Scenario*. [<a href='https://arxiv.org/abs/2312.12808'>paper</a>] [<a href='https://drive.google.com/file/d/1v5mO5TTRWfBMRbpSTR9MA_w02SK9_6Ww/view?usp=sharing'>poster</a>]
 
 ## Non-refereed
-- 佐藤志貴, 佐々木裕多, 岩田伸治, 山崎天, 小室允人, 守屋彰二, 大萩雅也, 菊池浩史, 楊潔, 邊土名朝飛, __<u>斉志揚</u>__, 児玉貴志, 李晃伸, 西川寛之, 牧野遼作, 港隆史, 境くりま, 船山智, 船越孝太郎, 宇佐美まゆみ, 稲葉通将, 高橋哲朗, 東中竜一郎. *対話システムライブコンペティション7*. 人工知能学会 言語・音声理解と対話処理研究会 103 回 (2025)
+- 佐藤志貴, 佐々木裕多, 岩田伸治, 山崎天, 小室允人, 守屋彰二, 大萩雅也, 菊池浩史, 楊潔, 邊土名朝飛, __<u>斉志揚</u>__, 児玉貴志, 李晃伸, 西川寛之, 牧野遼作, 港隆史, 境くりま, 船山智, 船越孝太郎, 宇佐美まゆみ, 稲葉通将, 高橋哲朗, 東中竜一郎. *対話システムライブコンペティション7*. 人工知能学会 言語・音声理解と対話処理研究会 103 回 (2025) [<a href='https://www.jstage.jst.go.jp/article/jsaislud/103/0/103_01/_article/-char/ja'>paper</a>]
 - __<u>斉志揚</u>__, 稲葉通将. *話者スタイル抽出と対話フロー生成に基づく対話データ拡張手法*. 言語処理学会 第31回年次大会 NLP2025 [<a href='https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q4-22.pdf'>paper</a>] [<a href='https://drive.google.com/file/d/19DFyfXqyeomyYMF3Q8Y6oOYCK41jPfKM/view?usp=sharing'>poster</a>]
 - 稲葉通将, 千葉祐弥, __<u>斉志揚</u>__, 東中竜一郎, 駒谷和範, 宮尾祐介, 長井隆行. *Tabidachi: 旅行代理店タスク対話コーパス*. 言語処理学会 第31回年次大会 NLP2025 [<a href='https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-18.pdf'>paper</a>]
 - __<u>斉志揚</u>__, 稲葉通将. *SNSカウンセラー育成のためのリアルタイム対話支援システムの構築*. 言語処理学会 若手支援事業 YANS2024 [<a href='https://drive.google.com/file/d/1-7R4kM3t884XIddrhVO_7LMw1OPjoviC/view?usp=sharing'>poster</a>]

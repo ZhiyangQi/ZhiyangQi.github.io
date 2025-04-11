@@ -113,47 +113,34 @@ h1:before, .anchor:before {
 }
 
 .conference-tag {
-    background-color: #87cefa;  /* 淡蓝色 */
+    background-color: #44cef6;  /* 蓝色 */
     color: white;
     padding: 3px 8px;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.99em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .preprint-tag {
-    background-color: #6c757d;  /* 灰色 */
+    background-color: #373a3e;  /* 灰色 */
     color: white;
     padding: 3px 8px;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 0.9em;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 较轻的阴影效果 */
+    font-size: 0.99em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 较轻的阴影效果 */
 }
 
 .trans-tag {
-    background-color: #ee82ee;  /* 紫罗兰 */
+    background-color: #ff8a00;  /* 橙 */
     color: white;
     padding: 3px 8px;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.99em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* === Custom Font Settings === */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Merriweather&display=swap');
 
-body {
-  font-family: 'Noto Sans JP', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #222;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', serif;
-  font-weight: 700;
-}
 

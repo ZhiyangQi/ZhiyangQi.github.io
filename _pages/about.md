@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-This is Zhiyang Qi (斉 志揚). I’m currently a PhD student at The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Assoc. Prof. Michimasa Inaba</a>. My research direction is about dialogue systems. My recent work is about how to adapt dialogue systems to different users.
+This is <span class="myname">Zhiyang Qi (斉 志揚)</span>. I’m currently a PhD student at The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Assoc. Prof. Michimasa Inaba</a>. My research direction is about dialogue systems. My recent work is about how to adapt dialogue systems to different users.
 
 I am also interested in the following content:
 - Utilizing LLMs to assist counselors in conversations.

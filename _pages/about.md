@@ -55,9 +55,9 @@ Warmly welcome any academic cooperation and discussion!!
 - *2023.12* <a href='https://sites.google.com/view/dslc6/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0'>対話システムライブコンペティション6 シチュエーショントラック</a> **優秀賞**
 
 
-# 📝 Publications 
+# 📝 Selected Publications 
 ## Journals
-- <span class="trans-tag">TALLIP</span> Michimasa Inaba, Yuya Chiba, __<u>Zhiyang Qi</u>__, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao and Takayuki Nagai. *Collection and Analysis of Travel Agency Task Dialogues with Age-Diverse Speakers*, ACM Transactions on Asian and Low-Resource Language Information Processing, 2024. [<a href='https://dl.acm.org/doi/10.1145/3675166'>paper</a>] [<a href='https://www.nii.ac.jp/dsc/idr/rdata/Tabidachi/'>corpus</a>]
+- <span class="trans-tag">TALLIP</span> Michimasa Inaba, Yuya Chiba, __<u>Zhiyang Qi</u>__, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao and Takayuki Nagai. <br>*Collection and Analysis of Travel Agency Task Dialogues with Age-Diverse Speakers*, ACM Transactions on Asian and Low-Resource Language Information Processing, 2024. [<a href='https://dl.acm.org/doi/10.1145/3675166'>paper</a>] [<a href='https://www.nii.ac.jp/dsc/idr/rdata/Tabidachi/'>corpus</a>]
 
 ## International Conferences (Refereed)
 - <span class="conference-tag">IWSDS 2025</span> Ryuichiro Higashinaka, Tetsuro Takahashi, Shinya Iizuka, Sota Horiuchi, Michimasa Inaba, __<u>Zhiyang Qi</u>__, Yuta Sasaki, Kotaro Funakoshi, Shoji Moriya, Shiki Sato, Takashi Minato, Kurima Sakai, Tomo Funayama, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Hirofumi Kikuchi and Mayumi Usami: *DSLCMM: A Multimodal Human-Machine Dialogue Corpus Built through Competitions*. The 15th International Workshop on Spoken Dialogue Systems Technology, 2025.

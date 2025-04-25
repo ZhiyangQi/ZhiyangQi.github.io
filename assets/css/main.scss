@@ -113,7 +113,27 @@ h1:before, .anchor:before {
 }
 
 .conference-tag {
-    background-color: #44cef6;  /* 蓝色 */
+    background-color: #00adb5;  /* 蓝色 44cef6*/ 
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.75em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.jp-conference-tag {
+    background-color: #accbff;  /* 紫色 */ 
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.75em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.report-tag {
+    background-color: #45dfb1;  /* 绿色 */ 
     color: white;
     padding: 2px 5px;
     border-radius: 4px;

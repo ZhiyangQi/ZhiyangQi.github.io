@@ -55,7 +55,7 @@ Warmly welcome any academic cooperation and discussion!!
 - *2023.12* <a href='https://sites.google.com/view/dslc6/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0'>対話システムライブコンペティション6 シチュエーショントラック</a> **優秀賞**
 
 
-# 📝 Publications 
+# 📝 Publications
 ## Journals
 - <span class="trans-tag">TALLIP</span> <a href='https://dl.acm.org/doi/10.1145/3675166'>__Collection and Analysis of Travel Agency Task Dialogues with Age-Diverse Speakers__</a> <br> Michimasa Inaba, Yuya Chiba, <span class="myname">Zhiyang Qi</span>, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao and Takayuki Nagai. <br> ACM Transactions on Asian and Low-Resource Language Information Processing, Vol.23, No.9, pp.1-23, 2024. <br> [<a href='https://www.nii.ac.jp/dsc/idr/rdata/Tabidachi/'>Get Dataset</a>]
 

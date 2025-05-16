@@ -28,6 +28,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🔥 News
+- *2025.05*: &nbsp;📑 A long paper has been accepted to <a href='https://2025.aclweb.org/'>ACL 2025</a> main conference — see you in Vienna!
 - *2025.01*: &nbsp;📑 I submitted a Japanese paper to <a href='https://anlp.jp/nlp2025/index.html'>NLP2025</a>, which will be held in Nagasaki from March 10 to 14.
 - *2024.11*: &nbsp;📖 I have presented an international conference report about SIGDIAL2024 at <a href='https://ai-gakkai.or.jp/sig-slud/sig-announce/102th-sig.html'>the 15th Dialogue System Symposium</a>.
 - *2024.08*: &nbsp;📑 Two long papers have been accepted by the <a href='https://sites.google.com/view/aiwolfdial2024-inlg'>AIWolfDial2024</a> workshop at <a href='https://inlg2024.github.io/'>INLG 2024</a>!!
@@ -60,6 +61,7 @@ Warmly welcome any academic cooperation and discussion!!
 - <span class="trans-tag">TALLIP</span> <a href='https://dl.acm.org/doi/10.1145/3675166'>__Collection and Analysis of Travel Agency Task Dialogues with Age-Diverse Speakers__</a> <br> Michimasa Inaba, Yuya Chiba, <span class="myname">Zhiyang Qi</span>, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao and Takayuki Nagai. <br> ACM Transactions on Asian and Low-Resource Language Information Processing, Vol.23, No.9, pp.1-23, 2024. <br> [<a href='https://www.nii.ac.jp/dsc/idr/rdata/Tabidachi/'>Get Dataset</a>]
 
 ## International Conferences (Refereed)
+- <span class="conference-tag">ACL 2025</span> __KokoroChat: A Japanese Psychological Counseling Dialogue Dataset Collected via Role-Playing by Trained Counselors__ <br> <span class="myname">Zhiyang Qi</span>, Takumasa Kaneko, Keiko Takamizo, Mariko Ukiyo, Michimasa Inaba. (To appear)
 - <span class="conference-tag">IWSDS 2025</span> __DSLCMM: A Multimodal Human-Machine Dialogue Corpus Built through Competitions__ <br> Ryuichiro Higashinaka, Tetsuro Takahashi, Shinya Iizuka, Sota Horiuchi, Michimasa Inaba, <span class="myname">Zhiyang Qi</span>, Yuta Sasaki, Kotaro Funakoshi, Shoji Moriya, Shiki Sato, Takashi Minato, Kurima Sakai, Tomo Funayama, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Hirofumi Kikuchi and Mayumi Usami. 
 - <span class="conference-tag">AIWolfDial 2024</span> <a href='https://aclanthology.org/2024.aiwolfdial-1.4/'>__Enhancing Dialogue Generation in Werewolf Game Through Situation Analysis and Persuasion Strategies__</a> <br> <span class="myname">Zhiyang Qi</span> and Michimasa Inaba. [<a href='https://drive.google.com/file/d/1QYSwLrkMKP8lTyjzcPYeh3czGmW-yivQ/view?usp=sharing'>Slide</a>]
 - <span class="conference-tag">AIWolfDial 2024</span> <a href='https://aclanthology.org/2024.aiwolfdial-1.6/'>__Enhancing Consistency of Werewolf AI through Dialogue Summarization and Persona Information__</a> <br> Yoshiki Tanaka, Takumasa Kaneko, Hiroki Onozeki, Natsumi Ezure, Ryuichi Uehara, <span class="myname">Zhiyang Qi</span>, Tomoya Higuchi, Ryutaro Asahara and Michimasa Inaba.

@@ -28,6 +28,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🔥 News
+- *2025.05*: &nbsp;🤗 <a href='https://arxiv.org/abs/2506.01357'>KokoroChat</a> is now publicly available on <a href='https://github.com/UEC-InabaLab/KokoroChat'>GitHub</a> and <a href='https://huggingface.co/datasets/UEC-InabaLab/KokoroChat'>Hugging Face</a>!
 - *2025.05*: &nbsp;📑 A long paper has been accepted to <a href='https://2025.aclweb.org/'>ACL 2025</a> main conference — see you in Vienna!
 - *2025.01*: &nbsp;📑 I submitted a Japanese paper to <a href='https://anlp.jp/nlp2025/index.html'>NLP2025</a>, which will be held in Nagasaki from March 10 to 14.
 - *2024.11*: &nbsp;📖 I have presented an international conference report about SIGDIAL2024 at <a href='https://ai-gakkai.or.jp/sig-slud/sig-announce/102th-sig.html'>the 15th Dialogue System Symposium</a>.

@@ -91,6 +91,6 @@ Warmly welcome any academic cooperation and discussion!!
 
 ## Report
 - <span class="report-tag">学内セミナー</span> 研究プロセスにおけるLLMの活用 -個人の実践例-: <span class="myname">斉志揚</span>（@生成AI・AI活用セミナー, 2025年7月14日）
-[![Slide](https://img.shields.io/badge/Slide-PDF-007acc)](https://drive.google.com/file/d/1zLukeOtLKXpi_7p9iYcA74_0UjiUXJfb/view?usp=sharing)
+[![Slide](https://img.shields.io/badge/Slide-PDF-007acc)](https://drive.google.com/file/d/1fVSsqALq_GYRIgXWjHiYSfuqDZdbeLRs/view?usp=sharing)
 - <span class="report-tag">SLUD</span> SIGDIAL2024国際会議報告: <span class="myname">斉志揚</span>, 田中義規 (@第15回対話システムシンポジウム) 
 [![Slide](https://img.shields.io/badge/Slide-PDF-007acc)](https://drive.google.com/file/d/1ulfCyzeBtLTF8jeZnrZSTCIOZO5pOOyI/view?usp=sharing)

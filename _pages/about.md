@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-This is <span class="myname">Zhiyang Qi (斉 志揚)</span>. I’m currently a PhD student at The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Assoc. Prof. Michimasa Inaba</a>, and also a research member of the <a href='https://www.sakamoto-lab.hc.uec.ac.jp/'>Sakamoto–Matsukura Laboratory</a>. My research direction is about dialogue systems. My recent work focuses on psychological counseling dialogue datasets and systems.
+This is <span class="myname">Zhiyang Qi (斉 志揚)</span>. I’m currently a PhD student at The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Assoc. Prof. Michimasa Inaba</a>, and also a research member of the <a href='https://www.sakamoto-lab.hc.uec.ac.jp/'>Sakamoto Lab</a>. My research direction is about dialogue systems. My recent work focuses on psychological counseling dialogue datasets and systems.
 
 I am also interested in the following content:
 - Adapting dialogue systems to users of different age groups.

@@ -61,7 +61,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 # 📝 Publications
 ## Journals
-- <span class="trans-tag">JNLP</span> <a href='https://anlp.jp/guide/saitaku.html'>__Adapting Spoken Dialogue Systems to Low-Resource User Groups through Data Augmentation with a Focus on Dialogue Act Flow and Style__</a> <br> <span class="myname">Zhiyang Qi</span> and Michimasa Inaba. <br> Journal of Natural Language Processing, Vol.32, No.4, 2025.
+- <span class="trans-tag">JNLP</span> <a href='https://www.jstage.jst.go.jp/article/jnlp/32/4/32_1030/_article/-char/ja'>__Adapting Spoken Dialogue Systems to Low-Resource User Groups through Data Augmentation with a Focus on Dialogue Act Flow and Style__</a> <br> <span class="myname">Zhiyang Qi</span> and Michimasa Inaba. <br> Journal of Natural Language Processing, Vol.32, No.4, 2025.
 - <span class="trans-tag">TALLIP</span> <a href='https://dl.acm.org/doi/10.1145/3675166'>__Collection and Analysis of Travel Agency Task Dialogues with Age-Diverse Speakers__</a> <br> Michimasa Inaba, Yuya Chiba, <span class="myname">Zhiyang Qi</span>, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao, and Takayuki Nagai. <br> ACM Transactions on Asian and Low-Resource Language Information Processing, Vol.23, No.9, pp.1-23, 2024. [![View Dataset](https://img.shields.io/badge/View%20Dataset-Tabidachi-success?logo=internet-explorer&logoColor=white)](https://www.nii.ac.jp/dsc/idr/rdata/Tabidachi/)
 
 

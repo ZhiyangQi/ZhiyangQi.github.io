@@ -28,6 +28,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🔥 News
+- *2025.12*: &nbsp;📄 A paper has been accepted to <a href='https://ncsp.jp/NCSP26/index.html'>NCSP'26</a> — see you in Hawaii!
 - *2025.10*: &nbsp;📄 I registered for <a href='https://2025.emnlp.org/'>EMNLP 2025</a> — see you in Suzhou!
 - *2025.06*: &nbsp;📄 A journal paper has been accepted by the <a href='https://anlp.jp/guide/'>Journal of Natural Language Processing</a>!
 - *2025.06*: &nbsp;🤗 <a href='https://arxiv.org/abs/2506.01357'>KokoroChat</a> is now publicly available on <a href='https://github.com/UEC-InabaLab/KokoroChat'>GitHub</a> and <a href='https://huggingface.co/datasets/UEC-InabaLab/KokoroChat'>Hugging Face</a>!
@@ -66,6 +67,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 ## International Conferences (Refereed)
+- <span class="conference-tag">NCSP'26</span> __Pathophysiological Classification Using Patients' Subjective Pain Expressions__ (To appear) <br> <span class="myname">Zhiyang Qi</span>, Yuji Nozaki, Ryota Abe, Haruka Matsukura, Kazutoshi Fujibayashi, Toshio Naito, and Maki Sakamoto
 - <span class="conference-tag">SIGDIAL 2025</span> <a href='https://aclanthology.org/2025.sigdial-1.36/'>__Key Challenges in Multimodal Task-Oriented Dialogue Systems: Insights from a Large Competition-Based Dataset__</a> <br> Shiki Sato, Shinji Iwata, Asahi Hentona, Yuta Sasaki, Takato Yamazaki, Shoji Moriya, Masaya Ohagi, Hirofumi Kikuchi, Jie Yang, <span class="myname">Zhiyang Qi</span>, Takashi Kodama, Akinobu Lee, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Takashi Minato, Kurima Sakai, Tomo Funayama, Kotaro Funakoshi, Mayumi Usami, Michimasa Inaba, Tetsuro Takahashi, and Ryuichiro Higashinaka
 - <span class="conference-tag">SIGDIAL 2025</span> <a href='https://aclanthology.org/2025.sigdial-1.12/'>__Analyzing Dialogue System Behavior in a Specific Situation Requiring Interpersonal Consideration__</a> <br> Tetsuro Takahashi, Hirofumi Kikuchi, Jie Yang, Hiroyuki Nishikawa, Masato Komuro, Ryosaku Makino, Shiki Sato, Yuta Sasaki, Shinji Iwata, Asahi Hentona, Takato Yamazaki, Shoji Moriya, Masaya Ohagi, <span class="myname">Zhiyang Qi</span>, Takashi Kodama, Akinobu Lee, Takashi Minato, Kurima Sakai, Tomo Funayama, Kotaro Funakoshi, Mayumi Usami, Michimasa Inaba, and Ryuichiro Higashinaka.
 - <span class="conference-tag">ACL 2025</span> <a href='https://aclanthology.org/2025.acl-long.608/'>__KokoroChat: A Japanese Psychological Counseling Dialogue Dataset Collected via Role-Playing by Trained Counselors__</a> <br> <span class="myname">Zhiyang Qi</span>, Takumasa Kaneko, Keiko Takamizo, Mariko Ukiyo, and Michimasa Inaba. [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)](https://github.com/UEC-InabaLab/KokoroChat) [![Poster](https://img.shields.io/badge/Poster-PDF-blueviolet)](https://drive.google.com/file/d/1Mv5ZeTAkhbgvGaAOzQHIULb3Ur63hH7I/view?usp=sharing) [![Slide](https://img.shields.io/badge/Slide-PDF-007acc)](https://drive.google.com/file/d/1k0abB25B1OFLAGQiY1O-gyUwJtedcbi3/view?usp=sharing)

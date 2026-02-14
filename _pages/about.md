@@ -28,7 +28,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🔥 News
-- *2025.12*: &nbsp;📄 A paper (Multilingual KokoroChat) has been accepted to <a href='https://lrec2026.info/'>LREC 2026</a>!
+- *2026.02*: &nbsp;📄 A paper (Multilingual KokoroChat) has been accepted to <a href='https://lrec2026.info/'>LREC 2026</a>!
 - *2025.12*: &nbsp;📄 A paper has been accepted to <a href='https://ncsp.jp/NCSP26/index.html'>NCSP'26</a>!
 - *2025.06*: &nbsp;📄 A journal paper has been accepted by the <a href='https://anlp.jp/guide/'>Journal of Natural Language Processing</a>!
 - *2025.06*: &nbsp;🤗 <a href='https://arxiv.org/abs/2506.01357'>KokoroChat</a> is now publicly available on <a href='https://github.com/UEC-InabaLab/KokoroChat'>GitHub</a> and <a href='https://huggingface.co/datasets/UEC-InabaLab/KokoroChat'>Hugging Face</a>!

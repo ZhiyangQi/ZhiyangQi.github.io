@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-This is <span class="myname">Zhiyang Qi (斉 志揚)</span>. I’m currently a PhD student at The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Assoc. Prof. Michimasa Inaba</a>, and also a research member of the <a href='https://www.sakamoto-lab.hc.uec.ac.jp/'>Sakamoto Lab</a>. From April 2026, I will join the <a href="https://www.torilab.net/">Toriumi Lab</a> at the University of Tokyo as a postdoctoral researcher. My research direction is about dialogue systems. My recent work focuses on psychological counseling dialogue datasets and systems.
+This is <span class="myname">Zhiyang Qi (斉 志揚)</span>. I’m currently a PhD student at The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Assoc. Prof. Michimasa Inaba</a>, and also a research member of the <a href='https://www.sakamoto-lab.hc.uec.ac.jp/'>Sakamoto Lab</a>. From April 2026, I will join the <a href="https://www.torilab.net/">Toriumi Lab</a> at the University of Tokyo as a postdoctoral researcher, focusing on information well-being. My research direction is about dialogue systems. My recent work focuses on psychological counseling dialogue datasets and systems.
 
 I am also interested in the following content:
 - Adapting dialogue systems to users of different age groups.
@@ -39,7 +39,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 📖 Educations
-- *2023.04 - 2026.03*, Ph.D. candidate in Informatics, The University of Electro-Communications.
+- *2023.04 - Now*, Ph.D. candidate in Informatics, The University of Electro-Communications.
 - *2021.04 - 2023.03*, M.S. in Informatics, The University of Electro-Communications.
 - *2015.09 - 2019.06*, B.S. in Software Engineering, Qingdao University of Science & Technology.
 

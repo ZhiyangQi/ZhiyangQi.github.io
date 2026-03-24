@@ -28,6 +28,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 # 🔥 News
+- *2026.03*: &nbsp;🤗 Multilingual KokoroChat is now publicly available on <a href='https://github.com/UEC-InabaLab/MultilingualKokoroChat'>GitHub</a>!
 - *2026.02*: &nbsp;📄 A paper (Multilingual KokoroChat) has been accepted to <a href='https://lrec2026.info/'>LREC 2026</a>!
 - *2025.12*: &nbsp;📄 A paper has been accepted to <a href='https://ncsp.jp/NCSP26/index.html'>NCSP'26</a>!
 - *2025.06*: &nbsp;📄 A journal paper has been accepted by the <a href='https://anlp.jp/guide/'>Journal of Natural Language Processing</a>!
@@ -67,7 +68,7 @@ Warmly welcome any academic cooperation and discussion!!
 
 
 ## International Conferences (Refereed)
-- <span class="conference-tag">LREC 2026</span> __Multilingual KokoroChat: A Multi-LLM Ensemble Translation Method for Creating a Multilingual Counseling Dialogue Dataset__ (To appear) <br> Ryoma Suzuki, <span class="myname">Zhiyang Qi</span>, and Michimasa Inaba
+- <span class="conference-tag">LREC 2026</span> __Multilingual KokoroChat: A Multi-LLM Ensemble Translation Method for Creating a Multilingual Counseling Dialogue Dataset__ (To appear) <br> Ryoma Suzuki, <span class="myname">Zhiyang Qi</span>, and Michimasa Inaba. [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)](https://github.com/UEC-InabaLab/MultilingualKokoroChat)
 - <span class="conference-tag">NCSP'26</span> <a href='https://drive.google.com/file/d/1Lp4n5p8OWto0eHpwvZGKXq8c77KnFO0Q/view?usp=sharing'>__Pathophysiological Classification Using Patients' Subjective Pain Expressions__ </a><br> <span class="myname">Zhiyang Qi</span>, Yuji Nozaki, Ryota Abe, Haruka Matsukura, Kazutoshi Fujibayashi, Toshio Naito, and Maki Sakamoto. [![Slide](https://img.shields.io/badge/Slide-PDF-007acc)](https://drive.google.com/file/d/1k3uvGIYA9BOZmH3X84bMZvoi1Z4NOxW2/view?usp=sharing)
 - <span class="conference-tag">SIGDIAL 2025</span> <a href='https://aclanthology.org/2025.sigdial-1.36/'>__Key Challenges in Multimodal Task-Oriented Dialogue Systems: Insights from a Large Competition-Based Dataset__</a> <br> Shiki Sato, Shinji Iwata, Asahi Hentona, Yuta Sasaki, Takato Yamazaki, Shoji Moriya, Masaya Ohagi, Hirofumi Kikuchi, Jie Yang, <span class="myname">Zhiyang Qi</span>, Takashi Kodama, Akinobu Lee, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Takashi Minato, Kurima Sakai, Tomo Funayama, Kotaro Funakoshi, Mayumi Usami, Michimasa Inaba, Tetsuro Takahashi, and Ryuichiro Higashinaka
 - <span class="conference-tag">SIGDIAL 2025</span> <a href='https://aclanthology.org/2025.sigdial-1.12/'>__Analyzing Dialogue System Behavior in a Specific Situation Requiring Interpersonal Consideration__</a> <br> Tetsuro Takahashi, Hirofumi Kikuchi, Jie Yang, Hiroyuki Nishikawa, Masato Komuro, Ryosaku Makino, Shiki Sato, Yuta Sasaki, Shinji Iwata, Asahi Hentona, Takato Yamazaki, Shoji Moriya, Masaya Ohagi, <span class="myname">Zhiyang Qi</span>, Takashi Kodama, Akinobu Lee, Takashi Minato, Kurima Sakai, Tomo Funayama, Kotaro Funakoshi, Mayumi Usami, Michimasa Inaba, and Ryuichiro Higashinaka.

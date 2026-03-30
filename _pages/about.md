@@ -19,7 +19,7 @@ redirect_from:
 
 This is <span class="myname">Zhiyang Qi (斉 志揚)</span>. I am currently a postdoctoral researcher at the <a href="https://www.torilab.net/">Toriumi Lab</a>, The University of Tokyo, focusing on information well-being. I received my Ph.D. in Informatics from The University of Electro-Communications under the supervision of <a href='https://www.inaba.aix.uec.ac.jp/'>Michimasa Inaba</a>. 
 
-My research focuses on dialogue systems and psychological counseling AI. I would be happy to collaborate and discuss related topics!
+My research also focuses on dialogue systems and psychological counseling AI. I would be happy to collaborate and discuss related topics!
 
 
 # 🔥 News

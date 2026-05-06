@@ -621,3 +621,48 @@ body.zh-home {
   }
 
 }
+
+/* =========================
+   Publications layout
+   ========================= */
+
+.pub-title {
+  display: block;
+  margin-top: 0.28rem;
+  margin-bottom: 0.12rem;
+  line-height: 1.28;
+}
+
+.pub-title a {
+  font-weight: 700;
+}
+
+/* Make non-refereed publications more compact */
+.nonref-compact ul,
+.nonref-compact ol {
+  margin-top: 0.35rem;
+}
+
+.nonref-compact li {
+  margin-bottom: 0.45rem !important;
+  padding-bottom: 0.45rem !important;
+  line-height: 1.35;
+}
+
+.nonref-compact .venue-note {
+  font-size: 0.86em;
+  color: #777;
+}
+
+.nonref-compact .jp-conference-tag {
+  font-size: 0.78em;
+  padding: 0.12rem 0.42rem;
+}
+
+.nonref-compact .pub-actions {
+  margin-top: 0.1rem;
+}
+
+.nonref-compact br {
+  line-height: 1.05;
+}

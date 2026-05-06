@@ -644,23 +644,31 @@ body.zh-home {
 }
 
 .nonref-compact li {
-  margin-bottom: 0.45rem !important;
-  padding-bottom: 0.45rem !important;
-  line-height: 1.35;
+  margin-bottom: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
+  line-height: 1.32;
 }
 
+/* 学会名 */
 .nonref-compact .venue-note {
   font-size: 0.86em;
   color: #777;
 }
 
-.nonref-compact .jp-conference-tag {
-  font-size: 0.78em;
-  padding: 0.12rem 0.42rem;
+/* 作者名整体也变小，和学会名一样 */
+.nonref-compact li {
+  font-size: 0.86em;
 }
 
+/* 但是题目保持正常大小 */
+.nonref-compact .pub-title {
+  font-size: 1.16em;
+}
+
+/* 按钮也别太大 */
 .nonref-compact .pub-actions {
   margin-top: 0.1rem;
+  font-size: 0.95em;
 }
 
 .nonref-compact br {

@@ -1,7 +1,5 @@
-# macOS
 .DS_Store
 
-# Local Jekyll / Bundler preview files
 .bundle/
 .bundle-portable/
 .bundle-preview/

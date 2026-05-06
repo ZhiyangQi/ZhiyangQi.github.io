@@ -674,3 +674,17 @@ body.zh-home {
 .nonref-compact br {
   line-height: 1.05;
 }
+
+/* Publication authors only */
+.pub-authors {
+  font-size: 0.88em;
+  color: #666;
+  line-height: 1.45;
+}
+
+/* My name remains black and bold */
+.pub-authors .myname {
+  color: #222 !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid #b8aaa3;
+}

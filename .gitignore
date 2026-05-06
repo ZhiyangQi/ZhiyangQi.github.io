@@ -1,5 +1,4 @@
-_site/
-push.sh
+# macOS
 .DS_Store
 
 # Local Jekyll / Bundler preview files
@@ -7,6 +6,7 @@ push.sh
 .bundle-portable/
 .bundle-preview/
 .sass-cache/
-vendor/
+/vendor/
+_site/
 Gemfile.preview
 Gemfile.preview.lock

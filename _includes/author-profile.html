@@ -1,0 +1,27 @@
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+<section id="about-me" itemscope itemtype="http://schema.org/Person" class="profile_box profile-card">
+  <div class="profile-card__body">
+    <p class="profile-card__kicker">Postdoctoral Researcher · The University of Tokyo</p>
+    <h1 class="author__name" itemprop="name">{{ author.name }} <span>斉 志揚</span></h1>
+    <div class="profile-card__tagline">
+      <p>I am currently a postdoctoral researcher at the <a href="https://www.torilab.net/">Toriumi Lab</a>, The University of Tokyo, focusing on information well-being. I received my Ph.D. in Informatics from The University of Electro-Communications under the supervision of <a href="https://www.inaba.aix.uec.ac.jp/">Michimasa Inaba</a>.</p>
+      <p>My research also focuses on dialogue systems and psychological counseling AI.<br>I would be happy to collaborate and discuss related topics!</p>
+    </div>
+
+    <div class="profile-card__links" aria-label="Profile links">
+      {% if author.email %}<a href="mailto:{{ author.email }}">Email</a>{% endif %}
+      {% if author.github %}<a href="https://github.com/{{ author.github }}">GitHub</a>{% endif %}
+      {% if author.googlescholar %}<a href="{{ author.googlescholar }}">Google Scholar</a>{% endif %}
+      {% if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}">LinkedIn</a>{% endif %}
+      {% if author.orcid %}<a href="{{ author.orcid }}">ORCID</a>{% endif %}
+    </div>
+  </div>
+
+  <div class="profile-card__media">
+    <img src="{{ author.avatar | relative_url }}" class="author__avatar" alt="{{ author.name }}">
+  </div>
+
+</section>

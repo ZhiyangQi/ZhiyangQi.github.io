@@ -123,56 +123,43 @@ redirect_from:
 
 <div class="nonref-compact" markdown="1">
 
-- <span class="jp-conference-tag">ANLP</span>
-  <span class="pub-title"><a href='https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/Q5-2.pdf'><strong>KokoroChat: 講習を受けたカウンセラーによるロールプレイを通じて収集された日本語カウンセリング対話データセット</strong></a></span>
+- <span class="pub-title"><a href='https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/Q5-2.pdf'><strong>KokoroChat: 講習を受けたカウンセラーによるロールプレイを通じて収集された日本語カウンセリング対話データセット</strong></a></span>
   <span class="venue-note">言語処理学会 第32回年次大会 (NLP2026)</span> <br> <span class="myname">斉志揚</span>, 金子拓正, 高溝恵子, 浮世満理子, 稲葉通将. <br><span class="pub-actions"><a href="https://drive.google.com/file/d/1MvsIbTY6KmpswL46TOKiJxVwuYRefOlS/view?usp=sharing">Poster</a><span class="award-note">優秀賞 (13/789, ≈1.6%)</span></span>
 
-- <span class="jp-conference-tag">SLUD</span>
-  <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_07/_article/-char/ja'><strong>Explanation-Guided Prediction of Multi-Dimensional Feedback Scores in Psychological Counseling Dialogues</strong></a></span>
+- <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_07/_article/-char/ja'><strong>Explanation-Guided Prediction of Multi-Dimensional Feedback Scores in Psychological Counseling Dialogues</strong></a></span>
   <span class="venue-note">人工知能学会 第105回言語・音声理解と対話処理研究会 (2025)</span> <br> Yueliang Liu, <span class="myname">Zhiyang Qi</span>, 稲葉 通将. <br><span class="pub-actions"><a href="https://drive.google.com/file/d/1zn2bslbEnVclLlO4ETKepuhUkr47_64U/view?usp=sharing">Poster</a></span>
 
-- <span class="jp-conference-tag">SLUD</span>
-  <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_47/_article/-char/ja/'><strong>多LLMアンサンブル翻訳による多言語カウンセリング対話データセットの構築</strong></a></span>
+- <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_47/_article/-char/ja/'><strong>多LLMアンサンブル翻訳による多言語カウンセリング対話データセットの構築</strong></a></span>
   <span class="venue-note">人工知能学会 第105回言語・音声理解と対話処理研究会 (2025)</span> <br> 鈴木諒待, <span class="myname">斉志揚</span>, 稲葉通将. <br><span class="pub-actions"><a href="https://drive.google.com/file/d/1HFOxaeiX7Ygveq8HK-s8jm3MC-VOxZW1/view?usp=sharing">Poster</a></span>
 
-- <span class="jp-conference-tag">SLUD</span>
-  <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_144/_article/-char/ja'><strong>対話ライブコンペ7シチュエーショントラックにおける人間関係への配慮とその効果の分析</strong></a></span>
+- <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_144/_article/-char/ja'><strong>対話ライブコンペ7シチュエーショントラックにおける人間関係への配慮とその効果の分析</strong></a></span>
   <span class="venue-note">人工知能学会 第105回言語・音声理解と対話処理研究会 (2025)</span> <br> 高橋哲朗, 菊池浩史, 楊潔, 西川寛之, 小室允人, 牧野遼作, 佐藤志貴, 佐々木裕多, 岩田伸治, 邊土名朝飛, 山崎天, 守屋彰二, 大萩雅也, <span class="myname">斉志揚</span>, 児玉貴志, 李晃伸, 港隆史, 境くりま, 船山智, 船越孝太郎, 宇佐美まゆみ, 稲葉通将, 東中竜一郎.
 
-- <span class="jp-conference-tag">SLUD</span>
-  <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_163/_article/-char/ja'><strong>対話ライブコンペ7タスクトラックから得られた知見と今後の展開</strong></a></span>
+- <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_163/_article/-char/ja'><strong>対話ライブコンペ7タスクトラックから得られた知見と今後の展開</strong></a></span>
   <span class="venue-note">人工知能学会 第105回言語・音声理解と対話処理研究会 (2025)</span> <br> 佐藤志貴, 岩田伸治, 邊土名朝飛, 佐々木裕多, 山崎天, 守屋彰二, 大萩雅也, 菊池浩史, 楊潔, <span class="myname">斉志揚</span>, 児玉貴志, 李晃伸, 小室允人, 西川寛之, 牧野遼作, 港隆史, 境くりま, 船山智, 船越孝太郎, 宇佐美まゆみ, 稲葉通将, 高橋哲朗, 東中竜一郎.
 
-- <span class="jp-conference-tag">YANS</span>
-  <span class="pub-title"><strong>KokoroChat: 訓練を受けたカウンセラーによるロールプレイを通じて収集された日本語カウンセリング対話データセット</strong></span>
+- <span class="pub-title"><strong>KokoroChat: 訓練を受けたカウンセラーによるロールプレイを通じて収集された日本語カウンセリング対話データセット</strong></span>
   <span class="venue-note">言語処理学会 第20回言語処理若手シンポジウム (YANS2025)</span> <br> <span class="myname">斉志揚</span>, 金子拓正, 高溝恵子, 浮世満理子, 稲葉通将.
 
-- <span class="jp-conference-tag">SLUD</span>
-  <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/103/0/103_01/_article/-char/ja'><strong>対話システムライブコンペティション7</strong></a></span>
+- <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/103/0/103_01/_article/-char/ja'><strong>対話システムライブコンペティション7</strong></a></span>
   <span class="venue-note">人工知能学会 第103回言語・音声理解と対話処理研究会 (2025)</span> <br> 佐藤志貴, 佐々木裕多, 岩田伸治, 山崎天, 小室允人, 守屋彰二, 大萩雅也, 菊池浩史, 楊潔, 邊土名朝飛, <span class="myname">斉志揚</span>, 児玉貴志, 李晃伸, 西川寛之, 牧野遼作, 港隆史, 境くりま, 船山智, 船越孝太郎, 宇佐美まゆみ, 稲葉通将, 高橋哲朗, 東中竜一郎.
 
-- <span class="jp-conference-tag">ANLP</span>
-  <span class="pub-title"><a href='https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q4-22.pdf'><strong>話者スタイル抽出と対話フロー生成に基づく対話データ拡張手法</strong></a></span>
+- <span class="pub-title"><a href='https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q4-22.pdf'><strong>話者スタイル抽出と対話フロー生成に基づく対話データ拡張手法</strong></a></span>
   <span class="venue-note">言語処理学会 第31回年次大会 (NLP2025)</span> <br> <span class="myname">斉志揚</span>, 稲葉通将. <br><span class="pub-actions"><a href="https://drive.google.com/file/d/19DFyfXqyeomyYMF3Q8Y6oOYCK41jPfKM/view?usp=sharing">Poster</a></span>
 
-- <span class="jp-conference-tag">ANLP</span>
-  <span class="pub-title"><a href='https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-18.pdf'><strong>Tabidachi: 旅行代理店タスク対話コーパス</strong></a></span>
+- <span class="pub-title"><a href='https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-18.pdf'><strong>Tabidachi: 旅行代理店タスク対話コーパス</strong></a></span>
   <span class="venue-note">言語処理学会 第31回年次大会 (NLP2025)</span> <br> 稲葉通将, 千葉祐弥, <span class="myname">斉志揚</span>, 東中竜一郎, 駒谷和範, 宮尾祐介, 長井隆行.
 
-- <span class="jp-conference-tag">YANS</span>
-  <span class="pub-title"><strong>SNSカウンセラー育成のためのリアルタイム対話支援システムの構築</strong></span>
+- <span class="pub-title"><strong>SNSカウンセラー育成のためのリアルタイム対話支援システムの構築</strong></span>
   <span class="venue-note">言語処理学会 第19回言語処理若手シンポジウム (YANS2024)</span> <br> <span class="myname">斉志揚</span>, 稲葉通将. <br><span class="pub-actions"><a href="https://drive.google.com/file/d/1-7R4kM3t884XIddrhVO_7LMw1OPjoviC/view?usp=sharing">Poster</a></span>
 
-- <span class="jp-conference-tag">SLUD</span>
-  <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/99/0/99_84/_article/-char/ja'><strong>対話システムライブコンペティション6</strong></a></span>
+- <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/99/0/99_84/_article/-char/ja'><strong>対話システムライブコンペティション6</strong></a></span>
   <span class="venue-note">人工知能学会 第99回言語・音声理解と対話処理研究会 (2023)</span> <br> 東中竜一郎, 高橋哲朗, 稲葉通将, <span class="myname">斉志揚</span>, 佐々木裕多, 船越孝太郎, 守屋彰二, 佐藤志貴, 港隆史, 境くりま, 船山智, 小室允人, 西川寛之, 牧野遼作, 菊池浩史, 宇佐美まゆみ.
 
-- <span class="jp-conference-tag">SLUD</span>
-  <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/99/0/99_90/_article/-char/ja/'><strong>第三者のペルソナを用いたマルチモーダル対話システム</strong></a></span>
+- <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/99/0/99_90/_article/-char/ja/'><strong>第三者のペルソナを用いたマルチモーダル対話システム</strong></a></span>
   <span class="venue-note">人工知能学会 第99回言語・音声理解と対話処理研究会 (2023)</span> <br> 朝原隆太朗, 小野関宏己, <span class="myname">斉志揚</span>, 金子拓正, 秋山一馬, 上原隆一, 樋口智哉, 稲葉通将.
 
-- <span class="jp-conference-tag">SLUD</span>
-  <span class="pub-title"><a href='https://drive.google.com/file/d/1O1sexfcbNkgnLrRU4cLLgMfWxzazYt7B/view?usp=sharing'><strong>類似度と一貫性を考慮してシナリオを選択する用例ベース対話システム</strong></a></span>
+- <span class="pub-title"><a href='https://drive.google.com/file/d/1O1sexfcbNkgnLrRU4cLLgMfWxzazYt7B/view?usp=sharing'><strong>類似度と一貫性を考慮してシナリオを選択する用例ベース対話システム</strong></a></span>
   <span class="venue-note">人工知能学会 第93回言語・音声理解と対話処理研究会 (2021)</span> <br> <span class="myname">斉志揚</span>, 秋山一馬, 稲葉通将. <br><span class="pub-actions"><a href="https://drive.google.com/file/d/1gk9ViMbh4UL7Nvrg4a8tMxMcsfyNA6Yx/view?usp=sharing">Poster</a></span>
 
 </div>

@@ -116,7 +116,7 @@ redirect_from:
 
 - <span class="preprint-tag">arXiv</span>
   <span class="pub-title"><a href='https://arxiv.org/abs/2312.12808'><strong>Enhancing Consistency in Multimodal Dialogue System Using LLM with Dialogue Scenario</strong></a></span>
-  Hiroki Onozeki, <span class="myname">Zhiyang Qi</span>, Kazuma Akiyama, Ryutaro Asahara, Takumasa Kaneko, and Michimasa Inaba. <br><span class="pub-actions"><a href="https://drive.google.com/file/d/1v5mO5TTRWfBMRbpSTR9MA_w02SK9_6Ww/view?usp=sharing">Poster</a></span>
+  <span class="pub-authors">Hiroki Onozeki, <span class="myname">Zhiyang Qi</span>, Kazuma Akiyama, Ryutaro Asahara, Takumasa Kaneko, and Michimasa Inaba.</span> <br><span class="pub-actions"><a href="https://drive.google.com/file/d/1v5mO5TTRWfBMRbpSTR9MA_w02SK9_6Ww/view?usp=sharing">Poster</a></span>
 
 
 ## Non-refereed
@@ -125,12 +125,12 @@ redirect_from:
 
 - <span class="pub-title"><a href='https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/Q5-2.pdf'><strong>KokoroChat: 講習を受けたカウンセラーによるロールプレイを通じて収集された日本語カウンセリング対話データセット</strong></a></span>
   <span class="venue-note">言語処理学会 第32回年次大会 (NLP2026)</span> <br>
-  <span class="nonref-authors"><span class="myname">斉志揚</span>, 金子拓正, 高溝恵子, 浮世満理子, 稲葉通将.</span> <br>
+  <span class="pub-authors"><span class="myname">斉志揚</span>, 金子拓正, 高溝恵子, 浮世満理子, 稲葉通将.</span> <br>
   <span class="pub-actions"><a href="https://drive.google.com/file/d/1MvsIbTY6KmpswL46TOKiJxVwuYRefOlS/view?usp=sharing">Poster</a><span class="award-note">優秀賞 (13/789, ≈1.6%)</span></span>
 
 - <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_07/_article/-char/ja'><strong>Explanation-Guided Prediction of Multi-Dimensional Feedback Scores in Psychological Counseling Dialogues</strong></a></span>
   <span class="venue-note">人工知能学会 第105回言語・音声理解と対話処理研究会 (2025)</span> <br>
-  <span class="nonref-authors">Yueliang Liu, <span class="myname">Zhiyang Qi</span>, 稲葉 通将.</span> <br>
+  <span class="pub-authors">Yueliang Liu, <span class="myname">Zhiyang Qi</span>, 稲葉 通将.</span> <br>
   <span class="pub-actions"><a href="https://drive.google.com/file/d/1zn2bslbEnVclLlO4ETKepuhUkr47_64U/view?usp=sharing">Poster</a></span>
 
 - <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_47/_article/-char/ja/'><strong>多LLMアンサンブル翻訳による多言語カウンセリング対話データセットの構築</strong></a></span>

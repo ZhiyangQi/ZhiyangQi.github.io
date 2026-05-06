@@ -50,11 +50,11 @@ redirect_from:
 
 - <span class="trans-tag">JNLP</span>
   <span class="pub-title"><a href='https://www.jstage.jst.go.jp/article/jnlp/32/4/32_1030/_article/-char/ja'><strong>Adapting Spoken Dialogue Systems to Low-Resource User Groups through Data Augmentation with a Focus on Dialogue Act Flow and Style</strong></a></span>
-  <span class="myname">Zhiyang Qi</span> and Michimasa Inaba. <br> Journal of Natural Language Processing, Vol.32, No.4, pp.1030-1061, 2025.
+  <span class="pub-authors"><span class="myname">Zhiyang Qi</span> and Michimasa Inaba.</span> <br> Journal of Natural Language Processing, Vol.32, No.4, pp.1030-1061, 2025.
 
 - <span class="trans-tag">TALLIP</span>
   <span class="pub-title"><a href='https://dl.acm.org/doi/10.1145/3675166'><strong>Collection and Analysis of Travel Agency Task Dialogues with Age-Diverse Speakers</strong></a></span>
-  Michimasa Inaba, Yuya Chiba, <span class="myname">Zhiyang Qi</span>, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao, and Takayuki Nagai. <br> ACM Transactions on Asian and Low-Resource Language Information Processing, Vol.23, No.9, pp.1-23, 2024. <br><span class="pub-actions"><a href="https://www.nii.ac.jp/dsc/idr/rdata/Tabidachi/">Dataset</a></span>
+  <span class="pub-authors">Michimasa Inaba, Yuya Chiba, <span class="myname">Zhiyang Qi</span>, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao, and Takayuki Nagai.</span> <br> ACM Transactions on Asian and Low-Resource Language Information Processing, Vol.23, No.9, pp.1-23, 2024. <br><span class="pub-actions"><a href="https://www.nii.ac.jp/dsc/idr/rdata/Tabidachi/">Dataset</a></span>
 
 
 ## International Conferences (Refereed)

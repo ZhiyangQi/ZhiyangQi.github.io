@@ -60,7 +60,7 @@ redirect_from:
 ## International Conferences (Refereed)
 
 - <span class="conference-tag">LREC 2026</span> <span class="core-rank">CORE B</span>
-  <span class="pub-title"><a href='https://arxiv.org/abs/2603.22913'><strong>Multilingual KokoroChat: A Multi-LLM Ensemble Translation Method for Creating a Multilingual Counseling Dialogue Dataset</strong></a></span>
+  <span class="pub-title"><a href='https://lrec.elra.info/lrec2026-main-695'><strong>Multilingual KokoroChat: A Multi-LLM Ensemble Translation Method for Creating a Multilingual Counseling Dialogue Dataset</strong></a></span>
   <span class="pub-authors">Ryoma Suzuki, <span class="myname">Zhiyang Qi</span>, and Michimasa Inaba.</span> <br><span class="pub-actions"><a href="https://github.com/UEC-InabaLab/MultilingualKokoroChat">GitHub Pages</a></span>
 
 - <span class="conference-tag">NCSP'26</span>

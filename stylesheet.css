@@ -965,31 +965,6 @@ span.highlight {
   color: rgba(255,255,255,0.48);
 }
 
-.toast-message {
-  position: fixed;
-  left: var(--toast-x, 50%);
-  top: var(--toast-y, 50%);
-  z-index: 1200;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transform: translate(-50%, -120%);
-  padding: 7px 11px;
-  border-radius: 6px;
-  background: rgba(17, 17, 17, 0.86);
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-  transition: opacity 0.18s ease, visibility 0.18s ease, transform 0.18s ease;
-}
-
-.toast-message.show {
-  opacity: 1;
-  visibility: visible;
-  transform: translate(-50%, -145%);
-}
-
 .mountain-template img {
   width: 66px;
   height: auto;

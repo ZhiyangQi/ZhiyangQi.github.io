@@ -243,32 +243,22 @@
     </svg>
   </button>
 
-  <div id="toast" class="toast-message">Copied</div>
-
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <script>
-    function copyText(text, event) {
-      const showToast = () => {
-        const toast = document.getElementById('toast');
-        if (event) {
-          const margin = 12;
-          const x = Math.min(Math.max(event.clientX, margin), window.innerWidth - margin);
-          const y = Math.min(Math.max(event.clientY, 48), window.innerHeight - margin);
-          toast.style.setProperty('--toast-x', x + 'px');
-          toast.style.setProperty('--toast-y', y + 'px');
-        }
-        toast.classList.add('show');
-        setTimeout(() => toast.classList.remove('show'), 1600);
-      };
-      navigator.clipboard.writeText(text).then(showToast).catch(function() {
+    function copyText(text) {
+      const fallbackCopy = () => {
         const textArea = document.createElement('textarea');
         textArea.value = text;
         document.body.appendChild(textArea);
         textArea.select();
         document.execCommand('copy');
         document.body.removeChild(textArea);
-        showToast();
-      });
+      };
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).catch(fallbackCopy);
+      } else {
+        fallbackCopy();
+      }
     }
 
     document.getElementById('bio-copy').addEventListener('click', function(e) {

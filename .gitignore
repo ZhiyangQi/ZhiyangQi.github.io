@@ -6,5 +6,6 @@
 .sass-cache/
 /vendor/
 _site/
+tmp/
 Gemfile.preview
 Gemfile.preview.lock

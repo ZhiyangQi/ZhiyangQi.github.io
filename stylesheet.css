@@ -952,19 +952,6 @@ span.highlight {
   color: rgba(255,255,255,0.78);
 }
 
-.visitor-stats {
-  margin-top: 8px;
-  color: rgba(255,255,255,0.72);
-  font-size: 12px;
-  letter-spacing: 0;
-}
-
-.visitor-separator {
-  display: inline;
-  margin: 0 7px;
-  color: rgba(255,255,255,0.48);
-}
-
 .mountain-template img {
   width: 66px;
   height: auto;

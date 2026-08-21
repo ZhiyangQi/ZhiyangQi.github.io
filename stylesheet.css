@@ -307,8 +307,8 @@ heading {
   padding: 0;
   margin: 6px 0 0 0;
   position: relative;
-  max-height: 260px;
-  overflow-y: auto;
+  max-height: 190px;
+  overflow-y: scroll;
   overscroll-behavior: contain;
   padding-right: 8px;
   scrollbar-width: thin;

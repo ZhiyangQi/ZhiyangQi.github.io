@@ -1331,6 +1331,53 @@ span.highlight {
   white-space: nowrap;
 }
 
+.conference-publications .pub-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 5px 12px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.conference-publications .pub-tag {
+  margin-right: 0;
+  letter-spacing: 0;
+}
+
+.conference-publications .pub-first-author {
+  border-color: #477869;
+  background: rgba(55, 117, 93, 0.06);
+  color: #255f4c;
+}
+
+.conference-publications .pub-metric {
+  color: #555;
+}
+
+.conference-publications a.pub-metric:hover,
+.conference-publications a.pub-metric:focus-visible {
+  color: #c76b00;
+  text-decoration: underline;
+}
+
+.conference-publications a.pub-metric[data-core-rank="A"],
+.conference-publications a.pub-metric[data-core-rank="A*"] {
+  color: #8b1e2d;
+  font-weight: 700;
+}
+
+.conference-publications .pub-title,
+.conference-publications .pub-authors,
+.conference-publications .pub-venue {
+  overflow-wrap: anywhere;
+}
+
+.conference-publications .pub-venue {
+  color: #555;
+}
+
 @media (max-width: 680px) {
   .intro-copy,
   .intro-photo-cell {

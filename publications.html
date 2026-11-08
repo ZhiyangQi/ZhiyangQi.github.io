@@ -1,276 +1,951 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Publications | Zhiyang Qi</title>
   <meta name="author" content="Zhiyang Qi">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20261020">
+  <meta name="description" content="Complete publication list of Zhiyang Qi, with abstracts and BibTeX.">
+  <meta name="theme-color" content="#f7f8fb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
   <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500&display=swap">
+  <link rel="stylesheet" href="assets/site.css?v=20261108e">
+  <script>(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
   <style>
-    body, * { cursor: url('images/icon/cursor-small.png'), auto; }
-    a, a *, button, button * { cursor: url('images/icon/cursor-pointer-small.png'), pointer !important; }
+    body { cursor: url('images/icon/cursor-small.png'), auto; }
+    a, a *, button, button *, label, .chip { cursor: url('images/icon/cursor-pointer-small.png'), pointer !important; }
   </style>
 </head>
 <body>
-  <nav class="top-nav" aria-label="Main navigation">
-    <a class="top-nav-link" href="index.html">Home</a>
-    <a class="top-nav-link active" href="publications.html">Publications</a>
-  </nav>
+  <div class="page-glow" aria-hidden="true"></div>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="gk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6c315"/><stop offset="1" stop-color="#d97706"/></linearGradient></defs><path d="M16 18.5 L4.2 8.6 A15.5 15.5 0 0 1 14.4 3.2 L16 8 L17.6 3.2 A15.5 15.5 0 0 1 27.8 8.6 Z" fill="url(#gk)"/><path d="M16 18.5 V29" stroke="#b45309" stroke-width="2" stroke-linecap="round"/></svg><span>Zhiyang Qi</span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="publications.html" aria-current="page">Publications</a>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Toggle dark mode" title="Toggle dark mode"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg></button>
+      </nav>
+    </div>
+  </header>
 
-  <main class="all-publications page-section">
-    <header class="subpage-header">
-      <h1>Publications</h1>
-      <p>Complete publication list grouped by type.</p>
-    </header>
+  <main>
+    <div class="wrap">
+      <section class="pub-hero">
+        <h1>Publications</h1>
+        <p>Complete publication list grouped by type. Use the filters to narrow it down; open <em>Abstract</em> or <em>BibTeX</em> under any paper.</p>
+        <div class="stat-row">
+          <span class="stat"><b>3</b> journal articles</span>
+          <span class="stat"><b>15</b> international conference papers</span>
+          <span class="stat"><b>2</b> preprints</span>
+          <span class="stat"><b>15</b> domestic papers</span>
+          <span class="stat"><b>17</b> as first author</span>
+        </div>
+      </section>
 
-    <section class="publication-list-section">
-      <heading>Journals</heading>
-      <ol class="full-publication-list">
-        <li>
-          <span class="pub-tag">JNLP</span>
-          <a href="https://anlp.jp/guide/saitaku.html"><strong>Constructing and Analyzing a Large-Scale Japanese Counseling Dialogue Dataset with User Feedback</strong></a><br>
-          <strong>Zhiyang Qi</strong>, Takumasa Kaneko, Keiko Takamizo, Mariko Ukiyo, and Michimasa Inaba.<br>
-          Journal of Natural Language Processing, Vol.33, No.4, December 2026, to appear.
-        </li>
-        <li>
-          <span class="pub-tag">JNLP</span>
-          <a href="https://www.jstage.jst.go.jp/article/jnlp/32/4/32_1030/_article/-char/ja"><strong>Adapting Spoken Dialogue Systems to Low-Resource User Groups through Data Augmentation with a Focus on Dialogue Act Flow and Style</strong></a><br>
-          <strong>Zhiyang Qi</strong> and Michimasa Inaba. Journal of Natural Language Processing, Vol.32, No.4, pp.1030-1061, 2025.
-        </li>
-        <li>
-          <span class="pub-tag">TALLIP</span>
-          <a href="https://dl.acm.org/doi/10.1145/3675166"><strong>Collection and Analysis of Travel Agency Task Dialogues with Age-Diverse Speakers</strong></a><br>
-          Michimasa Inaba, Yuya Chiba, <strong>Zhiyang Qi</strong>, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao, and Takayuki Nagai. ACM Transactions on Asian and Low-Resource Language Information Processing, Vol.23, No.9, pp.1-23, 2024. <a href="https://www.nii.ac.jp/dsc/idr/rdata/Tabidachi/"><img src="images/icon/database.svg" alt="" class="resource-icon">Dataset</a>
-        </li>
-      </ol>
-    </section>
-
-    <section id="international-conferences" class="publication-list-section">
-      <heading>International Conferences (Refereed)</heading>
-      <!-- Rankings use ICORE2026. Missing metrics await a reliable source.
-           WI-IAT 2026 acceptance counts come from the author's acceptance email. -->
-      <ol class="full-publication-list conference-publications">
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">WI-IAT 2026</span>
-            <span class="pub-tag pub-first-author">First Author</span>
-            <a class="pub-metric" href="https://portal.core.edu.au/conf-ranks/794/" title="ICORE2026: Web Intelligence (WI), the conference series now branded WI-IAT">CORE: B</a>
-            <span class="pub-metric" title="Regular papers; figures from the acceptance notification">Acceptance: 57 / 193 = 29.5%</span>
+      <div id="pub-filters" class="card filters" role="region" aria-label="Filter publications">
+        <div class="filter-top">
+          <label class="switch"><input type="checkbox" id="first-only"><span class="track" aria-hidden="true"></span>First author only</label>
+          <div class="filter-meta">
+            <span>Showing <b id="pub-count">37</b> of 37</span>
+            <button class="link-btn filter-toggle" type="button" aria-expanded="false">More filters</button>
+            <button class="link-btn" id="pub-reset" type="button" disabled>Reset</button>
           </div>
-          <div class="pub-title"><a href="https://arxiv.org/abs/2609.02262"><strong>From Detection to Characterization: A Large-Scale Study of Ragebait on Japanese X</strong></a></div>
-          <div class="pub-authors"><strong>Zhiyang Qi</strong>, Kazuhiro Ito, Jinghui Chen, Hibiki Nakamura, Zhangxuan Chen, Erina Murata, Masaki Chujyo, and Fujio Toriumi.</div>
+        </div>
+        <div class="filter-groups">
+          <div class="fgroup"><span class="fgroup-label">Type</span><div class="chips"><button class="chip" type="button" data-group="type" data-value="journal" aria-pressed="false">Journal<span class="n"></span></button><button class="chip" type="button" data-group="type" data-value="intl" aria-pressed="false">International<span class="n"></span></button><button class="chip" type="button" data-group="type" data-value="preprint" aria-pressed="false">Preprint<span class="n"></span></button><button class="chip" type="button" data-group="type" data-value="domestic" aria-pressed="false">Domestic<span class="n"></span></button><button class="chip" type="button" data-group="type" data-value="report" aria-pressed="false">Talks &amp; Reports<span class="n"></span></button></div></div>
+          <div class="fgroup"><span class="fgroup-label">Year</span><div class="chips"><button class="chip" type="button" data-group="year" data-value="2026" aria-pressed="false">2026<span class="n"></span></button><button class="chip" type="button" data-group="year" data-value="2025" aria-pressed="false">2025<span class="n"></span></button><button class="chip" type="button" data-group="year" data-value="2024" aria-pressed="false">2024<span class="n"></span></button><button class="chip" type="button" data-group="year" data-value="2023" aria-pressed="false">2023<span class="n"></span></button><button class="chip" type="button" data-group="year" data-value="2021" aria-pressed="false">2021<span class="n"></span></button></div></div>
+          <div class="fgroup"><span class="fgroup-label">Topic</span><div class="chips"><button class="chip" type="button" data-group="topic" data-value="counseling" aria-pressed="false">Counseling AI<span class="n"></span></button><button class="chip" type="button" data-group="topic" data-value="dialogue" aria-pressed="false">Dialogue Systems<span class="n"></span></button><button class="chip" type="button" data-group="topic" data-value="dataset" aria-pressed="false">Datasets &amp; Corpora<span class="n"></span></button><button class="chip" type="button" data-group="topic" data-value="game" aria-pressed="false">Werewolf AI<span class="n"></span></button><button class="chip" type="button" data-group="topic" data-value="social" aria-pressed="false">Social Media<span class="n"></span></button><button class="chip" type="button" data-group="topic" data-value="health" aria-pressed="false">Healthcare<span class="n"></span></button></div></div>
+        </div>
+      </div>
+
+      <section class="pub-section" data-section="journal">
+        <div class="pub-section-head"><h2>Journals</h2><span class="count">3</span></div>
+        <ol class="pub-list">
+        <li class="pub" id="jnlp2026" data-type="journal" data-year="2026" data-topic="counseling dataset" data-first="1">
+          <div class="pub-meta"><span class="tag">JNLP</span><span class="tag first">First Author</span></div>
+          <div class="pub-title"><a href="https://anlp.jp/guide/saitaku.html">Constructing and Analyzing a Large-Scale Japanese Counseling Dialogue Dataset with User Feedback</a></div>
+          <div class="authors"><span class="me">Zhiyang Qi</span>, Takumasa Kaneko, Keiko Takamizo, Mariko Ukiyo, and Michimasa Inaba.</div>
+          <div class="pub-venue">Journal of Natural Language Processing, Vol.33, No.4, December 2026, to appear.</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-jnlp2026">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-jnlp2026">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-jnlp2026" hidden>Developing effective psychological counseling AI systems relies heavily on high-quality datasets; however, privacy concerns and data scarcity remain significant barriers. To address these challenges, we present KokoroChat, a large-scale Japanese dataset comprising 6,589 counseling dialogues collected through role-playing by 480 trained counselors, designed to ensure authenticity, professionalism, and safety. Each dialogue is accompanied by comprehensive feedback scores from the client role across 20 dimensions, which we leverage to analyze distinct counselor dialogue strategies. Applying dialogue act annotation and Hidden Markov Models (HMMs), we reveal that high-rated counselors maintain a balance between open questions and reflections during the understanding phase and frequently employ affirmations before offering suggestions, thereby demonstrating superior empathy and support. In contrast, low-rated counselors tend to over-rely on open questions with minimal reflection or affirmation, often becoming trapped in a “question-driven” dialogue pattern. Furthermore, experimental results demonstrate that fine-tuning open-source Large Language Models (LLMs) with KokoroChat exhibits significant potential in both generating high-quality counseling responses and automatically evaluating counseling dialogues.</div><div class="panel panel-bib" id="bib-jnlp2026" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@article{qi-etal-2026-constructing,
+    title = &quot;Constructing and Analyzing a Large-Scale {J}apanese Counseling Dialogue Dataset with User Feedback&quot;,
+    author = &quot;Qi, Zhiyang  and
+      Kaneko, Takumasa  and
+      Takamizo, Keiko  and
+      Ukiyo, Mariko  and
+      Inaba, Michimasa&quot;,
+    journal = &quot;Journal of Natural Language Processing&quot;,
+    volume = &quot;33&quot;,
+    number = &quot;4&quot;,
+    month = dec,
+    year = &quot;2026&quot;,
+    note = &quot;to appear&quot;
+}</pre></div>
+        </li>
+        <li class="pub" id="jnlp2025" data-type="journal" data-year="2025" data-topic="dialogue" data-first="1">
+          <div class="pub-meta"><span class="tag">JNLP</span><span class="tag first">First Author</span></div>
+          <div class="pub-title"><a href="https://www.jstage.jst.go.jp/article/jnlp/32/4/32_1030/_article/-char/ja">Adapting Spoken Dialogue Systems to Low-Resource User Groups through Data Augmentation with a Focus on Dialogue Act Flow and Style</a></div>
+          <div class="authors"><span class="me">Zhiyang Qi</span> and Michimasa Inaba.</div>
+          <div class="pub-venue">Journal of Natural Language Processing, Vol.32, No.4, pp.1030-1061, 2025.</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-jnlp2025">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-jnlp2025">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-jnlp2025" hidden>Spoken dialogue systems (SDSs) often encounter significant challenges when interacting with users who exhibit unique conversational behaviors, such as minors, particularly in low-resource environments with limited data availability. To address these challenges, we present a novel data augmentation framework for enhancing SDS performance, particularly when handling such user groups. The framework employs large language models to extract and model speaker styles and leverages pre-trained language models to simulate diverse dialogue act (DA) histories, ultimately creating a rich and personalized set of training data. By focusing on both the unique speaking styles and distinctive dialogue behavior trajectories of users, the framework improves DA prediction accuracy, thereby guiding the SDS to more effectively adapt to low-resource users with specialized conversational characteristics. Extensive experiments conducted in low-resource settings validate the effectiveness of this approach, demonstrating its potential to improve SDS adaptability and foster the development of more inclusive and responsive systems.</div><div class="panel panel-bib" id="bib-jnlp2025" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@article{qi-inaba-2025-adapting,
+    title = &quot;Adapting Spoken Dialogue Systems to Low-Resource User Groups through Data Augmentation with a Focus on Dialogue Act Flow and Style&quot;,
+    author = &quot;Qi, Zhiyang  and
+      Inaba, Michimasa&quot;,
+    journal = &quot;Journal of Natural Language Processing&quot;,
+    volume = &quot;32&quot;,
+    number = &quot;4&quot;,
+    pages = &quot;1030--1061&quot;,
+    year = &quot;2025&quot;,
+    publisher = &quot;The Association for Natural Language Processing&quot;,
+    doi = &quot;10.5715/jnlp.32.1030&quot;
+}</pre></div>
+        </li>
+        <li class="pub" id="tallip2024" data-type="journal" data-year="2024" data-topic="dialogue dataset" data-first="0">
+          <div class="pub-meta"><span class="tag">TALLIP</span></div>
+          <div class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3675166">Travel Agency Task Dialogue Corpus: A Multimodal Dataset with Age-Diverse Speakers</a></div>
+          <div class="authors">Michimasa Inaba, Yuya Chiba, <span class="me">Zhiyang Qi</span>, Ryuichiro Higashinaka, Kazunori Komatani, Yusuke Miyao, and Takayuki Nagai.</div>
+          <div class="pub-venue">ACM Transactions on Asian and Low-Resource Language Information Processing, Vol.23, No.9, pp.1-23, 2024.</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-tallip2024">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-tallip2024">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://www.nii.ac.jp/dsc/idr/rdata/Tabidachi/"><img src="images/icon/database.svg" alt="" class="res-icon">Dataset</a></div>
+          <div class="panel panel-abstract" id="abs-tallip2024" hidden>When individuals communicate, they use different vocabularies, speaking speeds, facial expressions, and gestural languages, depending on those with whom they are speaking. This study focuses on the age of the speaker as a factor that affects the style of communication. We collected a multimodal dialogue corpus with various speaker ages. We used travel as the topic, as it interests people of all ages, and we set up a task based on a tourism consultation between an operator and a customer at a travel agency. This article presents the details of the dialogue task, collection procedures and annotations, and analysis of the characteristics of the dialogues and facial expressions, focusing on the age of the speakers. The results of the analysis suggest that the adult speakers have more independent opinions, the older speakers express their opinions more frequently than other age groups, and those in the operator role smile more frequently at minors.</div><div class="panel panel-bib" id="bib-tallip2024" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@article{inaba-etal-2024-travel,
+    title = &quot;Travel Agency Task Dialogue Corpus: A Multimodal Dataset with Age-Diverse Speakers&quot;,
+    author = &quot;Inaba, Michimasa  and
+      Chiba, Yuya  and
+      Qi, Zhiyang  and
+      Higashinaka, Ryuichiro  and
+      Komatani, Kazunori  and
+      Miyao, Yusuke  and
+      Nagai, Takayuki&quot;,
+    journal = &quot;ACM Transactions on Asian and Low-Resource Language Information Processing&quot;,
+    volume = &quot;23&quot;,
+    number = &quot;9&quot;,
+    articleno = &quot;130&quot;,
+    pages = &quot;1--23&quot;,
+    year = &quot;2024&quot;,
+    publisher = &quot;Association for Computing Machinery&quot;,
+    address = &quot;New York, NY, USA&quot;,
+    doi = &quot;10.1145/3675166&quot;
+}</pre></div>
+        </li>
+        </ol>
+      </section>
+
+      <section class="pub-section" data-section="intl">
+        <div class="pub-section-head"><h2>International Conferences (Refereed)</h2><span class="count">15</span></div>
+        <ol class="pub-list">
+        <li class="pub" id="wiiat2026" data-type="intl" data-year="2026" data-topic="social" data-first="1">
+          <div class="pub-meta"><span class="tag">WI-IAT 2026</span><span class="tag first">First Author</span><a class="metric" href="https://portal.core.edu.au/conf-ranks/794/" title="ICORE2026: Web Intelligence (WI), the conference series now branded WI-IAT">CORE: B</a><span class="metric" title="Regular papers; figures from the acceptance notification">Acceptance: 57 / 193 = 29.5%</span></div>
+          <div class="pub-title"><a href="https://arxiv.org/abs/2609.02262">From Detection to Characterization: A Large-Scale Study of Ragebait on Japanese X</a></div>
+          <div class="authors"><span class="me">Zhiyang Qi</span>, Kazuhiro Ito, Jinghui Chen, Hibiki Nakamura, Zhangxuan Chen, Erina Murata, Masaki Chujyo, and Fujio Toriumi.</div>
           <div class="pub-venue">25th IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT 2026).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-wiiat2026">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-wiiat2026">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-wiiat2026" hidden>Ragebait refers to online content intentionally designed to provoke anger or outrage and thereby increase attention and engagement. However, reliable large-scale detection and systematic analysis of ragebait remain limited, hindering efforts to understand its prevalence, impact, and mitigation. This study aims to develop an effective ragebait detection framework and to clarify the characteristics of ragebait at scale, providing a basis for understanding and mitigating emotionally provocative content online. We constructed a labeled dataset with the assistance of a large language model (LLM) and trained several Japanese language models for ragebait detection. The resulting ensemble classifier was then applied to a large-scale dataset of Japanese-language posts on X. Our analysis shows that ragebait is more prevalent in politically and socially contentious topics, including politics, discrimination, public health, and interpersonal conflict. Ragebait posts also spread faster and receive more negative reactions than non-ragebait posts, particularly anger, fear, disgust, sadness, and surprise. These findings demonstrate the utility of the proposed detector and provide a large-scale characterization of ragebait in Japanese online discourse.</div><div class="panel panel-bib" id="bib-wiiat2026" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-etal-2026-detection,
+    title = &quot;From Detection to Characterization: A Large-Scale Study of Ragebait on {J}apanese {X}&quot;,
+    author = &quot;Qi, Zhiyang  and
+      Ito, Kazuhiro  and
+      Chen, Jinghui  and
+      Nakamura, Hibiki  and
+      Chen, Zhangxuan  and
+      Murata, Erina  and
+      Chujyo, Masaki  and
+      Toriumi, Fujio&quot;,
+    booktitle = &quot;Proceedings of the 25th IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT 2026)&quot;,
+    year = &quot;2026&quot;,
+    address = &quot;Brisbane, Australia&quot;,
+    eprint = &quot;2609.02262&quot;,
+    archivePrefix = &quot;arXiv&quot;,
+    url = &quot;https://arxiv.org/abs/2609.02262&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">EMNLP 2026</span>
-            <span class="pub-tag pub-first-author">First Author</span>
-            <a class="pub-metric" data-core-rank="A*" href="https://portal.core.edu.au/conf-ranks/448/" title="ICORE2026 ranking">CORE: A*</a>
-            <span class="pub-metric" title="Main Conference papers">Acceptance: 2,704 / 17,661 = 15.3%</span>
-          </div>
-          <div class="pub-title"><a href="https://aclanthology.org/2026.emnlp-main.527/"><strong>When Less Is More: An Empirical Study of Minimal Responses in Counseling Dialogues and the Behavior of LLMs</strong></a></div>
-          <div class="pub-authors"><strong>Zhiyang Qi</strong>.</div>
+        <li class="pub" id="emnlp2026" data-type="intl" data-year="2026" data-topic="counseling" data-first="1">
+          <div class="pub-meta"><span class="tag">EMNLP 2026</span><span class="tag first">First Author</span><a class="metric astar" href="https://portal.core.edu.au/conf-ranks/448/" title="ICORE2026 ranking">CORE: A*</a><span class="metric" title="Main Conference papers">Acceptance: 2,704 / 17,661 = 15.3%</span></div>
+          <div class="pub-title"><a href="https://aclanthology.org/2026.emnlp-main.527/">When Less Is More: An Empirical Study of Minimal Responses in Counseling Dialogues and the Behavior of LLMs</a></div>
+          <div class="authors"><span class="me">Zhiyang Qi</span>.</div>
           <div class="pub-venue">2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026), Main Conference.</div>
-          <div class="paper-links"><a href="https://drive.google.com/file/d/1Y6MMlOuvryPHX_S-Gc3AYgRbz2rNOx8q/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a></div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-emnlp2026">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-emnlp2026">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1Y6MMlOuvryPHX_S-Gc3AYgRbz2rNOx8q/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-abstract" id="abs-emnlp2026" hidden>In psychological counseling, effective support is not always delivered through long, information-rich responses. Minimal responses, such as backchannel cues and concise empathic statements, help convey attentive listening, express empathy, and encourage clients to continue expressing themselves. However, existing counseling dialogue systems and evaluation frameworks often favor explicit, content-rich replies, overlooking the interactional value of brief counselor utterances. This paper presents a systematic cross-lingual analysis of minimal responses across multiple counseling dialogue datasets. We develop a two-stage filtering method based on utterance length and content, followed by contextual verification using a large language model (LLM). Our analysis shows that minimal responses are common in human-collected datasets but substantially underrepresented in LLM-generated ones. We further evaluate current LLMs in manually curated dialogue contexts where human counselors used minimal responses. The results show that strong commercial LLMs are capable of generating minimal responses when explicitly instructed, but still struggle to determine when such responses are appropriate. Counseling-specific models trained on synthetic data perform particularly poorly, tending instead to produce longer and more information-rich responses. Moreover, LLM-based response-quality evaluation may undervalue minimal responses, even when they are interactionally appropriate.</div><div class="panel panel-bib" id="bib-emnlp2026" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-2026-less,
+    title = &quot;When Less Is More: An Empirical Study of Minimal Responses in Counseling Dialogues and the Behavior of {LLM}s&quot;,
+    author = &quot;Qi, Zhiyang&quot;,
+    editor = &quot;Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Junyi Jessy  and
+      Elliott, Desmond&quot;,
+    booktitle = &quot;Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing&quot;,
+    month = oct,
+    year = &quot;2026&quot;,
+    address = &quot;Budapest, Hungary&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://aclanthology.org/2026.emnlp-main.527/&quot;,
+    doi = &quot;10.18653/2026.emnlp-main.527&quot;,
+    pages = &quot;12159--12173&quot;,
+    ISBN = &quot;979-8-89176-459-0&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">AIiH 2026</span>
-            <span class="pub-tag pub-first-author">First Author</span>
-            <a class="pub-metric" href="https://aiih.cc/aiih-2026-overview/">Acceptance (full papers): 101 / 172 = 58.7%</a>
-          </div>
-          <div class="pub-title"><a href="https://doi.org/10.1007/978-3-032-35387-0_33"><strong>Bridging the Data Gap: A Hybrid Data Augmentation Approach for Early HIV Screening via Dialogue Classification</strong></a></div>
-          <div class="pub-authors"><strong>Zhiyang Qi</strong>, Haruto Saito, Ryuma Koseki, Mai Suzuki, Sanae Kubota, Toshio Naito, Michimasa Inaba, Chiyoko Kameue, Haruka Matsukura, and Maki Sakamoto.</div>
+        <li class="pub" id="aiih2026" data-type="intl" data-year="2026" data-topic="health" data-first="1">
+          <div class="pub-meta"><span class="tag">AIiH 2026</span><span class="tag first">First Author</span><a class="metric" href="https://aiih.cc/aiih-2026-overview/">Acceptance (full papers): 101 / 172 = 58.7%</a></div>
+          <div class="pub-title"><a href="https://doi.org/10.1007/978-3-032-35387-0_33">Bridging the Data Gap: A Hybrid Data Augmentation Approach for Early HIV Screening via Dialogue Classification</a></div>
+          <div class="authors"><span class="me">Zhiyang Qi</span>, Haruto Saito, Ryuma Koseki, Mai Suzuki, Sanae Kubota, Toshio Naito, Michimasa Inaba, Chiyoko Kameue, Haruka Matsukura, and Maki Sakamoto.</div>
           <div class="pub-venue">3rd International Conference on Artificial Intelligence in Healthcare (AIiH 2026).</div>
-          <div class="paper-links"><a href="https://drive.google.com/file/d/1tAOIo4ocpf-WvN60VFvI9dwwrA6Ms8mc/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a></div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-aiih2026">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-aiih2026">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1tAOIo4ocpf-WvN60VFvI9dwwrA6Ms8mc/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-abstract" id="abs-aiih2026" hidden>Early detection of Human Immunodeficiency Virus (HIV) is critical for improving individual prognosis and preventing transmission, yet diagnosis is often delayed due to subtle symptoms and social stigma. Recent advances in large language models (LLMs) suggest the potential for detecting health-related risk signals from everyday conversations. However, developing such systems is hindered by the scarcity of high-quality dialogue data, especially in sensitive medical domains. To address this challenge, we propose a hybrid data augmentation framework for dialogue-based HIV risk screening. The framework constructs synthetic yet realistic dialogue data by leveraging non-fiction resources and integrating narrative-based simulation with dialogue structure preservation. Specifically, we generate data through two complementary strategies: rewriting existing daily conversations while preserving their interactional structure, and generating persona-conditioned dialogues under specific topics. Using the generated data, we fine-tune a language model for HIV risk detection from conversational input. Experimental results show that the proposed method substantially improves screening performance on a high-quality test set, particularly in terms of recall. Furthermore, validation on real-world patient–doctor dialogues demonstrates improved confidence in detecting positive cases, highlighting the practical applicability of the approach.</div><div class="panel panel-bib" id="bib-aiih2026" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-etal-2026-bridging,
+    title = &quot;Bridging the Data Gap: A Hybrid Data Augmentation Approach for Early {HIV} Screening via Dialogue Classification&quot;,
+    author = &quot;Qi, Zhiyang  and
+      Saito, Haruto  and
+      Koseki, Ryuma  and
+      Suzuki, Mai  and
+      Kubota, Sanae  and
+      Naito, Toshio  and
+      Inaba, Michimasa  and
+      Kameue, Chiyoko  and
+      Matsukura, Haruka  and
+      Sakamoto, Maki&quot;,
+    editor = &quot;Ni, Hao  and
+      Cafolla, Daniele&quot;,
+    booktitle = &quot;Artificial Intelligence in Healthcare (AIiH 2026)&quot;,
+    series = &quot;Lecture Notes in Computer Science&quot;,
+    volume = &quot;16875&quot;,
+    pages = &quot;458--471&quot;,
+    year = &quot;2027&quot;,
+    publisher = &quot;Springer, Cham&quot;,
+    doi = &quot;10.1007/978-3-032-35387-0_33&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">LREC 2026</span>
-            <a class="pub-metric" href="https://portal.core.edu.au/conf-ranks/2092/" title="ICORE2026 ranking">CORE: B</a>
-            <a class="pub-metric" href="https://aclanthology.org/2026.lrec-1.0.pdf#page=4">Acceptance: 944 / 1,786 = 52.9%</a>
-          </div>
-          <div class="pub-title"><a href="https://aclanthology.org/2026.lrec-1.695/"><strong>Multilingual KokoroChat: A Multi-LLM Ensemble Translation Method for Creating a Multilingual Counseling Dialogue Dataset</strong></a></div>
-          <div class="pub-authors">Ryoma Suzuki, <strong>Zhiyang Qi</strong>, and Michimasa Inaba.</div>
+        <li class="pub" id="lrec2026" data-type="intl" data-year="2026" data-topic="counseling dataset" data-first="0">
+          <div class="pub-meta"><span class="tag">LREC 2026</span><a class="metric" href="https://portal.core.edu.au/conf-ranks/2092/" title="ICORE2026 ranking">CORE: B</a><a class="metric" href="https://aclanthology.org/2026.lrec-1.0.pdf#page=4">Acceptance: 944 / 1,786 = 52.9%</a></div>
+          <div class="pub-title"><a href="https://aclanthology.org/2026.lrec-1.695/">Multilingual KokoroChat: A Multi-LLM Ensemble Translation Method for Creating a Multilingual Counseling Dialogue Dataset</a></div>
+          <div class="authors">Ryoma Suzuki, <span class="me">Zhiyang Qi</span>, and Michimasa Inaba.</div>
           <div class="pub-venue">15th Language Resources and Evaluation Conference (LREC 2026).</div>
-          <div class="paper-links"><a href="https://github.com/UEC-InabaLab/MultilingualKokoroChat"><img src="images/icon/github.svg" alt="" class="resource-icon">GitHub Pages</a> / <a href="https://f003.backblazeb2.com/file/lrec-media/lrec2026/posters/1650.pdf"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a></div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-lrec2026">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-lrec2026">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://github.com/UEC-InabaLab/MultilingualKokoroChat"><img src="images/icon/github.svg" alt="" class="res-icon">GitHub Pages</a><a class="res-link" href="https://f003.backblazeb2.com/file/lrec-media/lrec2026/posters/1650.pdf"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-abstract" id="abs-lrec2026" hidden>To address the critical scarcity of high-quality, publicly available counseling dialogue datasets, we created Multilingual KokoroChat by translating KokoroChat, a large-scale manually authored Japanese counseling corpus, into both English and Chinese. A key challenge in this process is that the optimal model for translation varies by input, making it impossible for any single model to consistently guarantee the highest quality. In a sensitive domain like counseling, where the highest possible translation fidelity is essential, relying on a single LLM is therefore insufficient. To overcome this challenge, we developed and employed a novel multi-LLM ensemble method. Our approach first generates diverse hypotheses from multiple distinct LLMs. A single LLM then produces a high-quality translation based on an analysis of the respective strengths and weaknesses of all presented hypotheses. The quality of “Multilingual KokoroChat” was rigorously validated through human preference studies. These evaluations confirmed that the translations produced by our ensemble method were preferred from any individual state-of-the-art LLM. This strong preference confirms the superior quality of our method’s outputs. The Multilingual KokoroChat is available at https://github.com/UEC-InabaLab/MultilingualKokoroChat.</div><div class="panel panel-bib" id="bib-lrec2026" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{suzuki-etal-2026-multilingual,
+    title = &quot;Multilingual {K}okoro{C}hat: A Multi-{LLM} Ensemble Translation Method for Creating a Multilingual Counseling Dialogue Dataset&quot;,
+    author = &quot;Suzuki, Ryoma  and
+      Qi, Zhiyang  and
+      Inaba, Michimasa&quot;,
+    editor = &quot;Piperidis, Stelios  and
+      Bel, N{\&#x27;u}ria  and
+      van den Heuvel, Henk  and
+      Ide, Nancy  and
+      Krek, Simon  and
+      Toral, Antonio&quot;,
+    booktitle = &quot;Proceedings of the Fifteenth Language Resources and Evaluation Conference&quot;,
+    month = may,
+    year = &quot;2026&quot;,
+    address = &quot;Palma de Mallorca, Spain&quot;,
+    publisher = &quot;ELRA Language Resource Association&quot;,
+    url = &quot;https://aclanthology.org/2026.lrec-1.695/&quot;,
+    doi = &quot;10.63317/2d2qyq4zbps7&quot;,
+    pages = &quot;8838--8849&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">NCSP'26</span>
-            <span class="pub-tag pub-first-author">First Author</span>
-          </div>
-          <div class="pub-title"><a href="https://drive.google.com/file/d/1Lp4n5p8OWto0eHpwvZGKXq8c77KnFO0Q/view?usp=sharing"><strong>Pathophysiological Classification Using Patients' Subjective Pain Expressions</strong></a></div>
-          <div class="pub-authors"><strong>Zhiyang Qi</strong>, Yuji Nozaki, Ryota Abe, Haruka Matsukura, Kazutoshi Fujibayashi, Toshio Naito, and Maki Sakamoto.</div>
-          <div class="pub-venue">2026 RISP International Workshop on Nonlinear Circuits, Communications and Signal Processing (NCSP'26).</div>
-          <div class="paper-links"><a href="https://drive.google.com/file/d/1k3uvGIYA9BOZmH3X84bMZvoi1Z4NOxW2/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="resource-icon">Slide</a></div>
+        <li class="pub" id="ncsp2026" data-type="intl" data-year="2026" data-topic="health" data-first="1">
+          <div class="pub-meta"><span class="tag">NCSP&#x27;26</span><span class="tag first">First Author</span></div>
+          <div class="pub-title"><a href="https://drive.google.com/file/d/1Lp4n5p8OWto0eHpwvZGKXq8c77KnFO0Q/view?usp=sharing">Pathophysiological Classification Using Patients&#x27; Subjective Pain Expressions</a></div>
+          <div class="authors"><span class="me">Zhiyang Qi</span>, Yuji Nozaki, Ryota Abe, Haruka Matsukura, Kazutoshi Fujibayashi, Toshio Naito, and Maki Sakamoto.</div>
+          <div class="pub-venue">2026 RISP International Workshop on Nonlinear Circuits, Communications and Signal Processing (NCSP&#x27;26).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-ncsp2026">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-ncsp2026">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1k3uvGIYA9BOZmH3X84bMZvoi1Z4NOxW2/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="res-icon">Slide</a></div>
+          <div class="panel panel-abstract" id="abs-ncsp2026" hidden>For accurate medical diagnosis, analytical reasoning of diseases is crucial, often utilizing pathophysiological classification based on etiology. Patients’ symptoms are a key element in this process, and onomatopoeia, such as “gan-gan” (pounding) or “kiri-kiri” (stabbing), are frequently used to convey subjective pain. This study aims to support medical diagnosis by analyzing the relationship between onomatopoeia used by patients, their clinical records, and their diagnosed conditions using machine learning techniques. We utilized clinical records from 252 patients at Juntendo University Hospital and performed decision tree analysis. Explanatory variables included phonological features of onomatopoeia, quantified values from adjective pairs representing pain characteristics, age, gender, and clinical test values (CRP, blood pressure). The objective variable was a classification of 11 pathological conditions. The results indicated that quantified values of onomatopoeia and clinical test values were particularly effective for classification. Furthermore, we extracted specific clinical insights, such as a high probability of infectious/inflammatory diseases in younger patients experiencing sharp, long-lasting pain in a narrow area, and a high probability of vascular diseases in middle-aged or older patients with intense, sharp pain.</div><div class="panel panel-bib" id="bib-ncsp2026" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-etal-2026-pathophysiological,
+    title = &quot;Pathophysiological Classification Using Patients&#x27; Subjective Pain Expressions&quot;,
+    author = &quot;Qi, Zhiyang  and
+      Nozaki, Yuji  and
+      Abe, Ryota  and
+      Matsukura, Haruka  and
+      Fujibayashi, Kazutoshi  and
+      Naito, Toshio  and
+      Sakamoto, Maki&quot;,
+    booktitle = &quot;Proceedings of the 2026 RISP International Workshop on Nonlinear Circuits, Communications and Signal Processing (NCSP&#x27;26)&quot;,
+    year = &quot;2026&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">SIGDIAL 2025</span>
-            <a class="pub-metric" href="https://portal.core.edu.au/conf-ranks/1729/" title="ICORE2026 ranking">CORE: B</a>
-            <a class="pub-metric" href="https://aclanthology.org/2025.sigdial-1.0.pdf" title="Overall acceptance, including long, short and demonstration papers; excludes desk rejections and withdrawals">Acceptance: 59 / 116 = 50.9%</a>
-          </div>
-          <div class="pub-title"><a href="https://aclanthology.org/2025.sigdial-1.36/"><strong>Key Challenges in Multimodal Task-Oriented Dialogue Systems: Insights from a Large Competition-Based Dataset</strong></a></div>
-          <div class="pub-authors">Shiki Sato, Shinji Iwata, Asahi Hentona, Yuta Sasaki, Takato Yamazaki, Shoji Moriya, Masaya Ohagi, Hirofumi Kikuchi, Jie Yang, <strong>Zhiyang Qi</strong>, Takashi Kodama, Akinobu Lee, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Takashi Minato, Kurima Sakai, Tomo Funayama, Kotaro Funakoshi, Mayumi Usami, Michimasa Inaba, Tetsuro Takahashi, and Ryuichiro Higashinaka.</div>
+        <li class="pub" id="sigdial2025a" data-type="intl" data-year="2025" data-topic="dialogue dataset" data-first="0">
+          <div class="pub-meta"><span class="tag">SIGDIAL 2025</span><a class="metric" href="https://portal.core.edu.au/conf-ranks/1729/" title="ICORE2026 ranking">CORE: B</a><a class="metric" href="https://aclanthology.org/2025.sigdial-1.0.pdf" title="Overall acceptance, including long, short and demonstration papers; excludes desk rejections and withdrawals">Acceptance: 59 / 116 = 50.9%</a></div>
+          <div class="pub-title"><a href="https://aclanthology.org/2025.sigdial-1.36/">Key Challenges in Multimodal Task-Oriented Dialogue Systems: Insights from a Large Competition-Based Dataset</a></div>
+          <div class="authors">Shiki Sato, Shinji Iwata, Asahi Hentona, Yuta Sasaki, Takato Yamazaki, Shoji Moriya, Masaya Ohagi, Hirofumi Kikuchi, Jie Yang, <span class="me">Zhiyang Qi</span>, Takashi Kodama, Akinobu Lee, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Takashi Minato, Kurima Sakai, Tomo Funayama, Kotaro Funakoshi, Mayumi Usami, Michimasa Inaba, Tetsuro Takahashi, and Ryuichiro Higashinaka.</div>
           <div class="pub-venue">26th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2025).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-sigdial2025a">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-sigdial2025a">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-sigdial2025a" hidden>Challenges in multimodal task-oriented dialogue between humans and systems, particularly those involving audio and visual interactions, have not been sufficiently explored or shared, forcing researchers to define improvement directions individually without a clearly shared roadmap. To address these challenges, we organized a competition for multimodal task-oriented dialogue systems and constructed a large competition-based dataset of 1,865 minutes of Japanese task-oriented dialogues. This dataset includes audio and visual interactions between diverse systems and human participants. After analyzing system behaviors identified as problematic by the human participants in questionnaire surveys and notable methods employed by the participating teams, we identified key challenges in multimodal task-oriented dialogue systems and discussed potential directions for overcoming these challenges.</div><div class="panel panel-bib" id="bib-sigdial2025a" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{sato-etal-2025-key,
+    title = &quot;Key Challenges in Multimodal Task-Oriented Dialogue Systems: Insights from a Large Competition-Based Dataset&quot;,
+    author = &quot;Sato, Shiki  and
+      Iwata, Shinji  and
+      Hentona, Asahi  and
+      Sasaki, Yuta  and
+      Yamazaki, Takato  and
+      Moriya, Shoji  and
+      Ohagi, Masaya  and
+      Kikuchi, Hirofumi  and
+      Yang, Jie  and
+      Qi, Zhiyang  and
+      Kodama, Takashi  and
+      Lee, Akinobu  and
+      Komuro, Masato  and
+      Nishikawa, Hiroyuki  and
+      Makino, Ryosaku  and
+      Minato, Takashi  and
+      Sakai, Kurima  and
+      Funayama, Tomo  and
+      Funakoshi, Kotaro  and
+      Usami, Mayumi  and
+      Inaba, Michimasa  and
+      Takahashi, Tetsuro  and
+      Higashinaka, Ryuichiro&quot;,
+    editor = &quot;B{\&#x27;e}chet, Fr{\&#x27;e}d{\&#x27;e}ric  and
+      Lef{\`e}vre, Fabrice  and
+      Asher, Nicholas  and
+      Kim, Seokhwan  and
+      Merlin, Teva&quot;,
+    booktitle = &quot;Proceedings of the 26th Annual Meeting of the Special Interest Group on Discourse and Dialogue&quot;,
+    month = aug,
+    year = &quot;2025&quot;,
+    address = &quot;Avignon, France&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://aclanthology.org/2025.sigdial-1.36/&quot;,
+    doi = &quot;10.18653/v1/2025.sigdial-1.36&quot;,
+    pages = &quot;449--460&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">SIGDIAL 2025</span>
-            <a class="pub-metric" href="https://portal.core.edu.au/conf-ranks/1729/" title="ICORE2026 ranking">CORE: B</a>
-            <a class="pub-metric" href="https://aclanthology.org/2025.sigdial-1.0.pdf" title="Overall acceptance, including long, short and demonstration papers; excludes desk rejections and withdrawals">Acceptance: 59 / 116 = 50.9%</a>
-          </div>
-          <div class="pub-title"><a href="https://aclanthology.org/2025.sigdial-1.12/"><strong>Analyzing Dialogue System Behavior in a Specific Situation Requiring Interpersonal Consideration</strong></a></div>
-          <div class="pub-authors">Tetsuro Takahashi, Hirofumi Kikuchi, Jie Yang, Hiroyuki Nishikawa, Masato Komuro, Ryosaku Makino, Shiki Sato, Yuta Sasaki, Shinji Iwata, Asahi Hentona, Takato Yamazaki, Shoji Moriya, Masaya Ohagi, <strong>Zhiyang Qi</strong>, Takashi Kodama, Akinobu Lee, Takashi Minato, Kurima Sakai, Tomo Funayama, Kotaro Funakoshi, Mayumi Usami, Michimasa Inaba, and Ryuichiro Higashinaka.</div>
+        <li class="pub" id="sigdial2025b" data-type="intl" data-year="2025" data-topic="dialogue" data-first="0">
+          <div class="pub-meta"><span class="tag">SIGDIAL 2025</span><a class="metric" href="https://portal.core.edu.au/conf-ranks/1729/" title="ICORE2026 ranking">CORE: B</a><a class="metric" href="https://aclanthology.org/2025.sigdial-1.0.pdf" title="Overall acceptance, including long, short and demonstration papers; excludes desk rejections and withdrawals">Acceptance: 59 / 116 = 50.9%</a></div>
+          <div class="pub-title"><a href="https://aclanthology.org/2025.sigdial-1.12/">Analyzing Dialogue System Behavior in a Specific Situation Requiring Interpersonal Consideration</a></div>
+          <div class="authors">Tetsuro Takahashi, Hirofumi Kikuchi, Jie Yang, Hiroyuki Nishikawa, Masato Komuro, Ryosaku Makino, Shiki Sato, Yuta Sasaki, Shinji Iwata, Asahi Hentona, Takato Yamazaki, Shoji Moriya, Masaya Ohagi, <span class="me">Zhiyang Qi</span>, Takashi Kodama, Akinobu Lee, Takashi Minato, Kurima Sakai, Tomo Funayama, Kotaro Funakoshi, Mayumi Usami, Michimasa Inaba, and Ryuichiro Higashinaka.</div>
           <div class="pub-venue">26th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2025).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-sigdial2025b">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-sigdial2025b">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-sigdial2025b" hidden>In human-human conversation, interpersonal consideration for the interlocutor is essential, and similar expectations are increasingly placed on dialogue systems. This study examines the behavior of dialogue systems in a specific interpersonal scenario where a user vents frustrations and seeks emotional support from a long-time friend represented by a dialogue system. We conducted a human evaluation and qualitative analysis of 15 dialogue systems under this setting. These systems implemented diverse strategies, such as structuring dialogue into distinct phases, modeling interpersonal relationships, and incorporating cognitive behavioral therapy techniques. Our analysis reveals that these approaches contributed to improved perceived empathy, coherence, and appropriateness, highlighting the importance of design choices in socially sensitive dialogue.</div><div class="panel panel-bib" id="bib-sigdial2025b" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{takahashi-etal-2025-analyzing,
+    title = &quot;Analyzing Dialogue System Behavior in a Specific Situation Requiring Interpersonal Consideration&quot;,
+    author = &quot;Takahashi, Tetsuro  and
+      Kikuchi, Hirofumi  and
+      Yang, Jie  and
+      Nishikawa, Hiroyuki  and
+      Komuro, Masato  and
+      Makino, Ryosaku  and
+      Sato, Shiki  and
+      Sasaki, Yuta  and
+      Iwata, Shinji  and
+      Hentona, Asahi  and
+      Yamazaki, Takato  and
+      Moriya, Shoji  and
+      Ohagi, Masaya  and
+      Qi, Zhiyang  and
+      Kodama, Takashi  and
+      Lee, Akinobu  and
+      Minato, Takashi  and
+      Sakai, Kurima  and
+      Funayama, Tomo  and
+      Funakoshi, Kotaro  and
+      Usami, Mayumi  and
+      Inaba, Michimasa  and
+      Higashinaka, Ryuichiro&quot;,
+    editor = &quot;B{\&#x27;e}chet, Fr{\&#x27;e}d{\&#x27;e}ric  and
+      Lef{\`e}vre, Fabrice  and
+      Asher, Nicholas  and
+      Kim, Seokhwan  and
+      Merlin, Teva&quot;,
+    booktitle = &quot;Proceedings of the 26th Annual Meeting of the Special Interest Group on Discourse and Dialogue&quot;,
+    month = aug,
+    year = &quot;2025&quot;,
+    address = &quot;Avignon, France&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://aclanthology.org/2025.sigdial-1.12/&quot;,
+    doi = &quot;10.18653/v1/2025.sigdial-1.12&quot;,
+    pages = &quot;166--171&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">ACL 2025</span>
-            <span class="pub-tag pub-first-author">First Author</span>
-            <a class="pub-metric" data-core-rank="A*" href="https://portal.core.edu.au/conf-ranks/196/" title="ICORE2026 ranking">CORE: A*</a>
-            <a class="pub-metric" href="https://aclanthology.org/2025.acl-long.0.pdf#page=8" title="Main Conference acceptance; denominator is the unique submissions across the relevant ARR cycles, following the official ACL 2025 calculation">Acceptance: 1,699 / 8,360 = 20.3%</a>
-          </div>
-          <div class="pub-title"><a href="https://aclanthology.org/2025.acl-long.608/"><strong>KokoroChat: A Japanese Psychological Counseling Dialogue Dataset Collected via Role-Playing by Trained Counselors</strong></a></div>
-          <div class="pub-authors"><strong>Zhiyang Qi</strong>, Takumasa Kaneko, Keiko Takamizo, Mariko Ukiyo, and Michimasa Inaba.</div>
+        <li class="pub" id="acl2025" data-type="intl" data-year="2025" data-topic="counseling dataset" data-first="1">
+          <div class="pub-meta"><span class="tag">ACL 2025</span><span class="tag first">First Author</span><a class="metric astar" href="https://portal.core.edu.au/conf-ranks/196/" title="ICORE2026 ranking">CORE: A*</a><a class="metric" href="https://aclanthology.org/2025.acl-long.0.pdf#page=8" title="Main Conference acceptance; denominator is the unique submissions across the relevant ARR cycles, following the official ACL 2025 calculation">Acceptance: 1,699 / 8,360 = 20.3%</a></div>
+          <div class="pub-title"><a href="https://aclanthology.org/2025.acl-long.608/">KokoroChat: A Japanese Psychological Counseling Dialogue Dataset Collected via Role-Playing by Trained Counselors</a></div>
+          <div class="authors"><span class="me">Zhiyang Qi</span>, Takumasa Kaneko, Keiko Takamizo, Mariko Ukiyo, and Michimasa Inaba.</div>
           <div class="pub-venue">63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025), Main Conference.</div>
-          <div class="paper-links"><a href="https://github.com/UEC-InabaLab/KokoroChat"><img src="images/icon/github.svg" alt="" class="resource-icon">GitHub Pages</a> / <a href="https://huggingface.co/datasets/UEC-InabaLab/KokoroChat"><img src="images/icon/huggingface.svg" alt="" class="resource-icon">Hugging Face</a> / <a href="https://drive.google.com/file/d/1Mv5ZeTAkhbgvGaAOzQHIULb3Ur63hH7I/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a> / <a href="https://drive.google.com/file/d/1k0abB25B1OFLAGQiY1O-gyUwJtedcbi3/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="resource-icon">Slide</a></div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-acl2025">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-acl2025">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://github.com/UEC-InabaLab/KokoroChat"><img src="images/icon/github.svg" alt="" class="res-icon">GitHub Pages</a><a class="res-link" href="https://huggingface.co/datasets/UEC-InabaLab/KokoroChat"><img src="images/icon/huggingface.svg" alt="" class="res-icon">Hugging Face</a><a class="res-link" href="https://drive.google.com/file/d/1Mv5ZeTAkhbgvGaAOzQHIULb3Ur63hH7I/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a><a class="res-link" href="https://drive.google.com/file/d/1k0abB25B1OFLAGQiY1O-gyUwJtedcbi3/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="res-icon">Slide</a></div>
+          <div class="panel panel-abstract" id="abs-acl2025" hidden>Generating psychological counseling responses with language models relies heavily on high-quality datasets. Crowdsourced data collection methods require strict worker training, and data from real-world counseling environments may raise privacy and ethical concerns. While recent studies have explored using large language models (LLMs) to augment psychological counseling dialogue datasets, the resulting data often suffers from limited diversity and authenticity. To address these limitations, this study adopts a role-playing approach where trained counselors simulate counselor-client interactions, ensuring high-quality dialogues while mitigating privacy risks. Using this method, we construct KokoroChat, a Japanese psychological counseling dialogue dataset comprising 6,589 long-form dialogues, each accompanied by comprehensive client feedback. Experimental results demonstrate that fine-tuning open-source LLMs with KokoroChat improves both the quality of generated counseling responses and the automatic evaluation of counseling dialogues. The KokoroChat dataset is available at https://github.com/UEC-InabaLab/KokoroChat.</div><div class="panel panel-bib" id="bib-acl2025" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-etal-2025-kokorochat,
+    title = &quot;{K}okoro{C}hat: A {J}apanese Psychological Counseling Dialogue Dataset Collected via Role-Playing by Trained Counselors&quot;,
+    author = &quot;Qi, Zhiyang  and
+      Kaneko, Takumasa  and
+      Takamizo, Keiko  and
+      Ukiyo, Mariko  and
+      Inaba, Michimasa&quot;,
+    editor = &quot;Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher&quot;,
+    booktitle = &quot;Proceedings of the 63rd Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)&quot;,
+    month = jul,
+    year = &quot;2025&quot;,
+    address = &quot;Vienna, Austria&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://aclanthology.org/2025.acl-long.608/&quot;,
+    doi = &quot;10.18653/v1/2025.acl-long.608&quot;,
+    pages = &quot;12424--12443&quot;,
+    ISBN = &quot;979-8-89176-251-0&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">IWSDS 2025</span>
-            <a class="pub-metric" href="https://aclanthology.org/2025.iwsds-1.0.pdf#page=5" title="Overall acceptance across all tracks">Acceptance: 37 / 45 = 82.2%</a>
-          </div>
-          <div class="pub-title"><a href="https://aclanthology.org/2025.iwsds-1.29/"><strong>DSLCMM: A Multimodal Human-Machine Dialogue Corpus Built through Competitions</strong></a></div>
-          <div class="pub-authors">Ryuichiro Higashinaka, Tetsuro Takahashi, Shinya Iizuka, Sota Horiuchi, Michimasa Inaba, <strong>Zhiyang Qi</strong>, Yuta Sasaki, Kotaro Funakoshi, Shoji Moriya, Shiki Sato, Takashi Minato, Kurima Sakai, Tomo Funayama, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Hirofumi Kikuchi, and Mayumi Usami.</div>
+        <li class="pub" id="iwsds2025" data-type="intl" data-year="2025" data-topic="dialogue dataset" data-first="0">
+          <div class="pub-meta"><span class="tag">IWSDS 2025</span><a class="metric" href="https://aclanthology.org/2025.iwsds-1.0.pdf#page=5" title="Overall acceptance across all tracks">Acceptance: 37 / 45 = 82.2%</a></div>
+          <div class="pub-title"><a href="https://aclanthology.org/2025.iwsds-1.29/">DSLCMM: A Multimodal Human-Machine Dialogue Corpus Built through Competitions</a></div>
+          <div class="authors">Ryuichiro Higashinaka, Tetsuro Takahashi, Shinya Iizuka, Sota Horiuchi, Michimasa Inaba, <span class="me">Zhiyang Qi</span>, Yuta Sasaki, Kotaro Funakoshi, Shoji Moriya, Shiki Sato, Takashi Minato, Kurima Sakai, Tomo Funayama, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Hirofumi Kikuchi, and Mayumi Usami.</div>
           <div class="pub-venue">15th International Workshop on Spoken Dialogue Systems Technology (IWSDS 2025).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-iwsds2025">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-iwsds2025">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-iwsds2025" hidden>A corpus of dialogues between multimodal systems and humans is indispensable for the development and improvement of such systems. However, there is a shortage of human-machine multimodal dialogue datasets, which hinders the widespread deployment of these systems in society. To address this issue, we construct a Japanese multimodal human-machine dialogue corpus, DSLCMM, by collecting and organizing data from the Dialogue System Live Competitions (DSLCs). This paper details the procedure for constructing the corpus and presents our analysis of the relationship between various dialogue features and evaluation scores provided by users.</div><div class="panel panel-bib" id="bib-iwsds2025" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{higashinaka-etal-2025-dslcmm,
+    title = &quot;{DSLCMM}: A Multimodal Human-Machine Dialogue Corpus Built through Competitions&quot;,
+    author = &quot;Higashinaka, Ryuichiro  and
+      Takahashi, Tetsuro  and
+      Iizuka, Shinya  and
+      Horiuchi, Sota  and
+      Inaba, Michimasa  and
+      Qi, Zhiyang  and
+      Sasaki, Yuta  and
+      Funakoshi, Kotaro  and
+      Moriya, Shoji  and
+      Sato, Shiki  and
+      Minato, Takashi  and
+      Sakai, Kurima  and
+      Funayama, Tomo  and
+      Komuro, Masato  and
+      Nishikawa, Hiroyuki  and
+      Makino, Ryosaku  and
+      Kikuchi, Hirofumi  and
+      Usami, Mayumi&quot;,
+    editor = &quot;Torres, Maria Ines  and
+      Matsuda, Yuki  and
+      Callejas, Zoraida  and
+      del Pozo, Arantza  and
+      D{&#x27;}Haro, Luis Fernando&quot;,
+    booktitle = &quot;Proceedings of the 15th International Workshop on Spoken Dialogue Systems Technology&quot;,
+    month = may,
+    year = &quot;2025&quot;,
+    address = &quot;Bilbao, Spain&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://aclanthology.org/2025.iwsds-1.29/&quot;,
+    pages = &quot;277--283&quot;,
+    ISBN = &quot;979-8-89176-248-0&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">AIWolfDial 2024</span>
-            <span class="pub-tag pub-first-author">First Author</span>
-          </div>
-          <div class="pub-title"><a href="https://aclanthology.org/2024.aiwolfdial-1.4/"><strong>Enhancing Dialogue Generation in Werewolf Game Through Situation Analysis and Persuasion Strategies</strong></a></div>
-          <div class="pub-authors"><strong>Zhiyang Qi</strong> and Michimasa Inaba.</div>
-          <div class="pub-venue">2nd International AI Werewolf and Dialog System Workshop (AIWolfDial 2024) at the 17th International Natural Language Generation Conference (INLG 2024). <span class="award-text">(Best Win Rate and Game Action Award)</span></div>
-          <div class="paper-links"><a href="https://drive.google.com/file/d/1QYSwLrkMKP8lTyjzcPYeh3czGmW-yivQ/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="resource-icon">Slide</a></div>
-        </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">AIWolfDial 2024</span>
-          </div>
-          <div class="pub-title"><a href="https://aclanthology.org/2024.aiwolfdial-1.6/"><strong>Enhancing Consistency of Werewolf AI through Dialogue Summarization and Persona Information</strong></a></div>
-          <div class="pub-authors">Yoshiki Tanaka, Takumasa Kaneko, Hiroki Onozeki, Natsumi Ezure, Ryuichi Uehara, <strong>Zhiyang Qi</strong>, Tomoya Higuchi, Ryutaro Asahara, and Michimasa Inaba.</div>
+        <li class="pub" id="aiwolf2024a" data-type="intl" data-year="2024" data-topic="game dialogue" data-first="1">
+          <div class="pub-meta"><span class="tag">AIWolfDial 2024</span><span class="tag first">First Author</span></div>
+          <div class="pub-title"><a href="https://aclanthology.org/2024.aiwolfdial-1.4/">Enhancing Dialogue Generation in Werewolf Game Through Situation Analysis and Persuasion Strategies</a></div>
+          <div class="authors"><span class="me">Zhiyang Qi</span> and Michimasa Inaba.</div>
           <div class="pub-venue">2nd International AI Werewolf and Dialog System Workshop (AIWolfDial 2024) at the 17th International Natural Language Generation Conference (INLG 2024).</div>
+          <div class="award"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4Z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>Best Win Rate and Game Action Award</div>
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-aiwolf2024a">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-aiwolf2024a">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1QYSwLrkMKP8lTyjzcPYeh3czGmW-yivQ/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="res-icon">Slide</a></div>
+          <div class="panel panel-abstract" id="abs-aiwolf2024a" hidden>Recent advancements in natural language processing, particularly with large language models (LLMs) like GPT-4, have significantly enhanced dialogue systems, enabling them to generate more natural and fluent conversations. Despite these improvements, challenges persist, such as managing continuous dialogues, memory retention, and minimizing hallucinations. The AIWolfDial2024 addresses these challenges by employing the Werewolf Game, an incomplete information game, to test the capabilities of LLMs in complex interactive environments. This paper introduces a LLM-based Werewolf Game AI, where each role is supported by situation analysis to aid response generation. Additionally, for the werewolf role, various persuasion strategies, including logical appeal, credibility appeal, and emotional appeal, are employed to effectively persuade other players to align with its actions.</div><div class="panel panel-bib" id="bib-aiwolf2024a" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-inaba-2024-enhancing,
+    title = &quot;Enhancing Dialogue Generation in Werewolf Game Through Situation Analysis and Persuasion Strategies&quot;,
+    author = &quot;Qi, Zhiyang  and
+      Inaba, Michimasa&quot;,
+    editor = &quot;Kano, Yoshinobu&quot;,
+    booktitle = &quot;Proceedings of the 2nd International {AIW}olf{D}ial Workshop&quot;,
+    month = sep,
+    year = &quot;2024&quot;,
+    address = &quot;Tokyo, Japan&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://aclanthology.org/2024.aiwolfdial-1.4/&quot;,
+    doi = &quot;10.18653/v1/2024.aiwolfdial-1.4&quot;,
+    pages = &quot;30--39&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">YRRSDS 2024</span>
-            <span class="pub-tag pub-first-author">First Author</span>
-            <a class="pub-metric" href="https://aclanthology.org/2024.yrrsds-1.0.pdf#page=3">Acceptance: 32 / 32 = 100%</a>
-          </div>
-          <div class="pub-title"><a href="https://aclanthology.org/2024.yrrsds-1.31/"><strong>Utilizing Large Language Models for Customized Dialogue Data Augmentation and Psychological Counseling</strong></a></div>
-          <div class="pub-authors"><strong>Zhiyang Qi</strong>.</div>
-          <div class="pub-venue">20th Annual Meeting of the Young Researchers' Roundtable on Spoken Dialogue Systems (YRRSDS 2024).</div>
-          <div class="paper-links"><a href="https://drive.google.com/file/d/1uNAxZaqd_8imwa0JA-H0XxytL5vroM0-/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a> / <a href="https://drive.google.com/file/d/1Zcm-j5TGwv65eiGtSkXFYr-jrb2Zcwon/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="resource-icon">Slide</a></div>
+        <li class="pub" id="aiwolf2024b" data-type="intl" data-year="2024" data-topic="game dialogue" data-first="0">
+          <div class="pub-meta"><span class="tag">AIWolfDial 2024</span></div>
+          <div class="pub-title"><a href="https://aclanthology.org/2024.aiwolfdial-1.6/">Enhancing Consistency of Werewolf AI through Dialogue Summarization and Persona Information</a></div>
+          <div class="authors">Yoshiki Tanaka, Takumasa Kaneko, Hiroki Onozeki, Natsumi Ezure, Ryuichi Uehara, <span class="me">Zhiyang Qi</span>, Tomoya Higuchi, Ryutaro Asahara, and Michimasa Inaba.</div>
+          <div class="pub-venue">2nd International AI Werewolf and Dialog System Workshop (AIWolfDial 2024) at the 17th International Natural Language Generation Conference (INLG 2024).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-aiwolf2024b">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-aiwolf2024b">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-aiwolf2024b" hidden>The Werewolf Game is a communication game where players’ reasoning and discussion skills are essential. In this study, we present a Werewolf AI agent developed for the AIWolfDial 2024 shared task, co-hosted with the 17th INLG. In recent years, large language models like ChatGPT have garnered attention for their exceptional response generation and reasoning capabilities. We thus develop the LLM-based agents for the Werewolf Game. This study aims to enhance the consistency of the agent’s utterances by utilizing dialogue summaries generated by LLMs and manually designed personas and utterance examples. By analyzing self-match game logs, we demonstrate that the agent’s utterances are contextually consistent and that the character, including tone, is maintained throughout the game.</div><div class="panel panel-bib" id="bib-aiwolf2024b" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{tanaka-etal-2024-enhancing,
+    title = &quot;Enhancing Consistency of Werewolf {AI} through Dialogue Summarization and Persona Information&quot;,
+    author = &quot;Tanaka, Yoshiki  and
+      Kaneko, Takumasa  and
+      Onozeki, Hiroki  and
+      Ezure, Natsumi  and
+      Uehara, Ryuichi  and
+      Qi, Zhiyang  and
+      Higuchi, Tomoya  and
+      Asahara, Ryutaro  and
+      Inaba, Michimasa&quot;,
+    editor = &quot;Kano, Yoshinobu&quot;,
+    booktitle = &quot;Proceedings of the 2nd International {AIW}olf{D}ial Workshop&quot;,
+    month = sep,
+    year = &quot;2024&quot;,
+    address = &quot;Tokyo, Japan&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://aclanthology.org/2024.aiwolfdial-1.6/&quot;,
+    doi = &quot;10.18653/v1/2024.aiwolfdial-1.6&quot;,
+    pages = &quot;48--57&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">SIGDIAL 2024</span>
-            <span class="pub-tag pub-first-author">First Author</span>
-            <a class="pub-metric" href="https://portal.core.edu.au/conf-ranks/1729/" title="ICORE2026 ranking">CORE: B</a>
-            <a class="pub-metric" href="https://aclanthology.org/2024.sigdial-1.0.pdf#page=4" title="Overall acceptance, including long, short and demonstration papers; excludes desk rejections and withdrawals">Acceptance: 65 / 156 = 41.7%</a>
-          </div>
-          <div class="pub-title"><a href="https://aclanthology.org/2024.sigdial-1.14/"><strong>Data Augmentation Integrating Dialogue Flow and Style to Adapt Spoken Dialogue Systems to Low-Resource User Groups</strong></a></div>
-          <div class="pub-authors"><strong>Zhiyang Qi</strong> and Michimasa Inaba.</div>
+        <li class="pub" id="yrrsds2024" data-type="intl" data-year="2024" data-topic="counseling dialogue" data-first="1">
+          <div class="pub-meta"><span class="tag">YRRSDS 2024</span><span class="tag first">First Author</span><a class="metric" href="https://aclanthology.org/2024.yrrsds-1.0.pdf#page=3">Acceptance: 32 / 32 = 100%</a></div>
+          <div class="pub-title"><a href="https://aclanthology.org/2024.yrrsds-1.31/">Utilizing Large Language Models for Customized Dialogue Data Augmentation and Psychological Counseling</a></div>
+          <div class="authors"><span class="me">Zhiyang Qi</span>.</div>
+          <div class="pub-venue">20th Annual Meeting of the Young Researchers&#x27; Roundtable on Spoken Dialogue Systems (YRRSDS 2024).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-yrrsds2024">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-yrrsds2024">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1uNAxZaqd_8imwa0JA-H0XxytL5vroM0-/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a><a class="res-link" href="https://drive.google.com/file/d/1Zcm-j5TGwv65eiGtSkXFYr-jrb2Zcwon/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="res-icon">Slide</a></div>
+          <div class="panel panel-abstract" id="abs-yrrsds2024" hidden>Large language models (LLMs), such as GPT-4, have driven significant technological advances in spoken dialogue systems (SDSs). In the era of LLMs, my research focuses on: (1) employing these models for customized dialogue data augmentation to improve SDS adaptability to various speaking styles, and (2) utilizing LLMs to support counselors with psychological counseling dialogues. In the future, I aim to integrate these themes, applying user adaptability to psychological counseling dialogues to facilitate smoother conversations.</div><div class="panel panel-bib" id="bib-yrrsds2024" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-2024-utilizing,
+    title = &quot;Utilizing Large Language Models for Customized Dialogue Data Augmentation and Psychological Counseling&quot;,
+    author = &quot;Qi, Zhiyang&quot;,
+    editor = &quot;Inoue, Koji  and
+      Fu, Yahui  and
+      Axelsson, Agnes  and
+      Ohashi, Atsumoto  and
+      Madureira, Brielen  and
+      Zenimoto, Yuki  and
+      Mohapatra, Biswesh  and
+      Stricker, Armand  and
+      Khosla, Sopan&quot;,
+    booktitle = &quot;Proceedings of the 20th Workshop of Young Researchers&#x27; Roundtable on Spoken Dialogue Systems&quot;,
+    month = sep,
+    year = &quot;2024&quot;,
+    address = &quot;Kyoto, Japan&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://aclanthology.org/2024.yrrsds-1.31/&quot;,
+    doi = &quot;10.18653/v1/2024.yrrsds-1.31&quot;,
+    pages = &quot;84--86&quot;
+}</pre></div>
+        </li>
+        <li class="pub" id="sigdial2024" data-type="intl" data-year="2024" data-topic="dialogue" data-first="1">
+          <div class="pub-meta"><span class="tag">SIGDIAL 2024</span><span class="tag first">First Author</span><a class="metric" href="https://portal.core.edu.au/conf-ranks/1729/" title="ICORE2026 ranking">CORE: B</a><a class="metric" href="https://aclanthology.org/2024.sigdial-1.0.pdf#page=4" title="Overall acceptance, including long, short and demonstration papers; excludes desk rejections and withdrawals">Acceptance: 65 / 156 = 41.7%</a></div>
+          <div class="pub-title"><a href="https://aclanthology.org/2024.sigdial-1.14/">Data Augmentation Integrating Dialogue Flow and Style to Adapt Spoken Dialogue Systems to Low-Resource User Groups</a></div>
+          <div class="authors"><span class="me">Zhiyang Qi</span> and Michimasa Inaba.</div>
           <div class="pub-venue">25th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2024).</div>
-          <div class="paper-links"><a href="https://drive.google.com/file/d/1FcA4EpQM34VKkMPgnPNCFe8RYZoKYIEj/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a></div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-sigdial2024">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-sigdial2024">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1FcA4EpQM34VKkMPgnPNCFe8RYZoKYIEj/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-abstract" id="abs-sigdial2024" hidden>This study addresses the interaction challenges encountered by spoken dialogue systems (SDSs) when engaging with users who exhibit distinct conversational behaviors, particularly minors, in scenarios where data are scarce. We propose a novel data augmentation framework to enhance SDS performance for user groups with limited resources. Our approach leverages a large language model (LLM) to extract speaker styles and a pre-trained language model (PLM) to simulate dialogue act history. This method generates enriched and personalized dialogue data, facilitating improved interactions with unique user demographics. Extensive experiments validate the efficacy of our methodology, highlighting its potential to foster the development of more adaptive and inclusive dialogue systems.</div><div class="panel panel-bib" id="bib-sigdial2024" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-inaba-2024-data,
+    title = &quot;Data Augmentation Integrating Dialogue Flow and Style to Adapt Spoken Dialogue Systems to Low-Resource User Groups&quot;,
+    author = &quot;Qi, Zhiyang  and
+      Inaba, Michimasa&quot;,
+    editor = &quot;Kawahara, Tatsuya  and
+      Demberg, Vera  and
+      Ultes, Stefan  and
+      Inoue, Koji  and
+      Mehri, Shikib  and
+      Howcroft, David  and
+      Komatani, Kazunori&quot;,
+    booktitle = &quot;Proceedings of the 25th Annual Meeting of the Special Interest Group on Discourse and Dialogue&quot;,
+    month = sep,
+    year = &quot;2024&quot;,
+    address = &quot;Kyoto, Japan&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://aclanthology.org/2024.sigdial-1.14/&quot;,
+    doi = &quot;10.18653/v1/2024.sigdial-1.14&quot;,
+    pages = &quot;159--171&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">IWSDS 2024</span>
-            <a class="pub-metric" href="https://www.elra.info/sigsds/" title="Overall acceptance reported in ELRA's IWSDS 2024 event review">Acceptance: 40 / 52 = 76.9%</a>
-          </div>
-          <div class="pub-title"><strong>Dialogue System Live Competition Goes Multimodal: Analyzing the Effects of Multimodal Information in Situated Dialogue Systems</strong></div>
-          <div class="pub-authors">Ryuichiro Higashinaka, Tetsuro Takahashi, Michimasa Inaba, <strong>Zhiyang Qi</strong>, Yuta Sasaki, Kotaro Funakoshi, Shoji Moriya, Shiki Sato, Takashi Minato, Kurima Sakai, Tomo Funayama, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Hirofumi Kikuchi, and Mayumi Usami.</div>
+        <li class="pub" id="iwsds2024" data-type="intl" data-year="2024" data-topic="dialogue" data-first="0">
+          <div class="pub-meta"><span class="tag">IWSDS 2024</span><a class="metric" href="https://www.elra.info/sigsds/" title="Overall acceptance reported in ELRA&#x27;s IWSDS 2024 event review">Acceptance: 40 / 52 = 76.9%</a></div>
+          <div class="pub-title">Dialogue System Live Competition Goes Multimodal: Analyzing the Effects of Multimodal Information in Situated Dialogue Systems</div>
+          <div class="authors">Ryuichiro Higashinaka, Tetsuro Takahashi, Michimasa Inaba, <span class="me">Zhiyang Qi</span>, Yuta Sasaki, Kotaro Funakoshi, Shoji Moriya, Shiki Sato, Takashi Minato, Kurima Sakai, Tomo Funayama, Masato Komuro, Hiroyuki Nishikawa, Ryosaku Makino, Hirofumi Kikuchi, and Mayumi Usami.</div>
           <div class="pub-venue">14th International Workshop on Spoken Dialogue Systems Technology (IWSDS 2024).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-iwsds2024">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-bib" id="bib-iwsds2024" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{higashinaka-etal-2024-dialogue,
+    title = &quot;Dialogue System Live Competition Goes Multimodal: Analyzing the Effects of Multimodal Information in Situated Dialogue Systems&quot;,
+    author = &quot;Higashinaka, Ryuichiro  and
+      Takahashi, Tetsuro  and
+      Inaba, Michimasa  and
+      Qi, Zhiyang  and
+      Sasaki, Yuta  and
+      Funakoshi, Kotaro  and
+      Moriya, Shoji  and
+      Sato, Shiki  and
+      Minato, Takashi  and
+      Sakai, Kurima  and
+      Funayama, Tomo  and
+      Komuro, Masato  and
+      Nishikawa, Hiroyuki  and
+      Makino, Ryosaku  and
+      Kikuchi, Hirofumi  and
+      Usami, Mayumi&quot;,
+    booktitle = &quot;Proceedings of the 14th International Workshop on Spoken Dialogue Systems Technology (IWSDS 2024)&quot;,
+    year = &quot;2024&quot;
+}</pre></div>
         </li>
-        <li>
-          <div class="pub-metadata">
-            <span class="pub-tag">INLG 2023</span>
-            <a class="pub-metric" href="https://portal.core.edu.au/conf-ranks/1327/" title="ICORE2026 rank of the parent INLG conference, not a separate ranking for Generation Challenges">CORE: B</a>
-          </div>
-          <div class="pub-title"><a href="https://aclanthology.org/2023.inlg-genchal.13/"><strong>AIWolfDial 2023: Summary of Natural Language Division of 5th International AIWolf Contest</strong></a></div>
-          <div class="pub-authors">Yoshinobu Kano, Neo Watanabe, Kaito Kagaminuma, Claus Aranha, Jaewon Lee, Benedek Hauer, Hisaichi Shibata, Soichiro Miki, Yuta Nakamura, Takuya Okubo, Soga Shigemura, Rei Ito, Kazuki Takashima, Tomoki Fukuda, Masahiro Wakutani, Tomoya Hatanaka, Mami Uchida, Mikio Abe, Akihiro Mikami, Takashi Otsuki, <strong>Zhiyang Qi</strong>, Kei Harada, Michimasa Inaba, Daisuke Katagami, Hirotaka Osawa, and Fujio Toriumi.</div>
+        <li class="pub" id="inlg2023" data-type="intl" data-year="2023" data-topic="game" data-first="0">
+          <div class="pub-meta"><span class="tag">INLG 2023</span><a class="metric" href="https://portal.core.edu.au/conf-ranks/1327/" title="ICORE2026 rank of the parent INLG conference, not a separate ranking for Generation Challenges">CORE: B</a></div>
+          <div class="pub-title"><a href="https://aclanthology.org/2023.inlg-genchal.13/">AIWolfDial 2023: Summary of Natural Language Division of 5th International AIWolf Contest</a></div>
+          <div class="authors">Yoshinobu Kano, Neo Watanabe, Kaito Kagaminuma, Claus Aranha, Jaewon Lee, Benedek Hauer, Hisaichi Shibata, Soichiro Miki, Yuta Nakamura, Takuya Okubo, Soga Shigemura, Rei Ito, Kazuki Takashima, Tomoki Fukuda, Masahiro Wakutani, Tomoya Hatanaka, Mami Uchida, Mikio Abe, Akihiro Mikami, Takashi Otsuki, <span class="me">Zhiyang Qi</span>, Kei Harada, Michimasa Inaba, Daisuke Katagami, Hirotaka Osawa, and Fujio Toriumi.</div>
           <div class="pub-venue">16th International Natural Language Generation Conference: Generation Challenges (INLG 2023).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-inlg2023">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-inlg2023">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-inlg2023" hidden>We held our 5th annual AIWolf international contest to automatically play the Werewolf game “Mafia”, where players try finding liars via conversations, aiming at promoting developments in creating agents of more natural conversations in higher level, such as longer contexts, personal relationships, semantics, pragmatics, and logics, revealing the capabilities and limits of the generative AIs. In our Natural Language Division of the contest, we had six Japanese speaking agents from five teams, and three English speaking agents, to mutually run games. By using the game logs, We performed human subjective evaluations and detailed log analysis. We found that the entire system performance has largely improved over the previous year, due to the recent advantages of the LLMs. However, it is not perfect at all yet; the generated talks are sometimes inconsistent with the game actions, it is still doubtful that the agents could infer roles by logics rather than superficial utterance generations. It is not explicitly observed in this log but it would be still difficult to make an agent telling a lie, pretend as a villager but it has an opposite goal inside. Our future work includes to reveal the capability of the LLMs, whether they can make the duality of the “liar”, in other words, holding a “true” and a “false” circumstances of the agent at the same time, even holding what these circumstances look like from other agents.</div><div class="panel panel-bib" id="bib-inlg2023" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{kano-etal-2023-aiwolfdial,
+    title = &quot;{AIW}olf{D}ial 2023: Summary of Natural Language Division of 5th International {AIW}olf Contest&quot;,
+    author = &quot;Kano, Yoshinobu  and
+      Watanabe, Neo  and
+      Kagaminuma, Kaito  and
+      Aranha, Claus  and
+      Lee, Jaewon  and
+      Hauer, Benedek  and
+      Shibata, Hisaichi  and
+      Miki, Soichiro  and
+      Nakamura, Yuta  and
+      Okubo, Takuya  and
+      Shigemura, Soga  and
+      Ito, Rei  and
+      Takashima, Kazuki  and
+      Fukuda, Tomoki  and
+      Wakutani, Masahiro  and
+      Hatanaka, Tomoya  and
+      Uchida, Mami  and
+      Abe, Mikio  and
+      Mikami, Akihiro  and
+      Otsuki, Takashi  and
+      Qi, Zhiyang  and
+      Harada, Kei  and
+      Inaba, Michimasa  and
+      Katagami, Daisuke  and
+      Osawa, Hirotaka  and
+      Toriumi, Fujio&quot;,
+    editor = &quot;Mille, Simon&quot;,
+    booktitle = &quot;Proceedings of the 16th International Natural Language Generation Conference: Generation Challenges&quot;,
+    month = sep,
+    year = &quot;2023&quot;,
+    address = &quot;Prague, Czechia&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://aclanthology.org/2023.inlg-genchal.13/&quot;,
+    pages = &quot;84--100&quot;
+}</pre></div>
         </li>
-      </ol>
-    </section>
+        </ol>
+      </section>
 
-    <section class="publication-list-section">
-      <heading>Preprints</heading>
-      <ol class="full-publication-list">
-        <li>
-          <span class="pub-tag">arXiv</span>
-          <a href="https://arxiv.org/abs/2506.19279"><strong>EmoStage: A Framework for Accurate Empathetic Response Generation via Perspective-Taking and Phase Recognition</strong></a><br>
-          <strong>Zhiyang Qi</strong>, Keiko Takamizo, Mariko Ukiyo, and Michimasa Inaba.
+      <section class="pub-section" data-section="preprint">
+        <div class="pub-section-head"><h2>Preprints</h2><span class="count">2</span></div>
+        <ol class="pub-list">
+        <li class="pub" id="emostage" data-type="preprint" data-year="2025" data-topic="counseling" data-first="1">
+          <div class="pub-meta"><span class="tag">arXiv</span><span class="tag first">First Author</span></div>
+          <div class="pub-title"><a href="https://arxiv.org/abs/2506.19279">EmoStage: A Framework for Accurate Empathetic Response Generation via Perspective-Taking and Phase Recognition</a></div>
+          <div class="authors"><span class="me">Zhiyang Qi</span>, Keiko Takamizo, Mariko Ukiyo, and Michimasa Inaba.</div>
+          <div class="pub-venue">arXiv:2506.19279, 2025.</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-emostage">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-emostage">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-emostage" hidden>The rising demand for mental health care has fueled interest in AI-driven counseling systems. While large language models (LLMs) offer significant potential, current approaches face challenges, including limited understanding of clients&#x27; psychological states and counseling stages, reliance on high-quality training data, and privacy concerns associated with commercial deployment. To address these issues, we propose EmoStage, a framework that enhances empathetic response generation by leveraging the inference capabilities of open-source LLMs without additional training data. Our framework introduces perspective-taking to infer clients&#x27; psychological states and support needs, enabling the generation of emotionally resonant responses. In addition, phase recognition is incorporated to ensure alignment with the counseling process and to prevent contextually inappropriate or inopportune responses. Experiments conducted in both Japanese and Chinese counseling settings demonstrate that EmoStage improves the quality of responses generated by base models and performs competitively with data-driven methods.</div><div class="panel panel-bib" id="bib-emostage" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@misc{qi2025emostageframeworkaccurateempathetic,
+      title={EmoStage: A Framework for Accurate Empathetic Response Generation via Perspective-Taking and Phase Recognition},
+      author={Zhiyang Qi and Keiko Takamizo and Mariko Ukiyo and Michimasa Inaba},
+      year={2025},
+      eprint={2506.19279},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.19279},
+}</pre></div>
         </li>
-        <li>
-          <span class="pub-tag">arXiv</span>
-          <a href="https://arxiv.org/abs/2312.12808"><strong>Enhancing Consistency in Multimodal Dialogue System Using LLM with Dialogue Scenario</strong></a><br>
-          Hiroki Onozeki, <strong>Zhiyang Qi</strong>, Kazuma Akiyama, Ryutaro Asahara, Takumasa Kaneko, and Michimasa Inaba. <a href="https://drive.google.com/file/d/1v5mO5TTRWfBMRbpSTR9MA_w02SK9_6Ww/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a>
+        <li class="pub" id="drc2023" data-type="preprint" data-year="2023" data-topic="dialogue" data-first="0">
+          <div class="pub-meta"><span class="tag">arXiv</span></div>
+          <div class="pub-title"><a href="https://arxiv.org/abs/2312.12808">Enhancing Consistency in Multimodal Dialogue System Using LLM with Dialogue Scenario</a></div>
+          <div class="authors">Hiroki Onozeki, <span class="me">Zhiyang Qi</span>, Kazuma Akiyama, Ryutaro Asahara, Takumasa Kaneko, and Michimasa Inaba.</div>
+          <div class="pub-venue">arXiv:2312.12808, 2023.</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-drc2023">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-drc2023">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1v5mO5TTRWfBMRbpSTR9MA_w02SK9_6Ww/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-abstract" id="abs-drc2023" hidden>This paper describes our dialogue system submitted to Dialogue Robot Competition 2023. The system&#x27;s task is to help a user at a travel agency decide on a plan for visiting two sightseeing spots in Kyoto City that satisfy the user. Our dialogue system is flexible and stable and responds to user requirements by controlling dialogue flow according to dialogue scenarios. We also improved user satisfaction by introducing motion and speech control based on system utterances and user situations. In the preliminary round, our system was ranked fifth in the impression evaluation and sixth in the plan evaluation among all 12 teams.</div><div class="panel panel-bib" id="bib-drc2023" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@misc{onozeki2023enhancingconsistencymultimodaldialogue,
+      title={Enhancing Consistency in Multimodal Dialogue System Using LLM with Dialogue Scenario},
+      author={Hiroki Onozeki and Zhiyang Qi and Kazuma Akiyama and Ryutaro Asahara and Takumasa Kaneko and Michimasa Inaba},
+      year={2023},
+      eprint={2312.12808},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2312.12808},
+}</pre></div>
         </li>
-      </ol>
-    </section>
+        </ol>
+      </section>
 
-    <section class="publication-list-section">
-      <heading>Non-refereed</heading>
-      <ol class="full-publication-list">
-        <li><strong>カウンセリング対話における最小限の応答 ― データセット間比較とLLMによる生成・評価 ―</strong><br>人工知能学会 第108回言語・音声理解と対話処理研究会（第17回対話システムシンポジウム） (2026).<br><strong>斉志揚</strong>. <a href="https://drive.google.com/file/d/1mLiGOjPlH-nbBLDGqFl3WRbXmwfUgq4V/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a></li>
-        <li><strong>対話システムライブコンペティション8</strong><br>人工知能学会 第108回言語・音声理解と対話処理研究会（第17回対話システムシンポジウム） (2026).<br>佐藤志貴, 郭傲, 岩田伸治, 西川寛之, 邊土名朝飛, 守屋彰二, 森大河, 楊潔, 菊池浩史, 佐々木裕多, 児玉貴志, <strong>斉志揚</strong>, 津田太郎, 劉超然, 栗田修平, 牧野遼作, 宇佐美まゆみ, 高橋哲朗, 東中竜一郎.</li>
-        <li><a href="https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/Q5-2.pdf"><strong>KokoroChat: 講習を受けたカウンセラーによるロールプレイを通じて収集された日本語カウンセリング対話データセット</strong></a><br>言語処理学会 第32回年次大会 (NLP2026).<br><strong>斉志揚</strong>, 金子拓正, 高溝恵子, 浮世満理子, 稲葉通将. <a href="https://drive.google.com/file/d/1MvsIbTY6KmpswL46TOKiJxVwuYRefOlS/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a> <span class="award-inline">（優秀賞, 13/789, 1.6%）</span></li>
-        <li><a href="https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_07/_article/-char/ja"><strong>Explanation-Guided Prediction of Multi-Dimensional Feedback Scores in Psychological Counseling Dialogues</strong></a><br>人工知能学会 第105回言語・音声理解と対話処理研究会 (2025).<br>Yueliang Liu, <strong>Zhiyang Qi</strong>, 稲葉 通将. <a href="https://drive.google.com/file/d/1zn2bslbEnVclLlO4ETKepuhUkr47_64U/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a></li>
-        <li><a href="https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_47/_article/-char/ja/"><strong>多LLMアンサンブル翻訳による多言語カウンセリング対話データセットの構築</strong></a><br>人工知能学会 第105回言語・音声理解と対話処理研究会 (2025).<br>鈴木諒待, <strong>斉志揚</strong>, 稲葉通将. <a href="https://drive.google.com/file/d/1HFOxaeiX7Ygveq8HK-s8jm3MC-VOxZW1/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a></li>
-        <li><a href="https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_144/_article/-char/ja"><strong>対話ライブコンペ7シチュエーショントラックにおける人間関係への配慮とその効果の分析</strong></a><br>人工知能学会 第105回言語・音声理解と対話処理研究会 (2025).<br>高橋哲朗, 菊池浩史, 楊潔, 西川寛之, 小室允人, 牧野遼作, 佐藤志貴, 佐々木裕多, 岩田伸治, 邊土名朝飛, 山崎天, 守屋彰二, 大萩雅也, <strong>斉志揚</strong>, 児玉貴志, 李晃伸, 港隆史, 境くりま, 船山智, 船越孝太郎, 宇佐美まゆみ, 稲葉通将, 東中竜一郎.</li>
-        <li><a href="https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_163/_article/-char/ja"><strong>対話ライブコンペ7タスクトラックから得られた知見と今後の展開</strong></a><br>人工知能学会 第105回言語・音声理解と対話処理研究会 (2025).<br>佐藤志貴, 岩田伸治, 邊土名朝飛, 佐々木裕多, 山崎天, 守屋彰二, 大萩雅也, 菊池浩史, 楊潔, <strong>斉志揚</strong>, 児玉貴志, 李晃伸, 小室允人, 西川寛之, 牧野遼作, 港隆史, 境くりま, 船山智, 船越孝太郎, 宇佐美まゆみ, 稲葉通将, 高橋哲朗, 東中竜一郎.</li>
-        <li><strong>KokoroChat: 訓練を受けたカウンセラーによるロールプレイを通じて収集された日本語カウンセリング対話データセット</strong><br>言語処理学会 第20回言語処理若手シンポジウム (YANS2025).<br><strong>斉志揚</strong>, 金子拓正, 高溝恵子, 浮世満理子, 稲葉通将.</li>
-        <li><a href="https://www.jstage.jst.go.jp/article/jsaislud/103/0/103_01/_article/-char/ja"><strong>対話システムライブコンペティション7</strong></a><br>人工知能学会 第103回言語・音声理解と対話処理研究会 (2025).<br>佐藤志貴, 佐々木裕多, 岩田伸治, 山崎天, 小室允人, 守屋彰二, 大萩雅也, 菊池浩史, 楊潔, 邊土名朝飛, <strong>斉志揚</strong>, 児玉貴志, 李晃伸, 西川寛之, 牧野遼作, 港隆史, 境くりま, 船山智, 船越孝太郎, 宇佐美まゆみ, 稲葉通将, 高橋哲朗, 東中竜一郎.</li>
-        <li><a href="https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q4-22.pdf"><strong>話者スタイル抽出と対話フロー生成に基づく対話データ拡張手法</strong></a><br>言語処理学会 第31回年次大会 (NLP2025).<br><strong>斉志揚</strong>, 稲葉通将. <a href="https://drive.google.com/file/d/19DFyfXqyeomyYMF3Q8Y6oOYCK41jPfKM/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a></li>
-        <li><a href="https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-18.pdf"><strong>Tabidachi: 旅行代理店タスク対話コーパス</strong></a><br>言語処理学会 第31回年次大会 (NLP2025).<br>稲葉通将, 千葉祐弥, <strong>斉志揚</strong>, 東中竜一郎, 駒谷和範, 宮尾祐介, 長井隆行.</li>
-        <li><strong>SNSカウンセラー育成のためのリアルタイム対話支援システムの構築</strong><br>言語処理学会 第19回言語処理若手シンポジウム (YANS2024).<br><strong>斉志揚</strong>, 稲葉通将. <a href="https://drive.google.com/file/d/1-7R4kM3t884XIddrhVO_7LMw1OPjoviC/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a></li>
-        <li><a href="https://www.jstage.jst.go.jp/article/jsaislud/99/0/99_84/_article/-char/ja"><strong>対話システムライブコンペティション6</strong></a><br>人工知能学会 第99回言語・音声理解と対話処理研究会 (2023).<br>東中竜一郎, 高橋哲朗, 稲葉通将, <strong>斉志揚</strong>, 佐々木裕多, 船越孝太郎, 守屋彰二, 佐藤志貴, 港隆史, 境くりま, 船山智, 小室允人, 西川寛之, 牧野遼作, 菊池浩史, 宇佐美まゆみ.</li>
-        <li><a href="https://www.jstage.jst.go.jp/article/jsaislud/99/0/99_90/_article/-char/ja/"><strong>第三者のペルソナを用いたマルチモーダル対話システム</strong></a><br>人工知能学会 第99回言語・音声理解と対話処理研究会 (2023).<br>朝原隆太朗, 小野関宏己, <strong>斉志揚</strong>, 金子拓正, 秋山一馬, 上原隆一, 樋口智哉, 稲葉通将.</li>
-        <li><a href="https://drive.google.com/file/d/1O1sexfcbNkgnLrRU4cLLgMfWxzazYt7B/view?usp=sharing"><strong>類似度と一貫性を考慮してシナリオを選択する用例ベース対話システム</strong></a><br>人工知能学会 第93回言語・音声理解と対話処理研究会 (2021).<br><strong>斉志揚</strong>, 秋山一馬, 稲葉通将. <a href="https://drive.google.com/file/d/1gk9ViMbh4UL7Nvrg4a8tMxMcsfyNA6Yx/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="resource-icon">Poster</a></li>
-      </ol>
-    </section>
+      <section class="pub-section" data-section="domestic">
+        <div class="pub-section-head"><h2>Domestic Conferences (Non-refereed)</h2><span class="count">15</span></div>
+        <ol class="pub-list">
+        <li class="pub" id="slud108a" data-type="domestic" data-year="2026" data-topic="counseling" data-first="1" lang="ja">
+          <div class="pub-meta"><span class="tag">SIG-SLUD 108</span><span class="tag first">First Author</span></div>
+          <div class="pub-title">カウンセリング対話における最小限の応答 ― データセット間比較とLLMによる生成・評価 ―</div>
+          <div class="authors"><span class="me">斉志揚</span>.</div>
+          <div class="pub-venue">人工知能学会 第108回言語・音声理解と対話処理研究会（第17回対話システムシンポジウム） (2026).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-slud108a">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1mLiGOjPlH-nbBLDGqFl3WRbXmwfUgq4V/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-bib" id="bib-slud108a" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-2026-slud108,
+    title = {カウンセリング対話における最小限の応答 ― データセット間比較とLLMによる生成・評価 ―},
+    author = {斉志揚},
+    booktitle = {人工知能学会研究会資料 言語・音声理解と対話処理研究会（第17回対話システムシンポジウム）},
+    volume = {108},
+    year = {2026}
+}</pre></div>
+        </li>
+        <li class="pub" id="slud108b" data-type="domestic" data-year="2026" data-topic="dialogue" data-first="0" lang="ja">
+          <div class="pub-meta"><span class="tag">SIG-SLUD 108</span></div>
+          <div class="pub-title">対話システムライブコンペティション8</div>
+          <div class="authors">佐藤志貴, 郭傲, 岩田伸治, 西川寛之, 邊土名朝飛, 守屋彰二, 森大河, 楊潔, 菊池浩史, 佐々木裕多, 児玉貴志, <span class="me">斉志揚</span>, 津田太郎, 劉超然, 栗田修平, 牧野遼作, 宇佐美まゆみ, 高橋哲朗, 東中竜一郎.</div>
+          <div class="pub-venue">人工知能学会 第108回言語・音声理解と対話処理研究会（第17回対話システムシンポジウム） (2026).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-slud108b">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-bib" id="bib-slud108b" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{sato-etal-2026-dslc8,
+    title = {対話システムライブコンペティション8},
+    author = {佐藤志貴 and 郭傲 and 岩田伸治 and 西川寛之 and 邊土名朝飛 and 守屋彰二 and 森大河 and 楊潔 and 菊池浩史 and 佐々木裕多 and 児玉貴志 and 斉志揚 and 津田太郎 and 劉超然 and 栗田修平 and 牧野遼作 and 宇佐美まゆみ and 高橋哲朗 and 東中竜一郎},
+    booktitle = {人工知能学会研究会資料 言語・音声理解と対話処理研究会（第17回対話システムシンポジウム）},
+    volume = {108},
+    year = {2026}
+}</pre></div>
+        </li>
+        <li class="pub" id="nlp2026" data-type="domestic" data-year="2026" data-topic="counseling dataset" data-first="1" lang="ja">
+          <div class="pub-meta"><span class="tag">NLP2026</span><span class="tag first">First Author</span></div>
+          <div class="pub-title"><a href="https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/Q5-2.pdf">KokoroChat: 講習を受けたカウンセラーによるロールプレイを通じて収集された日本語カウンセリング対話データセット</a></div>
+          <div class="authors"><span class="me">斉志揚</span>, 金子拓正, 高溝恵子, 浮世満理子, 稲葉通将.</div>
+          <div class="pub-venue">言語処理学会 第32回年次大会 (NLP2026).</div>
+          <div class="award"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4Z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>優秀賞, 13/789, 1.6%</div>
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-nlp2026">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-nlp2026">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1MvsIbTY6KmpswL46TOKiJxVwuYRefOlS/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-abstract" id="abs-nlp2026" lang="ja" hidden>言語モデルによる心理カウンセリング応答の生成には，高品質なデータセットが不可欠である．しかし，クラウドソーシングによる収集には作業者の教育が必要であり，実際のカウンセリング記録はプライバシーの問題から利用が難しい．近年は大規模言語モデル（Large Language Model; LLM）による対話データの自動生成も行われているが，多様性やカウンセリングプロセスの信頼性に欠ける場合が多い．本研究では，講習を受けたカウンセラー同士によるロールプレイにより，高品質な日本語の心理カウンセリング対話を収集した．その結果，6,589 件の長文対話とクライアントによる包括的なフィードバックを含むデータセット KokoroChat を構築した．このデータを用いた LLM のファインチューニングにより，カウンセリング応答生成において性能の向上が確認された．</div><div class="panel panel-bib" id="bib-nlp2026" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-etal-2026-nlp-kokorochat,
+    title = {KokoroChat: 講習を受けたカウンセラーによるロールプレイを通じて収集された日本語カウンセリング対話データセット},
+    author = {斉志揚 and 金子拓正 and 高溝恵子 and 浮世満理子 and 稲葉通将},
+    booktitle = {言語処理学会 第32回年次大会 発表論文集},
+    pages = {2385--2390},
+    year = {2026},
+    url = {https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/Q5-2.pdf}
+}</pre></div>
+        </li>
+        <li class="pub" id="slud105_07" data-type="domestic" data-year="2025" data-topic="counseling" data-first="0" lang="ja">
+          <div class="pub-meta"><span class="tag">SIG-SLUD 105</span></div>
+          <div class="pub-title"><a href="https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_07/_article/-char/ja">Explanation-Guided Prediction of Multi-Dimensional Feedback Scores in Psychological Counseling Dialogues</a></div>
+          <div class="authors">Yueliang Liu, <span class="me">Zhiyang Qi</span>, 稲葉 通将.</div>
+          <div class="pub-venue">人工知能学会 第105回言語・音声理解と対話処理研究会 (2025).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-slud105_07">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-slud105_07">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1zn2bslbEnVclLlO4ETKepuhUkr47_64U/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-abstract" id="abs-slud105_07" hidden>While Large Language Models (LLMs) show significant potential in psychological counseling, rigorous, multi-dimensional evaluation of dialogue quality is paramount to ensure service reliability and professional accountability. This critical assessment is necessary to identify best practices, continuously improve LLM performance, and build user trust in automated generative mental health support. Addressing the challenge of conducting this complex evaluation effectively, we introduce a novel Explanation-Guided Score Prediction Framework leveraging KokoroChat, a large-scale Japanese counseling dialogue dataset. The proposed framework fundamentally enhances the evaluation of LLM-based counseling systems by integrating quantitative score prediction with interpretable, structured explanations. These LLM-generated rationales (comprising a &quot;reason&quot; and a &quot;reflection&quot;) serve as auxiliary supervision signals during the training process, effectively aligning the model&#x27;s predictions with the logic of human evaluative reasoning. This approach encourages the model to learn semantically rich representations of counseling dialogues.</div><div class="panel panel-bib" id="bib-slud105_07" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{liu-etal-2025-explanation,
+    title = {Explanation-Guided Prediction of Multi-Dimensional Feedback Scores in Psychological Counseling Dialogues},
+    author = {Liu, Yueliang and Qi, Zhiyang and 稲葉通将},
+    booktitle = {人工知能学会研究会資料 言語・音声理解と対話処理研究会},
+    volume = {105},
+    pages = {7--11},
+    year = {2025},
+    doi = {10.11517/jsaislud.105.0_07}
+}</pre></div>
+        </li>
+        <li class="pub" id="slud105_47" data-type="domestic" data-year="2025" data-topic="counseling dataset" data-first="0" lang="ja">
+          <div class="pub-meta"><span class="tag">SIG-SLUD 105</span></div>
+          <div class="pub-title"><a href="https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_47/_article/-char/ja/">多LLMアンサンブル翻訳による多言語カウンセリング対話データセットの構築</a></div>
+          <div class="authors">鈴木諒待, <span class="me">斉志揚</span>, 稲葉通将.</div>
+          <div class="pub-venue">人工知能学会 第105回言語・音声理解と対話処理研究会 (2025).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-slud105_47">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-slud105_47">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1HFOxaeiX7Ygveq8HK-s8jm3MC-VOxZW1/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-abstract" id="abs-slud105_47" lang="ja" hidden>人手で作成された高品質なカウンセリング対話の公開データセットは極めて少ない．本研究ではこの資源不足を解消するため，日本語の大規模なカウンセリングコーパス「KokoroChat」を英語と中国語へ高品質に翻訳し，多言語データセットへと拡充する．しかし，単一のLLMによる翻訳は，モデル固有のバイアスや弱点により品質が不安定になる傾向がある．そこで本研究では高品質な翻訳を実現するため，複数のLLMの出力を統合する新たな手法を提案する．具体的には，まず3種類のLLMによる翻訳を生成する．次に，単一のLLMが各翻訳の長所を統合し欠点を補完することで，より洗練された翻訳を生成する．実験の結果，提案手法による翻訳は単一のLLMの翻訳よりも高品質であったことが確認された．提案手法を用いて新たに構築した多言語データセット「Multilingual KokoroChat」は．近日中に公開する予定である．</div><div class="panel panel-bib" id="bib-slud105_47" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{suzuki-etal-2025-slud105,
+    title = {多LLMアンサンブル翻訳による多言語カウンセリング対話データセットの構築},
+    author = {鈴木諒待 and 斉志揚 and 稲葉通将},
+    booktitle = {人工知能学会研究会資料 言語・音声理解と対話処理研究会},
+    volume = {105},
+    pages = {47--51},
+    year = {2025},
+    doi = {10.11517/jsaislud.105.0_47}
+}</pre></div>
+        </li>
+        <li class="pub" id="slud105_144" data-type="domestic" data-year="2025" data-topic="dialogue" data-first="0" lang="ja">
+          <div class="pub-meta"><span class="tag">SIG-SLUD 105</span></div>
+          <div class="pub-title"><a href="https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_144/_article/-char/ja">対話ライブコンペ7シチュエーショントラックにおける人間関係への配慮とその効果の分析</a></div>
+          <div class="authors">高橋哲朗, 菊池浩史, 楊潔, 西川寛之, 小室允人, 牧野遼作, 佐藤志貴, 佐々木裕多, 岩田伸治, 邊土名朝飛, 山崎天, 守屋彰二, 大萩雅也, <span class="me">斉志揚</span>, 児玉貴志, 李晃伸, 港隆史, 境くりま, 船山智, 船越孝太郎, 宇佐美まゆみ, 稲葉通将, 東中竜一郎.</div>
+          <div class="pub-venue">人工知能学会 第105回言語・音声理解と対話処理研究会 (2025).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-slud105_144">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-slud105_144">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-slud105_144" lang="ja" hidden>人間同士の対話において相手への配慮は不可欠であり、同様の期待が対話システムにもますます求められるようになっている。本研究では、ライブコンペ7のシチュエーショントラックでは「相手からの愚痴を聞きながら決断を後押しする」というシチュエーションにおいて複数の人との対話を行うことにより15の対話システムの評価とその結果の分析を行った。参加したシステムは、対話を明確な段階に構造化する、対人関係をモデル化する、認知行動療法の技法を取り入れるといった多様な戦略を実装していた。分析の結果、これらのアプローチが、共感性や整合性の向上に寄与していることが明らかになり、また、社会的に繊細なシチュエーションにおける対話戦略の重要性が浮き彫りになった。</div><div class="panel panel-bib" id="bib-slud105_144" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{takahashi-etal-2025-slud105,
+    title = {対話ライブコンペ7シチュエーショントラックにおける人間関係への配慮とその効果の分析},
+    author = {高橋哲朗 and 菊池浩史 and 楊潔 and 西川寛之 and 小室允人 and 牧野遼作 and 佐藤志貴 and 佐々木裕多 and 岩田伸治 and 邊土名朝飛 and 山崎天 and 守屋彰二 and 大萩雅也 and 斉志揚 and 児玉貴志 and 李晃伸 and 港隆史 and 境くりま and 船山智 and 船越孝太郎 and 宇佐美まゆみ and 稲葉通将 and 東中竜一郎},
+    booktitle = {人工知能学会研究会資料 言語・音声理解と対話処理研究会},
+    volume = {105},
+    pages = {144--149},
+    year = {2025},
+    doi = {10.11517/jsaislud.105.0_144}
+}</pre></div>
+        </li>
+        <li class="pub" id="slud105_163" data-type="domestic" data-year="2025" data-topic="dialogue" data-first="0" lang="ja">
+          <div class="pub-meta"><span class="tag">SIG-SLUD 105</span></div>
+          <div class="pub-title"><a href="https://www.jstage.jst.go.jp/article/jsaislud/105/0/105_163/_article/-char/ja">対話ライブコンペ7タスクトラックから得られた知見と今後の展開</a></div>
+          <div class="authors">佐藤志貴, 岩田伸治, 邊土名朝飛, 佐々木裕多, 山崎天, 守屋彰二, 大萩雅也, 菊池浩史, 楊潔, <span class="me">斉志揚</span>, 児玉貴志, 李晃伸, 小室允人, 西川寛之, 牧野遼作, 港隆史, 境くりま, 船山智, 船越孝太郎, 宇佐美まゆみ, 稲葉通将, 高橋哲朗, 東中竜一郎.</div>
+          <div class="pub-venue">人工知能学会 第105回言語・音声理解と対話処理研究会 (2025).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-slud105_163">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-slud105_163">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-slud105_163" lang="ja" hidden>本稿は，対話システムライブコンペティション7（DSLC7）タスクトラックの開催を通して収集した対話コーパスの分析に基づき，タスクを遂行可能なマルチモーダルタスク指向対話システムの構築のための知見を提示・議論する．DSLC7のタスクトラックでは，対話システムが旅行代理店の窓口販売員として，ユーザーの2つの旅行目的に合致する観光地を提案する「観光地選定タスク」を設定した．本トラックの予選に出場した9チームの対話システムと人間の間の日本語音声・映像対話257本と各対話に対する人間による主観評価値，さらにシステムの挙動に関する自由記述を収集したうえで，自由記述での言及が多かった観点と主観評価値との相関を調査した．調査結果に基づいてタスク達成や対話満足度の向上のための知見や対話システムの現状の到達点について考察したうえで，今後のコンペティションの展望についても議論する．</div><div class="panel panel-bib" id="bib-slud105_163" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{sato-etal-2025-slud105,
+    title = {対話ライブコンペ7タスクトラックから得られた知見と今後の展開},
+    author = {佐藤志貴 and 岩田伸治 and 邊土名朝飛 and 佐々木裕多 and 山崎天 and 守屋彰二 and 大萩雅也 and 菊池浩史 and 楊潔 and 斉志揚 and 児玉貴志 and 李晃伸 and 小室允人 and 西川寛之 and 牧野遼作 and 港隆史 and 境くりま and 船山智 and 船越孝太郎 and 宇佐美まゆみ and 稲葉通将 and 高橋哲朗 and 東中竜一郎},
+    booktitle = {人工知能学会研究会資料 言語・音声理解と対話処理研究会},
+    volume = {105},
+    pages = {163--168},
+    year = {2025},
+    doi = {10.11517/jsaislud.105.0_163}
+}</pre></div>
+        </li>
+        <li class="pub" id="yans2025" data-type="domestic" data-year="2025" data-topic="counseling dataset" data-first="1" lang="ja">
+          <div class="pub-meta"><span class="tag">YANS2025</span><span class="tag first">First Author</span></div>
+          <div class="pub-title">KokoroChat: 訓練を受けたカウンセラーによるロールプレイを通じて収集された日本語カウンセリング対話データセット</div>
+          <div class="authors"><span class="me">斉志揚</span>, 金子拓正, 高溝恵子, 浮世満理子, 稲葉通将.</div>
+          <div class="pub-venue">言語処理学会 第20回言語処理若手シンポジウム (YANS2025).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-yans2025">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-bib" id="bib-yans2025" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-etal-2025-yans,
+    title = {KokoroChat: 訓練を受けたカウンセラーによるロールプレイを通じて収集された日本語カウンセリング対話データセット},
+    author = {斉志揚 and 金子拓正 and 高溝恵子 and 浮世満理子 and 稲葉通将},
+    booktitle = {第20回言語処理若手シンポジウム (YANS2025)},
+    year = {2025}
+}</pre></div>
+        </li>
+        <li class="pub" id="slud103" data-type="domestic" data-year="2025" data-topic="dialogue" data-first="0" lang="ja">
+          <div class="pub-meta"><span class="tag">SIG-SLUD 103</span></div>
+          <div class="pub-title"><a href="https://www.jstage.jst.go.jp/article/jsaislud/103/0/103_01/_article/-char/ja">対話システムライブコンペティション7</a></div>
+          <div class="authors">佐藤志貴, 佐々木裕多, 岩田伸治, 山崎天, 小室允人, 守屋彰二, 大萩雅也, 菊池浩史, 楊潔, 邊土名朝飛, <span class="me">斉志揚</span>, 児玉貴志, 李晃伸, 西川寛之, 牧野遼作, 港隆史, 境くりま, 船山智, 船越孝太郎, 宇佐美まゆみ, 稲葉通将, 高橋哲朗, 東中竜一郎.</div>
+          <div class="pub-venue">人工知能学会 第103回言語・音声理解と対話処理研究会 (2025).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-slud103">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-slud103">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-slud103" lang="ja" hidden>対話システムライブコンペティションとは，オーディエンスの前で実際に対話システムを動作させ評価を行うイベントである．過去6回にわたる成功を受け，第7回となる「対話システムライブコンペティション7」を開催した．前回と同様，今回もマルチモーダル対話システムに焦点を当てた．今回のコンペティションは，シチュエーショントラックとタスクトラックの2つで構成される．シチュエーショントラックでは，特定のシナリオにおいて人間らしい対話を実現するシステムの開発を目指し，タスクトラックでは，複雑で高度な問題においてタスク完遂が可能な対話システムの構築に取り組む．予選では，シチュエーショントラックに14チーム，タスクトラックに8チームが参加した．本稿では，イベントの概要を紹介するとともに予選の結果を報告する．</div><div class="panel panel-bib" id="bib-slud103" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{sato-etal-2025-dslc7,
+    title = {対話システムライブコンペティション7},
+    author = {佐藤志貴 and 佐々木裕多 and 岩田伸治 and 山崎天 and 小室允人 and 守屋彰二 and 大萩雅也 and 菊池浩史 and 楊潔 and 邊土名朝飛 and 斉志揚 and 児玉貴志 and 李晃伸 and 西川寛之 and 牧野遼作 and 港隆史 and 境くりま and 船山智 and 船越孝太郎 and 宇佐美まゆみ and 稲葉通将 and 高橋哲朗 and 東中竜一郎},
+    booktitle = {人工知能学会研究会資料 言語・音声理解と対話処理研究会},
+    volume = {103},
+    pages = {1--8},
+    year = {2025},
+    doi = {10.11517/jsaislud.103.0_01}
+}</pre></div>
+        </li>
+        <li class="pub" id="nlp2025a" data-type="domestic" data-year="2025" data-topic="dialogue" data-first="1" lang="ja">
+          <div class="pub-meta"><span class="tag">NLP2025</span><span class="tag first">First Author</span></div>
+          <div class="pub-title"><a href="https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q4-22.pdf">話者スタイル抽出と対話フロー生成に基づく対話データ拡張手法</a></div>
+          <div class="authors"><span class="me">斉志揚</span>, 稲葉通将.</div>
+          <div class="pub-venue">言語処理学会 第31回年次大会 (NLP2025).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-nlp2025a">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/19DFyfXqyeomyYMF3Q8Y6oOYCK41jPfKM/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-bib" id="bib-nlp2025a" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-inaba-2025-nlp,
+    title = {話者スタイル抽出と対話フロー生成に基づく対話データ拡張手法},
+    author = {斉志揚 and 稲葉通将},
+    booktitle = {言語処理学会 第31回年次大会 発表論文集},
+    pages = {1727--1732},
+    year = {2025},
+    url = {https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q4-22.pdf}
+}</pre></div>
+        </li>
+        <li class="pub" id="nlp2025b" data-type="domestic" data-year="2025" data-topic="dialogue dataset" data-first="0" lang="ja">
+          <div class="pub-meta"><span class="tag">NLP2025</span></div>
+          <div class="pub-title"><a href="https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-18.pdf">Tabidachi: 旅行代理店タスク対話コーパス</a></div>
+          <div class="authors">稲葉通将, 千葉祐弥, <span class="me">斉志揚</span>, 東中竜一郎, 駒谷和範, 宮尾祐介, 長井隆行.</div>
+          <div class="pub-venue">言語処理学会 第31回年次大会 (NLP2025).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-nlp2025b">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-bib" id="bib-nlp2025b" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{inaba-etal-2025-tabidachi,
+    title = {Tabidachi: 旅行代理店タスク対話コーパス},
+    author = {稲葉通将 and 千葉祐弥 and 斉志揚 and 東中竜一郎 and 駒谷和範 and 宮尾祐介 and 長井隆行},
+    booktitle = {言語処理学会 第31回年次大会 発表論文集},
+    pages = {402--407},
+    year = {2025},
+    url = {https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-18.pdf}
+}</pre></div>
+        </li>
+        <li class="pub" id="yans2024" data-type="domestic" data-year="2024" data-topic="counseling" data-first="1" lang="ja">
+          <div class="pub-meta"><span class="tag">YANS2024</span><span class="tag first">First Author</span></div>
+          <div class="pub-title">SNSカウンセラー育成のためのリアルタイム対話支援システムの構築</div>
+          <div class="authors"><span class="me">斉志揚</span>, 稲葉通将.</div>
+          <div class="pub-venue">言語処理学会 第19回言語処理若手シンポジウム (YANS2024).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-yans2024">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1-7R4kM3t884XIddrhVO_7LMw1OPjoviC/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-bib" id="bib-yans2024" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-inaba-2024-yans,
+    title = {SNSカウンセラー育成のためのリアルタイム対話支援システムの構築},
+    author = {斉志揚 and 稲葉通将},
+    booktitle = {第19回言語処理若手シンポジウム (YANS2024)},
+    year = {2024}
+}</pre></div>
+        </li>
+        <li class="pub" id="slud99_84" data-type="domestic" data-year="2023" data-topic="dialogue" data-first="0" lang="ja">
+          <div class="pub-meta"><span class="tag">SIG-SLUD 99</span></div>
+          <div class="pub-title"><a href="https://www.jstage.jst.go.jp/article/jsaislud/99/0/99_84/_article/-char/ja">対話システムライブコンペティション6</a></div>
+          <div class="authors">東中竜一郎, 高橋哲朗, 稲葉通将, <span class="me">斉志揚</span>, 佐々木裕多, 船越孝太郎, 守屋彰二, 佐藤志貴, 港隆史, 境くりま, 船山智, 小室允人, 西川寛之, 牧野遼作, 菊池浩史, 宇佐美まゆみ.</div>
+          <div class="pub-venue">人工知能学会 第99回言語・音声理解と対話処理研究会 (2023).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-slud99_84">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-slud99_84">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-slud99_84" lang="ja" hidden>本稿では，第6回対話システムライブコンペティションの概要を述べる．本コンペティションではマルチモーダル対話システムを対象とし，特定のシチュエーションにおいて人間らしく対話を行うシチュエーショントラックについてコンペティションが実施された．本稿ではシチュエーショントラックの仕様を述べるとともに，予選の結果について述べる．</div><div class="panel panel-bib" id="bib-slud99_84" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{higashinaka-etal-2023-dslc6,
+    title = {対話システムライブコンペティション6},
+    author = {東中竜一郎 and 高橋哲朗 and 稲葉通将 and 斉志揚 and 佐々木裕多 and 船越孝太郎 and 守屋彰二 and 佐藤志貴 and 港隆史 and 境くりま and 船山智 and 小室允人 and 西川寛之 and 牧野遼作 and 菊池浩史 and 宇佐美まゆみ},
+    booktitle = {人工知能学会研究会資料 言語・音声理解と対話処理研究会},
+    volume = {99},
+    pages = {84--89},
+    year = {2023},
+    doi = {10.11517/jsaislud.99.0_84}
+}</pre></div>
+        </li>
+        <li class="pub" id="slud99_90" data-type="domestic" data-year="2023" data-topic="dialogue" data-first="0" lang="ja">
+          <div class="pub-meta"><span class="tag">SIG-SLUD 99</span></div>
+          <div class="pub-title"><a href="https://www.jstage.jst.go.jp/article/jsaislud/99/0/99_90/_article/-char/ja/">第三者のペルソナを用いたマルチモーダル対話システム</a></div>
+          <div class="authors">朝原隆太朗, 小野関宏己, <span class="me">斉志揚</span>, 金子拓正, 秋山一馬, 上原隆一, 樋口智哉, 稲葉通将.</div>
+          <div class="pub-venue">人工知能学会 第99回言語・音声理解と対話処理研究会 (2023).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-slud99_90">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-slud99_90">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div>
+          <div class="panel panel-abstract" id="abs-slud99_90" lang="ja" hidden>本稿では対話システムライブコンペティション6のシチュエーショントラックに提出した対話システムについて紹介する．システムはユーザと歓迎会に関する相談を行うというシチュエーションにおいて，マルチモーダルな対話をすることが求められる．本システムでは応答生成およびモーション決定のためにChatGPT用いており，そのためのプロンプトを設計した．このプロンプトには対話に参加しない第三者である小林先生のペルソナを含めている．これによって歓迎会の主賓である小林先生に関して一貫性のある議論を可能にする．また，発話とともに対話行為タグを生成するようにプロンプトを設計することで，システムが状況によって適切なモーションを再生することを可能にした.さらに，ネガティブな対話行為タグが付いた発話が生成された際にフィラーを挿入することで，システムがユーザとの信念のギャップに対して妥協や苦悩していることを表現した．</div><div class="panel panel-bib" id="bib-slud99_90" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{asahara-etal-2023-slud99,
+    title = {第三者のペルソナを用いたマルチモーダル対話システム},
+    author = {朝原隆太朗 and 小野関宏己 and 斉志揚 and 金子拓正 and 秋山一馬 and 上原隆一 and 樋口智哉 and 稲葉通将},
+    booktitle = {人工知能学会研究会資料 言語・音声理解と対話処理研究会},
+    volume = {99},
+    pages = {90--95},
+    year = {2023},
+    doi = {10.11517/jsaislud.99.0_90}
+}</pre></div>
+        </li>
+        <li class="pub" id="slud93" data-type="domestic" data-year="2021" data-topic="dialogue" data-first="1" lang="ja">
+          <div class="pub-meta"><span class="tag">SIG-SLUD 93</span><span class="tag first">First Author</span></div>
+          <div class="pub-title"><a href="https://drive.google.com/file/d/1O1sexfcbNkgnLrRU4cLLgMfWxzazYt7B/view?usp=sharing">類似度と一貫性を考慮してシナリオを選択する用例ベース対話システム</a></div>
+          <div class="authors"><span class="me">斉志揚</span>, 秋山一馬, 稲葉通将.</div>
+          <div class="pub-venue">人工知能学会 第93回言語・音声理解と対話処理研究会 (2021).</div>
+          
+          <div class="pub-actions"><button class="toggle" type="button" aria-expanded="false" aria-controls="abs-slud93">Abstract<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button class="toggle" type="button" aria-expanded="false" aria-controls="bib-slud93">BibTeX<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><span class="actions-sep" aria-hidden="true"></span><a class="res-link" href="https://drive.google.com/file/d/1gk9ViMbh4UL7Nvrg4a8tMxMcsfyNA6Yx/view?usp=sharing"><img src="images/icon/file-image.svg" alt="" class="res-icon">Poster</a></div>
+          <div class="panel panel-abstract" id="abs-slud93" lang="ja" hidden>本稿では，対話システムライブコンペティション4のシチュエーショントラックに出場したUECILについて述べる．今回のシチュエーションはシステムがユーザを誘い，ユーザはそれを断るという設定である．しかし，ユーザによる誘いを断る理由は数多く考えられるため，ユーザの応答を最初から最後まで予測した完全なシナリオの創出は難しい．しかし，より短い単位のシナリオ，例えばあるシステム発話に対し，ユーザ発話を予測して次のシステム発話を作成することは比較的容易である．そこで，本システムでは，ユーザ発話との類似度と一貫性を考慮し，短い単位のシナリオおよび用例を選択することで，対話を進める．</div><div class="panel panel-bib" id="bib-slud93" hidden><div class="bib-bar"><span>BibTeX</span><button class="copy-btn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg><span>Copy</span></button></div><pre>@inproceedings{qi-etal-2021-slud93,
+    title = {類似度と一貫性を考慮してシナリオを選択する用例ベース対話システム},
+    author = {斉志揚 and 秋山一馬 and 稲葉通将},
+    booktitle = {人工知能学会研究会資料 言語・音声理解と対話処理研究会},
+    volume = {93},
+    pages = {210--213},
+    year = {2021},
+    doi = {10.11517/jsaislud.93.0_210}
+}</pre></div>
+        </li>
+        </ol>
+      </section>
 
-    <section class="publication-list-section">
-      <heading>Report</heading>
-      <ol class="full-publication-list">
-        <li><strong>研究プロセスにおけるLLMの活用 -個人の実践例-</strong><br><strong>斉志揚</strong>（@電気通信大学 生成AI・AI活用セミナー, 2025年7月14日） <a href="https://drive.google.com/file/d/1fVSsqALq_GYRIgXWjHiYSfuqDZdbeLRs/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="resource-icon">Slide</a></li>
-        <li><strong>SIGDIAL2024国際会議報告</strong><br><strong>斉志揚</strong>, 田中義規 (@第15回対話システムシンポジウム) <a href="https://drive.google.com/file/d/1ulfCyzeBtLTF8jeZnrZSTCIOZO5pOOyI/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="resource-icon">Slide</a></li>
-      </ol>
-    </section>
+      <section class="pub-section" data-section="report">
+        <div class="pub-section-head"><h2>Talks &amp; Reports</h2><span class="count">2</span></div>
+        <ol class="pub-list">
+        <li class="pub" id="report-llm" data-type="report" data-year="2025" data-topic="" data-first="0" lang="ja">
+          <div class="pub-meta"><span class="tag">Talk</span></div>
+          <div class="pub-title">研究プロセスにおけるLLMの活用 -個人の実践例-</div>
+          <div class="authors"><span class="me">斉志揚</span></div>
+          <div class="pub-venue">@電気通信大学 生成AI・AI活用セミナー, 2025年7月14日.</div>
+          
+          <div class="pub-actions"><a class="res-link" href="https://drive.google.com/file/d/1fVSsqALq_GYRIgXWjHiYSfuqDZdbeLRs/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="res-icon">Slide</a></div>
+          
+        </li>
+        <li class="pub" id="report-sigdial" data-type="report" data-year="2024" data-topic="dialogue" data-first="0" lang="ja">
+          <div class="pub-meta"><span class="tag">Talk</span></div>
+          <div class="pub-title">SIGDIAL2024国際会議報告</div>
+          <div class="authors"><span class="me">斉志揚</span>, 田中義規</div>
+          <div class="pub-venue">@第15回対話システムシンポジウム.</div>
+          
+          <div class="pub-actions"><a class="res-link" href="https://drive.google.com/file/d/1ulfCyzeBtLTF8jeZnrZSTCIOZO5pOOyI/view?usp=sharing"><img src="images/icon/presentation.svg" alt="" class="res-icon">Slide</a></div>
+          
+        </li>
+        </ol>
+      </section>
+
+      <p class="empty" id="pub-empty" hidden>No publications match these filters.</p>
+    </div>
   </main>
+  <footer class="site-foot"><div class="wrap"><span>Zhiyang Qi | The University of Tokyo</span><a href="index.html">← Back to home</a></div></footer>
 
-  <button id="backToTop" onclick="scrollToTop()" title="Back to top" aria-label="Back to top">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-      <polyline points="18 15 12 9 6 15"></polyline>
-    </svg>
-  </button>
-
-  <script>
-    (function() {
-      var btn = document.getElementById('backToTop');
-      window.addEventListener('scroll', function() {
-        btn.classList.toggle('visible', window.scrollY > 300);
-      });
-    })();
-    function scrollToTop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+  <button id="backToTop" type="button" title="Back to top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg></button>
+  <script data-goatcounter="https://q1329531407.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <!-- Default Statcounter code for personal website http://zhiyangqi.github.io -->
+  <script type="text/javascript">
+  var sc_project=13365528;
+  var sc_invisible=1;
+  var sc_security="009ba0e5";
   </script>
+  <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/13365528/0/009ba0e5/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+  <!-- End of Statcounter Code -->
+  <script src="assets/site.js?v=20261108e"></script>
 </body>
 </html>

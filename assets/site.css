@@ -563,3 +563,7 @@ a.metric:hover { border-color: var(--accent); color: var(--accent-ink); text-dec
       radial-gradient(560px 320px at 6% 0%, rgba(111, 163, 255, .10), transparent 70%);
   }
 }
+
+/* two-column sections with their own headings (Work Experience / Education) */
+.grid-2 > .col { display: flex; flex-direction: column; min-width: 0; }
+.grid-2 > .col > .card { flex: 1; }

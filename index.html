@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500&display=swap">
-  <link rel="stylesheet" href="assets/site.css?v=20261108e">
+  <link rel="stylesheet" href="assets/site.css?v=20261109">
   <script>(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
   <style>
     body { cursor: url('images/icon/cursor-arrow.svg') 4 3, auto; }
@@ -92,7 +92,7 @@
             </div>
           </article>
           <article class="card sel-pub reveal">
-            <a class="thumb" href="https://aclanthology.org/2026.lrec-1.695/" tabindex="-1" aria-hidden="true"><img src="images/paper-thumbs/lrec2026-multilingual-kokorochat-hd.png" alt="Multi-LLM ensemble translation method diagram" loading="lazy"></a>
+            <a class="thumb" href="https://aclanthology.org/2026.lrec-1.695/" tabindex="-1" aria-hidden="true"><img src="images/paper-thumbs/lrec2026-multilingual-kokorochat.png" alt="Multi-LLM ensemble translation method diagram" loading="lazy"></a>
             <div>
               <span class="venue-pill">LREC 2026</span>
               <h3><a href="https://aclanthology.org/2026.lrec-1.695/">Multilingual KokoroChat: A Multi-LLM Ensemble Translation Method for Creating a Multilingual Counseling Dialogue Dataset</a></h3>
@@ -102,7 +102,7 @@
             </div>
           </article>
           <article class="card sel-pub reveal">
-            <a class="thumb" href="https://aclanthology.org/2025.acl-long.608/" tabindex="-1" aria-hidden="true"><img src="images/paper-thumbs/acl2025-kokorochat-hd.png" alt="KokoroChat counseling dialogue example" loading="lazy"></a>
+            <a class="thumb" href="https://aclanthology.org/2025.acl-long.608/" tabindex="-1" aria-hidden="true"><img src="images/paper-thumbs/acl2025-kokorochat.png" alt="KokoroChat counseling dialogue example" loading="lazy"></a>
             <div>
               <span class="venue-pill">ACL 2025 Main Conference</span>
               <h3><a href="https://aclanthology.org/2025.acl-long.608/">KokoroChat: A Japanese Psychological Counseling Dialogue Dataset Collected via Role-Playing by Trained Counselors</a></h3>
@@ -117,8 +117,9 @@
 
     <section id="experience" class="section">
       <div class="wrap grid-2">
-        <div class="card info-card reveal">
-          <h3><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/></svg></span>Work Experience</h3>
+        <div class="col">
+          <div class="section-head reveal"><div><h2 class="section-title">Work Experience</h2></div></div>
+          <div class="card info-card reveal">
           <ul class="timeline">
             <li><div class="tl-when">2026.04 – Present<span class="tl-loc">Tokyo, Japan</span></div><div class="tl-what">Project Researcher</div>
               <div class="tl-where"><a href="https://www.u-tokyo.ac.jp/en/"><img src="images/utokyo-symbol.png" alt="" class="uec-mark">The University of Tokyo</a></div>
@@ -130,9 +131,11 @@
               <div class="tl-where"><a href="https://www.uec.ac.jp/eng/"><img src="images/uec_logo.svg" alt="The University of Electro-Communications" class="uec-mark">The University of Electro-Communications</a></div>
               <div class="tl-sub">Supervisor: <a href="https://www.sakamoto-lab.hc.uec.ac.jp/">Maki Sakamoto</a></div></li>
           </ul>
+          </div>
         </div>
-        <div id="education" class="card info-card reveal">
-          <h3><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9 12 4l10 5-10 5L2 9Z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5M22 9v6"/></svg></span>Education</h3>
+        <div id="education" class="col">
+          <div class="section-head reveal"><div><h2 class="section-title">Education</h2></div></div>
+          <div class="card info-card reveal">
           <ul class="timeline">
             <li><div class="tl-when">2023.04 – 2026.03<span class="tl-loc">Tokyo, Japan</span></div><div class="tl-what">Ph.D. in Informatics</div>
               <div class="tl-where"><a href="https://www.uec.ac.jp/eng/"><img src="images/uec_logo.svg" alt="The University of Electro-Communications" class="uec-mark">The University of Electro-Communications</a></div>
@@ -144,6 +147,7 @@
               <div class="tl-where"><a href="https://en.qust.edu.cn/"><img src="images/qust_logo.png" alt="Qingdao University of Science &amp; Technology" class="uec-mark">Qingdao University of Science &amp; Technology</a></div>
               <div class="tl-sub">Advisor: Zhen Sun</div></li>
           </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -166,19 +170,41 @@
       </div>
     </section>
 
+    <section id="scholarships" class="section">
+      <div class="wrap">
+        <div class="section-head reveal"><div><h2 class="section-title">Scholarships</h2></div></div>
+        <div class="card grant-card reveal">
+          <div class="grant-top">
+            <span class="grant-role">Scholarship Recipient · 2023.04 – 2026.03</span>
+            <span class="grant-amount">JPY 7,200,000<small>in total</small></span>
+          </div>
+          <div class="grant-title"><a href="https://hirose-isf.or.jp/scholarship/">Hirose Foundation Scholarship</a></div>
+          <div class="grant-jp" lang="ja">公益財団法人ヒロセ財団 奨学金</div>
+          <div class="grant-meta">
+            <span class="meta-chip">Living expenses</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="awards" class="section">
-      <div class="wrap stack">
-        <div class="card info-card reveal">
-          <h3><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4Z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg></span>Awards and Honors</h3>
-          <ul class="plain-list awards-list" lang="ja">
-            <li><span class="yr">2026.03</span><span>言語処理学会第32回年次大会 (NLP2026) 優秀賞, selected 13/789 papers.</span></li>
-            <li><span class="yr">2024.09</span><span lang="en">AIWolfDial 2024: Best Win Rate and Game Action Award; Best Subjective Evaluation Award.</span></li>
-            <li><span class="yr">2024.09</span><span>第19回YANSシンポジウム ハッカソン, YANS運営委員特別賞.</span></li>
-            <li><span class="yr">2023.12</span><span>対話システムライブコンペティション6 シチュエーショントラック, 優秀賞.</span></li>
+      <div class="wrap">
+        <div class="section-head reveal"><div><h2 class="section-title">Awards and Honors</h2></div></div>
+        <div class="card news reveal">
+          <ul class="news-list">
+            <li class="news-item"><span class="news-date">2026.03</span><span class="news-text" lang="ja">言語処理学会第32回年次大会 (NLP2026) 優秀賞, selected 13/789 papers.</span></li>
+            <li class="news-item"><span class="news-date">2024.09</span><span class="news-text">AIWolfDial 2024: Best Win Rate and Game Action Award; Best Subjective Evaluation Award.</span></li>
+            <li class="news-item"><span class="news-date">2024.09</span><span class="news-text" lang="ja">第19回YANSシンポジウム ハッカソン, YANS運営委員特別賞.</span></li>
+            <li class="news-item"><span class="news-date">2023.12</span><span class="news-text" lang="ja">対話システムライブコンペティション6 シチュエーショントラック, 優秀賞.</span></li>
           </ul>
         </div>
-        <div id="service" class="card info-card reveal">
-          <h3><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></span>Academic Service</h3>
+      </div>
+    </section>
+
+    <section id="service" class="section">
+      <div class="wrap">
+        <div class="section-head reveal"><div><h2 class="section-title">Academic Service</h2></div></div>
+        <div class="card info-card reveal">
           <div class="service-line"><span class="yr">Reviewer</span><span><a href="https://aclrollingreview.org/">ACL Rolling Review</a> (ARR; <strong>Great Reviewer</strong>), SIGDIAL, PRICAI, ACM Web Conference (WWW), ICWSM.</span></div>
         </div>
       </div>
